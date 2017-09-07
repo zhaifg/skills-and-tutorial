@@ -1,0 +1,55 @@
+export SAMBA_CONFIG="testing"
+export MAIL_USERNAME="zhaifengguo@1mi.cn"
+export MAIL_PASSWORD="88888888"
+python manage.py runserver -d -r -p 5000 -h 0.0.0.0
+
+
+mysqldump  -uroot yimi_work yy_shuijun_temp -w "pid < 600001" > d:/zc8_01.sql
+mysqldump  -uroot yimi_work yy_shuijun_temp -w "pid >=600001 and pid <120001" > d:/zc8_02.sql
+mysqldump  -uroot yimi_work yy_shuijun_temp -w "pid >= 120001" > d:/zc8_03.sql
+
+
+select b.name,a.description from ym_companyjob_welfare a,ym_welfare b where a.val=b.pid and a.job_id='219' and a.description is not null;
+
+ chmod -R 777 /home/.smbfiles && chown -R fengxm.staff /home/.smbfiles/14-Software\ Development/11\ 软件增强项目-SEP && chmod 755 -R /home/.smbfiles/14-Software\ Development/11\ Èí¼þÔöÇ¿ÏîÄ¿-SEP
+
+
+
+select ycj.job_name, yc.qiye_name, ycj.city_id, ycj.workplace, ycj.job_detail, ycj.salary_min, ycj.salary_detail,ycj.shebao, ycj.work_hours,ycj.work_radix,  CONCAT('上',ycj.on_days,'天休',ycj.off_days,'天') as work_mode, b.name, ycj.req_sex, ycj.req_age,ycj.degree, ycj.req_year, ycj.requirement
+from ym_company_job ycj left join ym_company  yc on ycj.qiye_id = yc.pid  left join ym_companyjob_welfare a on ycj.pid=a.job_id left join ym_welfare b on  a.val=b.pid 
+where ycj.status=5 and ycj.disabled<>0  and a.description is not null limit 0, 20;
+
+
+select ycj.job_name, yc.qiye_name, ycj.city_id, ycj.workplace, ycj.job_detail, ycj.salary_min, ycj.shebao, ycj.work_hours,  ycj.work_radix, ycj.other, ycj.req_sex, ycj.req_age,ycj.degree, ycj.req_year,ycj.requirement
+from ym_company_job ycj left join ym_company  yc on ycj.qiye_id = yc.pid where ycj.status=5 and ycj.disabled<>0 limit 0, 20;
+
+select ycj.job_name, yc.qiye_name, ycj.city_id, ycj.workplace, ycj.job_detail, ycj.salary_min, 
+ycj.salary_detail,ycj.shebao, ycj.work_hours,ycj.work_radix,  CONCAT('上',ycj.on_days,'天休',ycj.off_days,'天') as work_mode,
+ycj.req_sex, ycj.req_age,ycj.degree, ycj.req_year, ycj.requirement
+from ym_company_job ycj left join ym_company  yc on ycj.qiye_id = yc.pid 
+where ycj.status=5 and ycj.disabled<>0  limit  0 ,20 ;
+
+yum  groupinstall "Debugging Tools"  "Desktop Debugging and Performance Tools" "Desktop Platform Development" "Server Platform Development" "System administration tools" "Web-Based Enterprise Management" "Chinese Support [zh]"
+
+cmake . \
+-DCMAKE_INSTALL_PREFIX=/usr/local/mysql \
+-DMYSQL_DATADIR=/mnt/xvdb1/mysqldata/data \
+-DSYSCONFDIR=/mnt/xvdb1/mysqldata/ \
+-DWITH_MYISAM_STORAGE_ENGINE=1 \
+-DWITH_INNOBASE_STORAGE_ENGINE=1 \
+-DMYSQL_UNIX_ADDR=/tmp/mysql.sock \
+-DMYSQL_TCP_PORT=10097 \
+-DENABLED_LOCAL_INFILE=1 \
+-DWITH_PARTITION_STORAGE_ENGINE=1 \
+-DEXTRA_CHARSETS=all \
+-DDEFAULT_CHARSET=utf8 \
+-DDEFAULT_COLLATION=utf8_general_ci
+
+
+ UPDATE user SET Password = password ('yimiwork321') WHERE User = 'root' ;
+
+ export PS1='\[\e[32;1m\][\u@\h\[\e[1;31m\] $PWD]\[\e[0m\]\$'
+
+export JAVA_HOME=/usr/java/latest/
+export PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin
+export CLASSPATH=.:/usr/java/latest/lib:/usr/java/latest/jre/lib:$CLASSPATH

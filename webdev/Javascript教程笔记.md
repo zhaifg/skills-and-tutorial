@@ -46,7 +46,7 @@ var 临时变量 = 1;
 JavaScript引擎的工作方式是，先解析代码，获取所有被声明的变量，然后再一行一行地运行。这造成的结果，就是所有的变量的声明语句，都会被提升到代码的头部，这就叫做变量提升
 
 
-##代码区块
+##  代码区块
 
 
 　　　　{　var a = 1;　}
@@ -798,6 +798,9 @@ var arr = []
 arr[0]=1
 arr[1]=2
 
+var colors = new Array(3);
+var names = new Array("Grep", "Tom");
+
 var arr = [
 {a:1},
 [1,2,3],
@@ -849,6 +852,75 @@ delete a[1];
 delete a[2];
 a.length // 3
 ```
+
+### 栈方式:
+LIFO
+```
+var colors = new Array()
+var  count  = colors.push("red", "green")
+alert(count) //2 被推入2个
+
+var item = colors.pop();
+
+```
+
+FIFO
+```
+var colors = new Array()
+var  count  = colors.push("red", "green")
+alert(count) //2 被推入2个
+
+var item = colors.shift(); //去的第一项
+color.unshift("red", "green") // 在数组的前端添加
+```
+
+### 重新排序
+`reverse()` 和 `sort()`
+
+`conact()`连接数组
+`slice()`切片
+`splice()`:
+  1. 删除: 可以删除任意数量的项. 只需要指定2个参数: 要删除的第一项的位置和要删除的项数.
+  2. 插入: 可以向指定插入任意数量的项, 只需要提供3个参数: 起始位置,0(要删除的项数)和要插入的项;`splice(2,0,"red","green")`
+  3. 替换: 可以向指定位置插入任意数量的项, 且同时删除任意数量的项, 只需要指定3个参数:起始位置,要删除的书和插入的任一数量的项.
+```
+var colors = ["red", "green", "blue"];
+var colors2 = colors.concat("yellow", ["black", "brown"])
+
+colors.slice(1)
+colors.slice(1, 4)
+
+```
+
+### 位置方法
+indexOf()
+lastIndexOf()
+
+### 迭代方法
+`every()`: 对数组中的每一项运行给定函数, 如果该函数对每一项都返回true, 则返回true
+`filter()`: 对数组中的每一项运行给定函数, 返回该函数返回true的项组成的数组.
+`forEach()`: 对数组中的每一项运行给定函数. 这个函数没有返回值.
+`map()`: 对数组中的每一项运行给定函数, 返回每次函数调用的结果组成的数组.
+`some()`:对数组中的每一项运行给定函数, 如果该函数对任一项返回true, 则返回true.
+
+```javascript
+var  numbers  = [1,2,3,4,5,4,3,2,1];
+var  everyResult = numbers.every(function(item, index, array){
+      return (item > 2);
+  })
+
+  alert(everyResult) // false
+
+var  someResult = numbers.some(function(item, index, array){
+      return (item > 2);
+  })
+  alert(someResult); //true
+```
+
+
+### 缩小方法
+`reduce()`
+`reduceRight()`
 
 ## Object 类型
 Object作为构造函数使用时，可以接受一个参数。如果该参数是一个对象，则直接返回这个对象；如果是一个原始类型的值，则返回该值对应的包装对象。

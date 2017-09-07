@@ -1,0 +1,3 @@
+---
+  - name: appname restart
+    service: name=appname state=restart

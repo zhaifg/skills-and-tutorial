@@ -1,0 +1,15 @@
+---
+  - hosts: all
+    remote_user: root
+    sudo: yes
+    roles:
+      - common
+      - secrity
+
+  - hosts: webservers
+    remoute_user: root
+    roles:
+      - php
+      - nginx
+      - webconfig
+

@@ -269,6 +269,18 @@ brctl addif eth0
 
 ip link add br0 type bridge
 ip 
+
+brctl addbr br0
+
+ip link add br0 type bridge
+ip link set dev br0 up
+ip addr add 192.168.184.100/24 dev br0 #为br0分配物理网络中的ip地址
+ip addr del 192.168.184.99/24 dev ens0 #将宿主机网卡的IP清空
+
+brctl addif br0 ens0 #将宿主机网卡挂到br0上
+ip route del default #删除原路由
+ip route add default via 192.168.184.2 dev br0 #为br0设置路由
+
 ```
 
 
@@ -283,7 +295,17 @@ ONBOOT=yes
 DELAY=0
 ```
 
+```
+vi /etc/sysconfig/network-scripts/ifcfg-eno16777736
 
+
+DEVICE=eno16777736
+TYPE=Ethernet
+BOOTPROTO=none
+ONBOOT=yes
+NM_CONTROLLED=no
+BRIDGE=virbr0
+```
 
 #### bond网卡的桥接
 
@@ -304,6 +326,12 @@ ip  link set  br0 up
 service network restart
 ```
 
+#### 设置router
+```
+# vi /etc/sysconfig/network-scripts/route-br0
+10.0.0.0/8 via 10.10.21.122 dev br0
+
+```
 ### libvirt 桥接网卡
 `<bridge name='br0' macTableManager='libvirt'/>`
 
@@ -481,5 +509,19 @@ Start the QEMU guest agent service in the guest:
 ### 使用 qemu agent
 ```
 virsh shutdown --mode=agent
+virsh shutdown --mode=acpi
+virsh snapshot-create --quiesce
 
 ```
+
+#### 建立磁盘快照
+
+```
+virsh snapshot-create --quiesce --disk-only
+```
+
+
+### SPICE AGENT
+SPICE AGENT 是帮助运行桌面的下的程序.
+
+## 迁移

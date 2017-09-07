@@ -1,0 +1,9 @@
+---
+  - hosts: all
+    vars:
+
+    remote_user: root
+    tasks:
+      - name:
+   {ansible_eth0.ipv4.address}
+

@@ -1,0 +1,4 @@
+---
+  - name: install xxxx
+    yum: ssss
+    notify: appname restart

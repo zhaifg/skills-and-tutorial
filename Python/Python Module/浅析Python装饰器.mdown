@@ -1,0 +1,472 @@
+
+# 浅析Python装饰器
+---
+Decorator(装饰器）是在写Python代码的过程中，经常会被用到的一个语言特性，它可以大幅度减少重复的模板代码，并且，对于已有代码的重构往往也有奇效。但是，实现一个Decorator时的重重嵌套函数定义，经常让人头晕。下面就以一个常见的函数Cache装饰器作为例子，浅析Python中的装饰器特性。  
+
+## Decorator简介
+
+首先要注意的是，Python在引入Decorator时，其实并没有引入任何新的语言特性，因为Decorator只是一种“语法糖”，不使用@decorator这样的语法，也完全可以使用Python的原有语法实现Decorator的功能。这得益于Python中一切皆是对象。对于这样的一个decorator：
+```
+@deco  
+def func():  
+    pass
+```
+也就相当于：
+
+```python
+def func():  
+    pass  
+func = deco(func)
+```
+这种写法就像对原程序打了一个Monkey Patch。  
+
+## Deocrator基本应用
+
+### 无参数Decorator
+
+下面用一个缓存函数返回值的Decorator说明其最基本的实现方式：
+
+decorator_example.py
+```python
+# -*- coding: utf-8 -*-
+
+def func_cache(func):
+    cache = {}
+    def inner_deco(*args):
+        if args in cache:
+            print('func {} is already cached with arguments {}'.format(
+                func.__name__, args))
+            return cache[args]
+        else:
+            print('func {} is not cached with arguments {}'.format(
+                func.__name__, args)) 
+            res = func(*args)
+            cache[args] = res
+            return res
+    return inner_deco
+
+@func_cache
+def add_two_number(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print('1. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('2. add_two_number(2, 3)')
+    add_two_number(2, 3)
+    print('3. add_two_number(1, 2)')
+    add_two_number(1, 2)
+```
+其中，func_cache就是我们实现的Decorator，它以一个函数对象（func）作为参数，返回另一个函数对象（inner_deco)，因此，当我们每次调用被func_cache装饰过的函数（add_two_number）时，调用的其实是inner_deco，也即：
+
+
+    add_two_number(1, 2) --> inner_deco(1, 2)
+
+在这里，可以给出Decorator的一个粗浅定义：__Decorator是一个函数，它以一个函数对象A为参数，返回另一个函数对象B。对象B定义在Decorator体内，形成一个闭包。函数A和函数B接受的参数相同。每当程序调用函数A时，实际上会转换为对函数B的调用。__  
+
+再看inner_deco，它内部实现的就是函数返回值缓存的逻辑，并打印了一些调试信息。  
+
+但是这里有一个明显的问题：inner_deco只能接受*arg，也就是列表参数，这就限制了这个Decorator的使用范围。下面这个版本就添加了**kwargs的支持。需要注意的是，kwargs不能进行hash，也就不能直接作为python中字典的key值，因此这里现将其转成一个frozenset。
+
+decorator_example.py
+```python
+# -*- coding: utf-8 -*-
+
+def func_cache(func):
+    cache = {}
+    def inner_deco(*args, **kwargs):
+        key = (args, frozenset(kwargs.items()))
+        if key not in cache:
+            print('func {} is not cached with arguments {} {}'.format(
+                func.__name__, args, kwargs)) 
+            res = func(*args, **kwargs)
+            cache[key] = res
+        return cache[key]
+    return inner_deco
+
+@func_cache
+def add_two_number(a, b):
+    return a + b
+
+@func_cache
+def product_two_number(a, b):
+    return a * b
+
+if __name__ == "__main__":
+    print('1. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print(add_two_number.__name__)
+    print('2. add_two_number(2, 3)')
+    add_two_number(2, 3)
+    print('3. add_two_number(1, b=2)')
+    add_two_number(1, b=2)
+    print('4. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('5. product_two_number(1, 2)')
+    product_two_number(1, 2)
+```
+这里新增加了一个`product_two_number`函数，用于测试`func_cache`中的字典`cache`是否对于每个被装饰的函数都分配了一个，答案是肯定的。这是因为每次处理`@func_cache`时，都会调用`func_cache(func)`一次。这种情况要与将可变变量作为函数的默认参数的情况区分开。
+
+```py
+def wrong_func(some_list=[]):
+    # do something with the list
+    pass
+```
+但是这里的Decorator还有一个问题，它改变了被装饰函数add_two_number的签名，比如：
+
+```
+print('add_two_number func name is {}'.format(add_two_number.__name__))
+# 输出 add_two_number func name is inner_deco
+```
+这不是我们想要的，而且在复杂项目中，对于Bug的追踪也将是灾难性的。  
+
+好在Python为我们提供了`functools`模块，其中的`wraps装饰器`可以帮助我们解决这个问题。
+
+decorator_example.py
+```python
+# -*- coding: utf-8 -*-
+from functools import wraps
+
+def func_cache(func):
+    cache = {}
+    @wraps(func)
+    def inner_deco(*args, **kwargs):
+        key = (args, frozenset(kwargs.items()))
+        if key not in cache:
+            print('func {} is not cached with arguments {} {}'.format(
+                func.__name__, args, kwargs)) 
+            res = func(*args, **kwargs)
+            cache[key] = res
+        return cache[key]
+    return inner_deco
+
+@func_cache
+def add_two_number(a, b):
+    return a + b
+
+@func_cache
+def product_two_number(a, b):
+    return a * b
+
+if __name__ == "__main__":
+    print('add_two_number func name is {}'.format(add_two_number.__name__))
+    print('1. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print(add_two_number.__name__)
+    print('2. add_two_number(2, 3)')
+    add_two_number(2, 3)
+    print('3. add_two_number(1, b=2)')
+    add_two_number(1, b=2)
+    print('4. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('5. product_two_number(1, 2)')
+    product_two_number(1, 2)
+```
+到了这里，变得有些复杂了——在一个Decorator的定义里，居然出现了另一个Decorator！这该怎么理解呢。现在可以暂时不用考虑那么详细，只要把wraps装饰器当作完成某一功能的黑盒即可。之后，我们会用其他方式处理这个问题。
+
+### 带参数Decorator
+
+目前我们实现的函数缓存装饰器，会缓存所有遇到的函数返回值。我们希望能够对缓存数量上限做一个限制，从而在内存消耗和运行效率上取得折中。但是同时，对于不同的函数，我们希望做到缓存上限不同，例如对于运行一次比较耗时的函数，我们希望缓存上限大一些；反之，则小一些。这时，需要用到带参数的Decorator。  
+
+先看代码实现：
+
+decorator_example.py
+```python
+# -*- coding: utf-8 -*-
+from functools import wraps
+import random
+
+def outer_deco(size=10):
+    def func_cache(func):
+        cache = {}
+        @wraps(func)
+        def inner_deco(*args, **kwargs):
+            key = (args, frozenset(kwargs.items()))
+            if key not in cache:
+                print('func {} is not cached with arguments {} {}'.format(
+                    func.__name__, args, kwargs)) 
+                res = func(*args, **kwargs)
+                if len(cache) >= size:
+                    lucky_key = random.choice(list(cache.keys()))
+                    print('func {} cache pop {}'.format(
+                        func.__name__, lucky_key))
+                    cache.pop(lucky_key, None)
+                cache[key] = res
+            return cache[key]
+        return inner_deco
+    return func_cache
+
+@outer_deco(size=3)
+def add_two_number(a, b):
+    return a + b
+
+@outer_deco()
+def product_two_number(a, b):
+    return a * b
+
+if __name__ == "__main__":
+    print('add_two_number func name is {}'.format(add_two_number.__name__))
+    print('1. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('2. add_two_number(2, 3)')
+    add_two_number(2, 3)
+    print('3. add_two_number(1, b=2)')
+    add_two_number(1, b=2)
+    print('4. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('5. product_two_number(1, 2)')
+    product_two_number(1, 2)
+    print('6. add_two_number(1, 3)')
+    add_two_number(1, 3)
+```
+我们在原来的`func_cache`外又包了一层`outer_deco`,其中含有参数`size`，用作函数缓存上限。但是这里的`outer_deco`并不是以函数对象为参数的，怎么能够作为装饰器呢？的确，严格来说，这里的装饰器仍然是`func_cache`,而`outer_deco`的作用，仅仅是利用Python闭包的特性，提供size参数。  
+
+我们注意到，`outer_deco`的返回值，是真正的装饰器`func_cache`。对比两种装饰器的使用方式：
+
+```python
+@func_cache
+def add_two_number(a, b):
+    return a + b
+
+@outer_deco(size=3)
+def add_two_number(a, b):
+    return a + b
+# 等价于
+# binding size=3
+@func_cache 
+def add_two_number(a, b):
+    return a + b
+```
+也就是说，无参数的装饰器，@符号后面接的是一个可做Decorator的函数对象；而有参数的装饰器，@符号后面接的是一个函数调用，此函数调用返回的是一个可做Decorator的函数对象。  
+
+上面的代码中为了便于对比理解，使用了outer_deco这种无法表明装饰器功能的名字。下面将命名规范化：
+
+decorator_example.py
+```python
+# -*- coding: utf-8 -*-
+from functools import wraps
+import random
+
+def func_cache(size=10):
+    def func_wrapper(func):
+        cache = {}
+        @wraps(func)
+        def inner_deco(*args, **kwargs):
+            key = (args, frozenset(kwargs.items()))
+            if key not in cache:
+                print('func {} is not cached with arguments {} {}'.format(
+                    func.__name__, args, kwargs)) 
+                res = func(*args, **kwargs)
+                if len(cache) >= size:
+                    lucky_key = random.choice(list(cache.keys()))
+                    print('func {} cache pop {}'.format(
+                        func.__name__, lucky_key))
+                    cache.pop(lucky_key, None)
+                cache[key] = res
+            return cache[key]
+        return inner_deco
+    return func_wrapper
+
+@func_cache(size=3)
+def add_two_number(a, b):
+    return a + b
+
+@func_cache()
+def product_two_number(a, b):
+    return a * b
+
+if __name__ == "__main__":
+    print('add_two_number func name is {}'.format(add_two_number.__name__))
+    print('1. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('2. add_two_number(2, 3)')
+    add_two_number(2, 3)
+    print('3. add_two_number(1, b=2)')
+    add_two_number(1, b=2)
+    print('4. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('5. product_two_number(1, 2)')
+    product_two_number(1, 2)
+    print('6. add_two_number(1, 3)')
+    add_two_number(1, 3)
+```
+至此，Python原生的Decorator就解析的差不多了。此外，Decorator还可以用于装饰类/用类实现，其实在Python中，函数和类都可以当作callable对象，所以和上面的情况大同小异。  
+
+## decorator模块应用
+
+但是，从上面的代码中也可以看出，到了带参数的Decorator这一步，Decorator的实现已经有了两层的函数嵌套，难于理解且不够优雅。此外，使用__@wraps解决函数的签名保持问题，也不够完美，因为当用inspect.getfullargspec获得的函数签名依然是错误的__。  
+
+这时就要引出Michele Simionato实现的decorator模块。这个模块可以不仅可以减少实现Decorator过程中的函数嵌套，还可以完美的保持函数签名不被更改。  
+
+### decorator模块实现无参装饰器
+
+decorator_adv.py
+```python
+# -*- coding: utf-8 -*-
+import random
+from decorator import decorate
+
+def func_cache(func):
+    func._cache = {}
+    func._cache_size = 3
+    return decorate(func, _cache)
+
+def _cache(func, *args, **kwargs):
+    key = (args, frozenset(kwargs.items()))
+    if key not in func._cache:
+        print('func {} not hit cache'.format(func.__name__))
+        res = func(*args, **kwargs)
+        if len(func._cache) >= func._cache_size:
+            lucky_key = random.choice(list(func._cache.keys()))
+            func._cache.pop(lucky_key, None)
+            print('func {} pop cache key {}'.format(func.__name__, lucky_key))
+        func._cache[key] = res
+    return func._cache[key]
+
+@func_cache
+def add_two_number(a, b):
+    return a + b
+
+@func_cache
+def product_two_number(a, b):
+    return a * b
+
+if __name__ == "__main__":
+    print('add_two_number func name is {}'.format(add_two_number.__name__))
+    print('1. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('2. add_two_number(2, 3)')
+    add_two_number(2, 3)
+    print('3. add_two_number(1, b=2)')
+    add_two_number(1, b=2)
+    print('4. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('5. product_two_number(1, 2)')
+    product_two_number(1, 2)
+    print('6. add_two_number(1, 3)')
+    add_two_number(1, 3)
+```
+可以看到，使用了decorator模块之后，对于无参数的装饰器实现，消除了函数嵌套。同时，也是由于消除了函数嵌套，无法利用闭包特性，所以我们必须把缓存字典_cache挂在函数对象func上。
+
+这里`decorate(func, _cache)`的语义也很好理解：用`_cache`函数来替换`func`函数。
+
+使用`inspect.getfullargspec`也可以获得正确的函数签名：
+
+```python
+>>> import decorator_adv
+>>> import inspect
+>>> inspect.getfullargspec(decorator_adv.add_two_number)
+FullArgSpec(args=['a', 'b'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})
+```
+
+### decorator模块实现有参装饰器
+
+接下来，我们尝试使用decorator模块实现带参数的装饰器：
+
+```python
+# -*- coding: utf-8 -*-
+import random
+from decorator import decorate
+
+def func_cache(size=10):
+    def wrapped_cache(func):
+        func._cache = {}
+        func._cache_size = size
+        return decorate(func, _cache)
+    return wrapped_cache
+
+def _cache(func, *args, **kwargs):
+    key = (args, frozenset(kwargs.items()))
+    if key not in func._cache:
+        print('func {} not hit cache'.format(func.__name__))
+        res = func(*args, **kwargs)
+        if len(func._cache) >= func._cache_size:
+            lucky_key = random.choice(list(func._cache.keys()))
+            func._cache.pop(lucky_key, None)
+            print('func {} pop cache key {}'.format(func.__name__, lucky_key))
+        func._cache[key] = res
+    return func._cache[key]
+
+@func_cache(size=3)
+def add_two_number(a, b):
+    return a + b
+
+@func_cache()
+def product_two_number(a, b):
+    return a * b
+
+if __name__ == "__main__":
+    print('add_two_number func name is {}'.format(add_two_number.__name__))
+    print('1. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('2. add_two_number(2, 3)')
+    add_two_number(2, 3)
+    print('3. add_two_number(1, b=2)')
+    add_two_number(1, b=2)
+    print('4. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('5. product_two_number(1, 2)')
+    product_two_number(1, 2)
+    print('6. add_two_number(1, 3)')
+    add_two_number(1, 3)
+```
+实现带参数的装饰器的方式是相同的：在之前不带参数的装饰器外面再包一层函数，通过闭包将参数绑定到装饰器上，并将装饰器返回。
+
+### decorator模块中的decorator函数
+
+最后，`decorator`模块还提供了一个`decorator`函数，它可以直接将参数列表为`（func, *args, **kwargs)`的函数转换成一个无参装饰器。那么对于上面的装饰器实现，可以进一步简化为：
+
+```python
+# -*- coding: utf-8 -*-
+import random
+from decorator import decorator
+
+def func_cache(size=10):
+    def _cache(func, *args, **kwargs):
+        if not hasattr(func, '_cache'):
+            func._cache = {}
+            func._cache_size = size
+        key = (args, frozenset(kwargs.items()))
+        if key not in func._cache:
+            print('func {} not hit cache'.format(func.__name__))
+            res = func(*args, **kwargs)
+            if len(func._cache) >= func._cache_size:
+                lucky_key = random.choice(list(func._cache.keys()))
+                func._cache.pop(lucky_key, None)
+                print('func {} pop cache key {}'.format(func.__name__, lucky_key))
+            func._cache[key] = res
+        return func._cache[key]
+    return decorator(_cache)
+
+@func_cache(size=3)
+def add_two_number(a, b):
+    return a + b
+
+@func_cache()
+def product_two_number(a, b):
+    return a * b
+
+if __name__ == "__main__":
+    print('add_two_number func name is {}'.format(add_two_number.__name__))
+    print('1. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('2. add_two_number(2, 3)')
+    add_two_number(2, 3)
+    print('3. add_two_number(1, b=2)')
+    add_two_number(1, b=2)
+    print('4. add_two_number(1, 2)')
+    add_two_number(1, 2)
+    print('5. product_two_number(1, 2)')
+    product_two_number(1, 2)
+    print('6. add_two_number(1, 3)')
+    add_two_number(1, 3)
+```
+
+## 总结
+
+至此，Decorator的基本内容就解析完了。
+
+
+##　参考
+
+[浅谈python装饰器](http://blog.guoyb.com/2016/04/19/python-decorator/)
