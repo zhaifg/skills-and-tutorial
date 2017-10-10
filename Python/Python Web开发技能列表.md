@@ -51,6 +51,7 @@ if __name__ == "__main__":
     main()
 ```
 增加新功能
+
 #### virtualenvwrapper  重点
 用来管理全部的虚拟环境, 能够方便的创建, 删除和copy虚拟环境, 使用单个名利就可以切换不同的虚拟环境. 可以使用tab进行不全虚拟环境, 支持用户粒度的钩子支持.
 ```
@@ -59,9 +60,59 @@ export WORKON_HOME=~/venv
 export /usr/local/bin/virtualenvwrapper.sh
 ```
 
+virtualenvwrapper windows
+
+```
+pip install virtualenvwrapper-win
+# 使用WORKON_HOME
+添加 WORKON_HOME 到PATH
+就可以了
+
+# MSYS
+# 添加 windows MSYS_HOME 的环境变量
+export WORKON_HOME=$HOME/.virtualenvs
+export MSYS_HOME=/c/msys/1.0
+source /usr/local/bin/virtualenvwrapper.sh
+
+# or
+export WORKON_HOME=$HOME/.virtualenvs
+export MSYS_HOME=C:\msys\1.0
+source /usr/local/bin/virtualenvwrapper.sh
+```
+
+
+`mkvirtualenv [mkvirtualenv-options] [virtualenv-options] <name>`:
+  -h
+  -a project_path
+  -i requirements_file
+
+
+`workon [<name>]`
+`deactivate`
+
+`lsvirtualenv`: List all of the enviornments stored in WORKON_HOME.
+`add2virtualenv <full or relative path>` 
+
+`lsvirtualenv`
+列举所有的环境。
+`cdvirtualenv`
+导航到当前激活的虚拟环境的目录中，比如说这样您就能够浏览它的 site-packages 。
+`cdsitepackages`
+和上面的类似，但是是直接进入到 site-packages 目录中。
+`lssitepackages`
+显示 site-packages 目录中的内容。
+
 ### autoenv
+当您 cd 进入一个包含 .env 的目录中，就会 autoenv 自动激活那个环境。
 
+使用 brew 在Mac OS X上安装它：
+```
+$ brew install autoenv
+在Linux上:
 
+$ git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
+$ echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc
+```
 
 
 ### 包管理
