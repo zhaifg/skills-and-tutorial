@@ -221,3 +221,24 @@ AUTH_USER_MODEL = 'users.UserProfile'
 
 ### ModelForm
 https://stackoverflow.com/questions/2216974/django-modelform-for-many-to-many-fields
+
+
+## 模板
+
+### 扩展模板语法的 templatetags
+- 新建 templatetags 代码目录, 别忘了`__init__.py`
+- 假设 定义个 review_extras.py 文件
+- 在模板中使用方式为
+  `{% load review_extras %}`
+- 创建 Python 代码
+  代码怎么写, 取决于定义的是过滤器还是标签. 一个有效的标签库必须有一个名为`register`的模块层变量, 其值是template.Library的实例.
+  标签和过滤器都通过这种方式注册. 因此, 在模块顶部要插入一下代码:
+```py
+from django import template
+register = template.Library()
+
+```
+
+### 在模板中获取Cookie 的方式
+
+`{%  request.COOKIES.cookie_name  %}`

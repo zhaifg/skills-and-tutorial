@@ -2010,3 +2010,27 @@ Animal.prototype.teeth = 'small'
 
 ####  覆盖继承的属性
 ### this关键字
+
+
+
+## 事件
+
+### preventDefault:
+ 取消事件的默认动作
+`event.preventDefault()`: 该方法将通知Web浏览器不要执行与事件关联的默认动作(如果存在这样的动作). 例如, 在type 属性 "submit", 在事件传播的任意阶段可以调用任意的时间句柄, 通过调用该方法, 可以阻止提交表单. 注意, 如果Event 对象的 cancelable 属性是 false, 那么就没有默认动作, 或者不能阻止默认动作. 无论那种情况, 调用该方法都没有作用.
+
+```javascript
+// 防止链接打开 URL：
+$("a").click(function(event){
+  event.preventDefault();
+});
+```
+
+
+
+### stopPropagation: 
+不再派发事件.  终止事件在传播过程的捕获, 目标处理或者起泡阶段进一步传播. 调用该方法后, 该节点上处理该事件的处理程序将被调用, 事件不再被派发到其他节点上.
+`event.stopPropagation()`:
+该方法将停止事件的传播, 阻止它被分派到其他Document节点上. 在此事件传播的任何阶段都可以调用它. 注意, 虽然该方法不能阻止同一个Document节点上其他事件句柄被调用, 但是它可以阻止把事件分派到其他节点.
+
+
