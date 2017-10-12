@@ -223,6 +223,23 @@ AUTH_USER_MODEL = 'users.UserProfile'
 https://stackoverflow.com/questions/2216974/django-modelform-for-many-to-many-fields
 
 
+### 验证
+```
+def clean_message(self): # clean_form字段
+    message = self.clean_data['message'] # 获取字典的值
+    # 验证规则
+    if message:
+        return message
+    raise forms.ValdeErrors('xxx')
+
+
+# 模板中 使用的错误为
+
+# form.message.errors 列表 for 循环
+# form.errors
+```
+
+
 ## 模板
 
 ### 扩展模板语法的 templatetags

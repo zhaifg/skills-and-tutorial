@@ -36,6 +36,29 @@ git status
 git add [file]/-A
 git commit -m 'init commit'
 
+
+- 克隆Git项目的版本库到本地
+- 更新本版本库从远程: git fetch
+- 执行清理工作, 避免前一次编译的遗留下文件对编译造成影响: 这样的操作会丢弃本地对Git代码的改动
+```
+git clean  -fdx
+git reset --hard
+```
+
+- 查看git 的版本: git tagg
+- 检出该版本代码 git checkout v1.7
+
+
+在默认设置下, 中文文件名在工作区状态输出, 查看历史更改概要, 以及补丁文件中, 文件名的中文不能正确的显示, 而是显示为八进制的字符编码
+
+通过将git配置变量 core.quotepath 设置为 false
+```
+git config --global core.quotepath false
+git status -s
+```
+
+
+
 ### 远端仓库
 * 添加仓库
 git remote add origin https://github.com/jenguo/test.git
@@ -251,3 +274,36 @@ git commit -m 'update .gitignore'
 `warning: LF will be replaced by CRLF in .gitignore.`
 `git config core.autocrlf false`
 git config --global core.autocrlf  false
+
+## git 权威指南
+
+全局的设置, 提交代码的人和邮件
+```
+git  config  --global user.name "zhaifg"
+git  config  --global user.email 'zhaifengguo@gmail.com'
+```
+
+Git命令 设置别名
+git config --system alias.st status
+git config --system alias.ci commit
+git config --global color.ui true 开启颜色显示
+
+全局中的config: ~/.gitconfig
+项目中的config: .git/config
+
+
+查看提交信息
+
+git log   | git log --pretty=fuller
+
+重新设置 user.name 和user.email 
+重新修改最新提交, 改正坐着和提交者的错误信息
+git commit --amend --allow-empty  --reset-author 
+`--amend`: 对刚刚的提交锦溪修补, 这样既可以改正前面的提交中错误的用户和邮件地址, 不会产生另外的新提交
+
+`--allow-empty`: 允许空白提交
+`--reset-author`: 将 提交者的ID同步修改, 否则只会影响提交者(Commit)的ID
+
+
+### 暂存区
+git log --stat 提交的详情
