@@ -219,6 +219,7 @@ AUTH_USER_MODEL = 'users.UserProfile'
 
 ## Form
 
+
 ### ModelForm
 https://stackoverflow.com/questions/2216974/django-modelform-for-many-to-many-fields
 
@@ -232,7 +233,10 @@ def clean_message(self): # clean_form字段
         return message
     raise forms.ValdeErrors('xxx')
 
-
+# views
+form.cleaned_data['message']
+# 在 views 取得 字段的 错误值
+form.errors['name'][0]
 # 模板中 使用的错误为
 
 # form.message.errors 列表 for 循环

@@ -1,3 +1,16 @@
+```js
+typeof 123; // 'number'
+typeof NaN; // 'number'
+typeof 'str'; // 'string'
+typeof true; // 'boolean'
+typeof undefined; // 'undefined'
+typeof Math.abs; // 'function'
+typeof null; // 'object'
+typeof []; // 'object'
+typeof {}; // 'object'
+```
+
+
 <script type="text/javascript">
   document.write("I love JavaScript！"); //内容用""括起来，""里的内容直接输出。
 </script>

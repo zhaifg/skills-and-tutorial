@@ -229,3 +229,79 @@ jQuery("#select_id :last").remove();                                        // 4
 jQuery("#select_id [value='3']").remove();                                  // 5.删除Select中Value='3'的Option     
 jQuery("#select_id").empty();                                               // 6.清空下拉列表    
 ```
+
+## 自建函数
+
+### 字符串trim
+```js
+String.prototype.trim = 
+function(){
+return this.replace(/^\s+|\s+$/g, "");
+};
+```
+
+
+###  cookie 的set 与 get
+
+```js
+
+window.cookie = {
+    get: function (name) {
+        if (document.cookie.length > 0) {
+            name += '=';
+            var allCookie = document.cookie;
+            var startIndex = allCookie.indexOf(name);
+            if (startIndex > -1) {
+                if (startIndex > 1) {
+                    name = '; ' + name;
+                    startIndex = allCookie.indexOf(name) + name.length;
+                } else {
+                    startIndex = startIndex + name.length;
+                }
+            } else {
+                return '';
+            }
+            var endIndex = allCookie.indexOf(';', startIndex);
+            if (endIndex === -1) {
+                endIndex = document.cookie.length;
+            }
+            var value = decodeURIComponent(allCookie.substring(startIndex, endIndex));
+            return value;
+        }
+
+        return '';
+    },
+
+    set: function (name, value, expires) {
+        var exdate = new Date();
+        if (expires != null) {
+            exdate.setTime(exdate.getTime() + expires * 1000);
+        }
+        document.cookie = name + '=' + encodeURIComponent(value) + (expires == null ? ';path=/' : ';expires=' + exdate.toUTCString() + ';path=/');
+    }
+};
+```
+
+### 原生JavaScript时间日期格式转换
+
+```js
+
+Date.prototype.Format = function(formatStr) {
+    var str = formatStr;
+    var Week = ['日', '一', '二', '三', '四', '五', '六'];
+    str = str.replace(/yyyy|YYYY/, this.getFullYear());
+    str = str.replace(/yy|YY/, (this.getYear() % 100) > 9 ? (this.getYear() % 100).toString() : '0' + (this.getYear() % 100));
+    str = str.replace(/MM/, (this.getMonth() + 1) > 9 ? (this.getMonth() + 1).toString() : '0' + (this.getMonth() + 1));
+    str = str.replace(/M/g, (this.getMonth() + 1));
+    str = str.replace(/w|W/g, Week[this.getDay()]);
+    str = str.replace(/dd|DD/, this.getDate() > 9 ? this.getDate().toString() : '0' + this.getDate());
+    str = str.replace(/d|D/g, this.getDate());
+    str = str.replace(/hh|HH/, this.getHours() > 9 ? this.getHours().toString() : '0' + this.getHours());
+    str = str.replace(/h|H/g, this.getHours());
+    str = str.replace(/mm/, this.getMinutes() > 9 ? this.getMinutes().toString() : '0' + this.getMinutes());
+    str = str.replace(/m/g, this.getMinutes());
+    str = str.replace(/ss|SS/, this.getSeconds() > 9 ? this.getSeconds().toString() : '0' + this.getSeconds());
+    str = str.replace(/s|S/g, this.getSeconds());
+    return str
+}
+```

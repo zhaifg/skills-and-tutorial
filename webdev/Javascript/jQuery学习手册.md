@@ -1,6 +1,15 @@
 # jQuery学习手册
 ---
 
+## $ 符号占用
+```
+$; // jQuery(selector, context)
+jQuery.noConflict();
+$; // undefined
+jQuery; // jQuery(selector, context)
+```
+
+
 jQuery的核心方法`$()`:
 ```
 $(function(){});
@@ -461,7 +470,7 @@ $.post("AJAX_POST_URL",
 ```
 
 * 带有form的post提交
-```
+```html
 <form name="myform" id="myform" action="ajax-post.php">
 User: <input type="text" value="Ravishanker" name="user"  /> <br/>
 Password: <input type="password" name="password" value="abcdefgh" />
@@ -471,7 +480,7 @@ Password: <input type="password" name="password" value="abcdefgh" />
 </form>
 ```
 
-```
+```js
 //var formData = $("#myform").serialize();  //or
 var formData = $("#myform").serializeArray();
 var URL = $("#myform").attr("action");

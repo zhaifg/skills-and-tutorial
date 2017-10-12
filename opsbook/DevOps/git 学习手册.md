@@ -260,8 +260,7 @@ $ git commit -m "Array printing conflict resolved."
 如果在大型项目中，这个过程可能容易出问题。你可以使用GUI 工具来帮助你。使用 git mergetool。
 
 
-Huifangkeji@246
-huifangkeji@246
+
 ## troubleshoot
 但是有时候在项目开发过程中，突然心血来潮想把某些目录或文件加入忽略规则，按照上述方法定义后发现并未生效，原因是.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。那么解决方法就是先把本地缓存删除（改变成未track状态），然后再提交：
 
@@ -273,7 +272,26 @@ git commit -m 'update .gitignore'
 
 `warning: LF will be replaced by CRLF in .gitignore.`
 `git config core.autocrlf false`
+
 git config --global core.autocrlf  false
+
+
+产生这个问题的原因是，windows、Linux和Mac在处理文件换行时的标示符是不一致的。windows使用CRLF作为结束符，而Linux和Mac使用LF作为结束符。
+
+同时呢，Git 有两种模式来对待换行符，你可以通过下面这行代码查看你的git配置。
+
+`$ git config core.autocrlf`
+如果显示为true，则每一次当你git commit时，如果存在文本文件，那么git会自动帮你将末尾的换行符改为CRLF，省去了烦心的转换工作。
+
+如果显示为false，则git不会对换行符进行修改，保持原本的内容。
+
+所以呢，作为Linux和Mac开发者，这个配置应当为false，而windows开发者，则应当设置为true。
+
+Linux mac
+`$ git config --global core.autocrlf  false`
+
+windows
+` git config --global core.autocrlf  true`
 
 ## git 权威指南
 
@@ -307,3 +325,5 @@ git commit --amend --allow-empty  --reset-author
 
 ### 暂存区
 git log --stat 提交的详情
+
+通过git diff 命令看到修改后的文件域版本库中文件的差异
