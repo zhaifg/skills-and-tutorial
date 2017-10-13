@@ -327,3 +327,32 @@ git commit --amend --allow-empty  --reset-author
 git log --stat 提交的详情
 
 通过git diff 命令看到修改后的文件域版本库中文件的差异
+
+### git 重置
+
+git reset 命令, 可以将 游标 指向任意一个不存在的提交ID
+
+git reset --hard HEAD^ # 相当于将master重置到上一个老的提交
+
+`--hard` 参数, 会破坏工作区未提交的改动
+
+git reset --hard 短的提交ID
+
+用法一
+`git reset [-q]  [commit] [--] <paths>`
+
+用法二
+```
+git reset [--soft| --mixed | --hard | --merge | -keep ]  [-q]  [commit]
+``` 
+
+#### 使用reflog 挽救错误的重置
+通过 .git/logs
+查看工作区版本日志是否打开
+git config  core.logallrefupdates
+
+
+
+
+
+
