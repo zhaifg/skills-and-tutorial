@@ -10,3 +10,6 @@ build
 /jenguo.github.io
 /mywiki
 _book
+*.log
+
+
