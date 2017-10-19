@@ -342,9 +342,11 @@ git reset --hard 短的提交ID
 `git reset [-q]  [commit] [--] <paths>`
 
 用法二
+
 ```
 git reset [--soft| --mixed | --hard | --merge | -keep ]  [-q]  [commit]
-``` 
+```
+
 
 #### 使用reflog 挽救错误的重置
 通过 .git/logs
