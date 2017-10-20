@@ -1,3 +1,13 @@
+
+
+### 默认参数
+在JavaScript中，函数参数的默认值是undefined。然而，在某些情况下设置不同的默认值是有用的。这时默认参数可以提供帮助。
+
+在过去，用于设定默认的一般策略是在函数的主体测试参数值是否为undefined，如果是则赋予一个值。如果在下面的例子中，调用函数时没有实参传递给b，那么它的值就是undefined，于是计算a*b得到、函数返回的是 NaN
+```js
+b = typeof b !== 'undefined' ?  b : 1; //设置参数的默认值
+```
+
 ```js
 typeof 123; // 'number'
 typeof NaN; // 'number'

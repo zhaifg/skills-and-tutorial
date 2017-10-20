@@ -956,3 +956,6 @@ Entry.objects.filter(blog=5) # Query using id directly
 
 最后，值得注意的是Django 的数据库层只是数据库的一个接口。你可以利用其它工具、编程语言或数据库框架来访问数据库；对于数据库，Django 没有什么特别的地方
 
+
+
+

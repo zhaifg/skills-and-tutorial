@@ -152,7 +152,39 @@ for(var i = 0; i < x; i++)
 }
 ```
 > 每次循环结束后，i增大1
-> 
+
+
+### 对象操作语句
+
+`for in`
+
+```js
+for(variable in object){
+  statements
+}
+
+# 实例
+
+```
+
+`for each...in 语句`
+
+```javascript
+var sum = 0;
+var obj = {prop1: 5, prop2: 13, prop3: 8};
+for each (var item in obj) {
+  sum += item;
+}
+print(sum); // prints "26", which is 5+13+8
+```
+
+`for of`
+
+for...of语句在可迭代的对象上创建了一个循环(包括Array, Map, Set, 参数对象（ arguments） 等等)，对值的每一个独特的属性调用一个将被执行的自定义的和语句挂钩的迭代。
+
+```
+
+```
 
 ### do...while循环
 do while 和while循环的区别就是先运行一次循环体,然后判断条件
@@ -236,6 +268,7 @@ javascript 有三种方法,可以确定一个值到底是什么来类型
 - typeof 运算符
 - instanceof 运算符
 - Object.prototype.toString 方法
+
 
 
 ### 原始类型

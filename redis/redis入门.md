@@ -84,7 +84,7 @@ redis-cli -h -p port
 ## 数据结构
 
 ### String 字符串
-* 字符串键值, 
+* 字符串键值, 二进制安全的, redis的string可以包含任何数据, 比如图片或者序列化对象
 k: hello  v: world
 场景: 缓存,计数器,分布式锁
 * 重要的API
@@ -109,12 +109,78 @@ decr key k
 `incr userid:pageview`
 
 ### Hash(哈希)
+是一个键名对集合
+Redis hash 是一个string类型的field 和value
+的映射表, hash 特别适用于存储对象.
+```
+127.0.0.1:6379>  HMSET user:1 username runoob password runoob points 200
+OK
+127.0.0.1:6379> HGETALL user:1
+1) "username"
+2) "runoob"
+3) "password"
+4) "runoob"
+5) "points"
+6) "200"
+127.0.0.1:6379> 
+
+```
 
 ### List 列表
+Redis 列表是简单的字符串列表, 按照插入顺序排序. 你可以添加一个元素到表的头部(左边)或者 尾部 右边
+```
+127.0.0.1:6379> lpush runoob redis
+(integer) 1
+127.0.0.1:6379> lpush runoob mongodb
+(integer) 2
+127.0.0.1:6379> lpush runoob rabitmq
+(integer) 3
+127.0.0.1:6379> lrange runoob 0 10
+1) "rabitmq"
+2) "mongodb"
+3) "redis"
+```
 
 ### Set 集合
+是string类型无序集合
+集合通过哈希表实现, 所以添加, 删除, 查找的复杂度都是o(1)
+sadd
+sadd key member
+```
+127.0.0.1:6379> sadd runoobs mongodb
+(integer) 1
+127.0.0.1:6379> sadd runoobs redis
+(integer) 1
+127.0.0.1:6379> sadd runoobs rabimq
+(integer) 1
+127.0.0.1:6379> semembers runoobs
+(error) ERR unknown command 'semembers'
+127.0.0.1:6379> smembers runoobs
+1) "redis"
+2) "rabimq"
+3) "mongodb"
+```
 
 ### ZSet 有序集合
+
+Redis Zset 和set 一样也是string 类型元素的集合, 且不允许有重复成员
+不同的是每个元素都会关联一个double类型的分数. redis 正是通过分数来为集合中的成员进行从小到大的拍讯. zset 成员唯一, 分数不唯一
+
+zadd
+zadd key score member
+```
+127.0.0.1:6379> zadd runb 0 redis
+(integer) 1
+127.0.0.1:6379> zadd runb 0 mongodb
+(integer) 1
+127.0.0.1:6379> zadd runb 0 rabmq
+(integer) 1
+127.0.0.1:6379> zrangebyscore runb 0 1000
+1) "mongodb"
+2) "rabmq"
+3) "redis"
+
+```
 
 Redis数据库
 ### 单个键管理

@@ -113,7 +113,7 @@ git merge dev
 
 ### 5. 删除分支
 ```
-git brach -d dev
+git branch -d dev
 ```
 
 
@@ -356,5 +356,94 @@ git config  core.logallrefupdates
 
 
 
+## git 的组织架构
+
+### git reflog
+
+### git 恢复
+git stash :  可以用于保存和恢复工作进度, 掌握这个命令对于日常的工作会有很大的帮助.
+
+`git stash`:
+保存当前的工作进度. 会分别对暂存区和工作区的状态进行保存.
+
+`git stash list`:
+显示进度列表. 此命令显然暗示了 git stash 可以多次保存工作进度, 并且在恢复的时候进行选择
+
+`git stash pop [--index]  [<stash>]`
+* 如果不使用任何参数, 会恢复最新保存的工作进度, 并将恢复工作进度从存储的工作进度列表中清除.
+
+* 如果提供<stash> 参数(来自于 git stash list 显示的列表), 则从该<stash>中恢复. 恢复完毕也将从进度列表中删除
+
+* 选项 `--index` 除了恢复工作区文件外, 还尝试恢复暂存区.
+
+`git stash [save [--patch] [-k|--[no-] keep-index] [-q | --quiet]  [<message>] ]`
+这一条命令 实际上是第一条 Git stash 命令的完整版.
+
+`git stash apply [--index]  [<stash>]`
+处理不删除恢复的进度之外, 其余和git stash pop 命令一样
+
+`git stash drop [<stash>]`
+删除一个存储的进度. 默认删除最新的进度
+
+`git stash clear`:
+删除所有存储的进度
+
+`git stash branch <branchname> <stash>` 
+基于进度创建分支.
+
+```bash
+shell> git stash list
+shell>  echo "Bye-Bye." >> welcome.txt 
+shell> echo "hello." > hack-1.txt
+shell> git add hack-1.txt 
+shell> git status -s
+A  hack-1.txt
+ M welcome.txt
+shell> git stash save "hack-1: hacked welcome.txt, newfile hack-1.txt"
+Saved working directory and index state On master: hack-1: hacked welcome.txt, newfile hack-1.txt
+HEAD is now at bc141ab Merge commit '17b5ec5'
+shell> git status -s
+shell> ls
+detached-commit.txt  new-commit.text  welcome.txt
+shell> echo "fix." > hack-2.txt
+shell> git stash 
+No local changes to save
+shell> git add hack-2.txt 
+shell> git stash
+Saved working directory and index state WIP on master: bc141ab Merge commit '17b5ec5'
+HEAD is now at bc141ab Merge commit '17b5ec5'
+shell> git stash list
+stash@{0}: WIP on master: bc141ab Merge commit '17b5ec5'
+stash@{1}: On master: hack-1: hacked welcome.txt, newfile hack-1.txt
+
+
+ls -l .git/refs/stash .git/logs/refs/stash 
+-rw-r--r-- 1 root root 358 Oct 18 11:03 .git/logs/refs/stash
+-rw-r--r-- 1 root root  41 Oct 18 11:03 .git/refs/stash
+
+shell> git reflog show refs/stash
+ae501b1 refs/stash@{0}: WIP on master: bc141ab Merge commit '17b5ec5'
+5a8eefd refs/stash@{1}: On master: hack-1: hacked welcome.txt, newfile hack-1.txt
+
+
+shell >  git log --graph  --pretty=raw refs/stash -2
+*   commit ae501b1ed28668001cc6a5455f37bd323a4d2047
+|\  tree 1e6052befcf84717cebf95d54a3e393ea8809809
+| | parent bc141abc0579c54e252dbee1f29b3474cda00402
+| | parent d26a4035e87604a0f4548d42ff69e836a9130d97
+| | author zhaifg <zhaifengguo@1mi.cn> 1508295798 +0800
+| | committer zhaifg <zhaifengguo@1mi.cn> 1508295798 +0800
+| | 
+| |     WIP on master: bc141ab Merge commit '17b5ec5'
+| |   
+| * commit d26a4035e87604a0f4548d42ff69e836a9130d97
+|/  tree 1e6052befcf84717cebf95d54a3e393ea8809809
+|   parent bc141abc0579c54e252dbee1f29b3474cda00402
+|   author zhaifg <zhaifengguo@1mi.cn> 1508295798 +0800
+|   committer zhaifg <zhaifengguo@1mi.cn> 1508295798 +0800
+|   
+|       index on master: bc141ab Merge commit '17b5ec5'
+
+```
 
 

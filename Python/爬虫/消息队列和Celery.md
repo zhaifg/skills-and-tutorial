@@ -26,7 +26,7 @@ job就是待异步执行的任务, 也就是消息, 是Beanstalkd中基本单元
   5. 
 
 
-## 深入理解RabbitMQ
+## 深入理解 RabbitMQ
 RabbitMQ是一个实现了AMQP协议标准的开源消息代理和队列服务器. 和Beanstalkd不同的是, 他是企业级消息系统, 自带了集群,管理,插件系统等待特性,在高可用, 可扩展性, 易用性等方面的做得很好.
 ```
 sudo apt-get install rabbitmq-server -yq
@@ -137,6 +137,7 @@ sudo  rabbitmqctl list_users
 ```
 
 解释AMQP, 深入理解RabbitMQ, 
+
 ## 使用celery
 Celery是一个专注于实时处理和人物调度的分布式任务队列. 所谓的任务就是消息, 消息中的有效载荷中包含要执行任务需要的全部数据.
 
