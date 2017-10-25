@@ -1,6 +1,184 @@
 # Django个人总结
 ---
 
+http://usyiyi.cn/translate/Django_111/topics/db/examples/many_to_many.html
+## 全局
+
+## models
+
+字段:
+* 字段选项:
+  * null:  null=True, 空值,保存为null , 默认false
+  * blank, 允许为空, 默认flase
+  * default: 默认值, 值或者可调用对象, 如果是可调用在创建是调用, 要加()
+  * help_text:  表单部件额外显示的帮助内容, 即使字段不在表单中使用，它对生成文档也很有用
+  * primary_key:  如果为True, 这个字段是主键
+  * 字段自述名 `first_name = models.CharField("person's first name", max_length=30)`
+  * 
+  * choices: 由二项元组构成的一个可迭代对象(元组, 列表,)
+```
+YEAR_IN_SCHOOL_CHOICES = (
+    ('FR', 'Freshman'),
+    ('SO', 'Sophomore'),
+    ('JR', 'Junior'),
+    ('SR', 'Senior'),
+    ('GR', 'Graduate'),
+)
+
+shirt_size = models.CharField(max_length=1, choices=YEAR_IN_SCHOOL_CHOICES)
+```
+
+
+### 关系:
+多对一:
+ForeignKey: 
+
+
+多对多: ManyToManyField
+
+多对多关系的额外字段: 使用中介 Model 的ForeignKey 关系
+
+一对一关系: OneToOneField
+
+
+#### Meta 选项
+模型元数据是“任何不是字段的数据”，比如排序选项（ordering），数据库表名（db_table）或者人类可读的单复数名称（verbose_name 和verbose_name_plural）。 在模型中添加class Meta是完全可选的，所有选项都不是必须的。
+
+
+### 模型方法:
+可以在模型上定义自定义的方法给对象添加自定义 "底层" 功能. Manager 方法用于 "表范围"的事务, 模型的方法应该着眼于特定的模型实例.
+
+`get_absolute_url()`
+`__str__()`
+
+
+覆盖预定义的模型方法
+save
+```
+    def save(self, *args, **kwargs):
+        do_something()
+        super(Blog, self).save(*args, **kwargs) # Call the "real" save() method.
+        do_something_else()
+
+
+# 阻止保存
+ def save(self, *args, **kwargs):
+        if self.name == "Yoko Ono's blog":
+            return # Yoko shall never have her own blog!
+        else:
+            super(Blog, self).save(*args, **kwargs) # Call the "real" save() meth
+
+
+```
+
+
+###  定义抽象Models
+```
+from django.db import models
+
+class CommonInfo(models.Model):
+    name = models.CharField(max_length=100)
+    age = models.PositiveIntegerField()
+
+    class Meta:
+        abstract = True
+
+
+
+class Student(CommonInfo):
+    home_group = models.CharField(max_length=5)
+
+```
+
+####  related_name 与 related_query_name
+
+如如果你在ForeignKey或ManyToManyField上使用related_name或related_query_name，则必须为这个字段始终指定一个唯一的反向名称和查询名称。 这通常会导致抽象基类中的一个问题，因为该类中的字段包含在每个子类中，且每次属性的值完全相同（包括related_name和related_query_name）。
+
+要解决此问题，当你（仅）在抽象基类中使用related_name或related_query_name时，值的一部分应包含'%(app_label)s'和'%(class)s'。
+
+'%(class)s'替换为使用该字段的子类的小写名称。
+'%(app_label)s'替换包含该子类的应用的小写名称。 每个安装的应用名称都应该是唯一的，而且应用里每个模型类的名称也应该是唯一的，所以产生的名称应该彼此不同。
+```
+from django.db import models
+
+class Base(models.Model):
+    m2m = models.ManyToManyField(
+        OtherModel,
+        related_name="%(app_label)s_%(class)s_related",
+        related_query_name="%(app_label)s_%(class)ss",
+    )
+
+    class Meta:
+        abstract = True
+
+class ChildA(Base):
+    pass
+
+class ChildB(Base):
+    pass
+```
+
+### 多表继承
+
+
+代理模型管理器
+
+代理继承与非托管模型之间的差异
+多重继承
+字段名称“隐藏”不允许
+
+## form
+
+
+## views
+
+
+`get_object_or_404()`
+
+## urls
+
+## admin
+admin.py
+
+
+ModelAdmin class:
+fieldsets: 分割字段(表单)
+```
+    fieldsets = [
+        (None,               {'fields': ['question_text']}),
+        ('Date information', {'fields': ['pub_date']}),
+    ]
+```
+
+```
+
+class ChoiceInline(admin.StackedInline):
+    model = Choice
+    extra = 3
+
+class QuestionAdmin(admin.ModelAdmin):
+    fieldsets = [
+        (None,               {'fields': ['question_text']}),
+        ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
+    ]
+    inlines = [ChoiceInline]
+
+admin.site.register(Question, QuestionAdmin)
+
+把 Choice 模型,嵌入到Question Model中, 作为一行
+```
+
+`list_display `:
+`list_filter`:
+`search_fields `:
+
+
+## templates
+
+
+## 测试
+
+
 
 ```
 class Order(models.Model):

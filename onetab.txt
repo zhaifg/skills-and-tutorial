@@ -1,0 +1,1050 @@
+https://impakho.com/2017/02/22/wechat-android-client-hack/ | 微信安卓客户端逆向分析 | 肉猪 哈哈哈哈
+https://time.geekbang.org/column/article/212 | 极客时间 | 详解微信异步队列 MQ 2.0 的功能优化及拓展思路
+http://www.linuxprobe.com/ssh-use-11.html?comefrom=http://blogread.cn/news/ | SSH 命令的11种用法 | 《Linux就该这么学》
+http://blog.nsfocus.net/celery-asynchronous-task/?f=http://blogread.cn/ | NTI任务管理之django+python篇celery异步任务使用 | 绿盟科技博客
+https://36kr.com/p/5081666.html | 解码工业物联网：一文看懂lloT现状和未来_36氪
+http://www.css88.com/archives/7628?comefrom=http://blogread.cn/news/ | JavaScript 模块简史 – WEB前端开发 - 专注前端开发，关注用户体验
+http://www.linuxprobe.com/mrtg-nms.html?comefrom=http://blogread.cn/news/ | 全面了解监控知识体系 | 《Linux就该这么学》
+
+https://whatwewant.gitbooks.io/django-rest-framework-tutorial-cn/content/1.Serialization.html | Part 1 序列化 | django-rest-framework-tutorial-cn
+http://python.jobbole.com/88703/ | Python Metaclass 初探 - Python - 伯乐在线
+https://linpingta.github.io/blog/2016/03/19/celery-2/ | Celery 概念：分布式、路由队列与工作流 - 褚桐 博客
+http://www.cnblogs.com/forward-wang/p/5970806.html | Celery 框架学习笔记 - nizaijiuqifuwo - 博客园
+https://morvanzhou.github.io/tutorials/machine-learning/torch/ | Pytorch 教程系列 | 莫烦Python
+https://taizilongxu.gitbooks.io/stackoverflow-about-python/content/2/README.html | Python中的元类(metaclass)是什么? | Stackoverflow about Python
+http://blog.csdn.net/singwhatiwanna/article/details/49560409?comefrom=http://blogread.cn/news/ | Android学习路线指南 - 任玉刚 - CSDN博客
+https://juejin.im/post/59aa1248518825392656a86a | Vue.js 2.0 快速上手精华梳理 - 掘金
+http://www.jianshu.com/p/c3dae0951f74 | 最全前端资源汇集 - 简书
+http://www.cnblogs.com/ldw-blogs/archive/2017/09/21/7566702.html | JavaScript案例开发之扑克游戏 - 七月下枫瑾 - 博客园
+https://mp.weixin.qq.com/s/Jv0bJWrLFYvTqEGzMuko0g | MySQL Server has gone away报错原因汇总版
+http://geek.csdn.net/news/detail/237188 | 如何优化Web服务器以实现高吞吐量和低延迟
+https://chyyuu.gitbooks.io/simple_os_book/zh/preface/cpu.html | CPU · simple_os_book
+https://yq.aliyun.com/articles/188495?utm_content=m_29950 | 【CDN 最佳实践】CDN缓存策略解读和配置策略-博客-云栖社区-阿里云
+http://zh.gluon.ai/why.html | 为什么要做这个项目 — 动手学深度学习 0.1 documentation
+http://django-practice-book.com/ | 课程介绍 · Django企业开发实战教程
+https://detail.tmall.com/item.htm?id=27001392378&ali_refid=a3_430583_1006:1105423395:N:%E9%85%8D%E9%95%9C:08152c3a2125136f2d9455bea5b3bcb4&ali_trackid=1_08152c3a2125136f2d9455bea5b3bcb4&spm=a230r.1.14.1.76bf5230696sR&skuId=3621108051174 | 近视眼镜男超轻眼镜框男半框钛材眼镜架 平光眼睛框配成品近视镜-tmall.com天猫
+http://www.linuxprobe.com/linux-nginx-lua.html?comefrom=http://blogread.cn/news/ | 使用nginx lua实现网站统计中的数据收集 | 《Linux就该这么学》
+https://segmentfault.com/l/1500000010597063 | 抓包神器Fiddler助你开发如虎添翼 - 玄空异人 - SegmentFault 讲堂
+https://stackoverflow.com/questions/8474409/django-forms-and-bootstrap-css-classes-and-divs | Django Forms and Bootstrap - CSS classes and <divs> - Stack Overflow
+http://coolshell.cn/articles/7657.html | 持续部署，并不简单！ | | 酷 壳 - CoolShell
+http://www.cnblogs.com/EasonJim/p/5945266.html | Jenkins实现生产环境部署文件的回滚操作（Windows） - EasonJim - 博客园
+http://jwg324.com/ | 金屋藏娇阁 | 首页
+https://segmentfault.com/p/1210000010501900/read | Apollo：携程框架部门研发的配置管理平台 - SegmentFault
+https://segmentfault.com/p/1210000010477003/read | 史上最详细的 Hadoop 环境搭建（上篇） - SegmentFault
+https://www.code-maze.com/http-series-part-1/ | The HTTP series (Part 1): Overview of the basic concepts - Code Maze
+http://www.linuxprobe.com/test-linux-performing.html?comefrom=http://blogread.cn/news/ | 教你摸清 Linux PC 的性能底细？ | 《Linux就该这么学》
+https://mp.weixin.qq.com/s/lk48MAX_utxk70jMbP3JdA | 曹增辉：新浪微博二次崛起的5大运营心得 |笔记
+http://weibo.com/ttarticle/p/show?id=2309404115258011701058 | 三和，一个南方的童话 | 正午
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django | Django Web Framework (Python) - Learn web development | MDN
+https://edu.aliyun.com/promotion/26?utm_campaign=dx01&utm_medium=images&utm_source=renyimen&utm_content=m_26225 | Java学习路线图-阿里云大学
+https://www.keakon.net/2017/06/28/%E7%94%A8Python3%E7%9A%84async/await%E5%81%9A%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B | 用 Python 3 的 async / await 做异步编程
+https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650996987&idx=1&sn=165364365bb7684b4e953c2afcaf1ee7 | 如何挖掘Nginx日志中隐藏的金矿？
+http://xiaorui.cc/2015/08/30/python%E9%AD%94%E6%B3%95%E5%87%BD%E6%95%B0%E4%B8%AD%E7%9A%84%E6%8F%8F%E8%BF%B0%E5%99%A8descriptor/ | python魔法函数中的描述器Descriptor | 峰云就她了
+https://my.oschina.net/1123581321/blog/170682 | tornado的IOLoop用于tcp通信 - flyking的个人页面
+http://pyzh.readthedocs.io/en/latest/Descriptor-HOW-TO-Guide.html | 1. Python描述器引导(翻译) — 一起写Python文章，一起看Python文章
+http://zweitian.blog.51cto.com/59324/97523 | Asterisk学习资料 - linux知识 - 51CTO技术博客
+http://www.izcv.com/1310.html | Freepbx-VPS搭建SIP服务器实现VOIP通话[图文教程] – 热闹网
+https://github.com/fschr/simpletcp | fschr/simpletcp: A minimal non-blocking TCP server written for Python 3.
+https://github.com/zsdonghao/ChatServerTCP | zsdonghao/ChatServerTCP: 保密型聊天软件服务器 ／Private Chat Server
+https://github.com/watsy0007/ChatServer | watsy0007/ChatServer: 基于python-tornado 与 sqlalchemy建立的1个TCP聊天服务器框架示例。
+https://github.com/mmopy/tornado-tcp-chat | mmopy/tornado-tcp-chat: A simple experiment in doing a TCP connection based chat server with Tornado
+https://github.com/serpulga/threaded-tcp-sever | serpulga/threaded-tcp-sever: A threaded TCP server written in Python using PySide
+https://github.com/vearne/log_server | vearne/log_server: python 日志服务器，通过tcp接口收集日志信息
+http://weibo.com/ttarticle/p/show?id=2309404126093798979789 | AWS 技术文章特辑
+https://zh.wikibooks.org/zh-hans/Asterisk%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97 | Asterisk权威指南 - 维基教科书，自由的教学读本
+https://ruslanspivak.com/lsbaws-part2/ | Let’s Build A Web Server. Part 2. - Ruslan's Blog
+https://github.com/cundi/Mastering.Python.Design.Patterns | cundi/Mastering.Python.Design.Patterns: 《精通Python设计模式》2015年1月
+https://design-patterns.readthedocs.io/zh_CN/latest/ | 图说设计模式 — Graphic Design Patterns
+https://detail.tmall.com/item.htm?spm=a230r.1.14.14.qjYDAp&id=12471360473&cm_id=140105335569ed55e27b&abbucket=17&skuId=54899260517 | 周大福珠宝首饰时尚立体方块925银手链AB 36052-tmall.com天猫
+http://www.zlovezl.cn/articles/charming-python-start-from-flask-request/ | Charming Python: 从Flask的request说起 | Piglei
+https://www.gitbook.com/book/riboseyim/linux-perf-master/details?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Linux Perf Master · GitBook
+https://jvns.ca/blog/2017/06/03/async-io-on-linux--select--poll--and-epoll/ | Async IO on Linux: select, poll, and epoll - Julia Evans
+http://rabbitstack.github.io/operating%20systems/linux-containers-internals-part-i/ | Linux Containers Internals (Part I) – Rabbit Stack
+https://2.taobao.com/item.htm?id=552453045491&spm=a230r.1.14.129.qcBb02&ns=1&abbucket=17#detail | [转卖]沪江网校 新概念 英语4册全 自学视频课程 网络课件 - 闲鱼.淘宝二手
+https://2.taobao.com/item.htm?id=552439566261&spm=a230r.1.14.125.qcBb02&ns=1&abbucket=17#detail | 沪江网校新概念英语视频课程1+2+3+4！零基础自学教程一 二三四 - 闲鱼.淘宝二手
+http://blogread.cn/it/article/7472?f=wb | 微信扫码登录网页实现原理 -- 系统架构 -- IT技术博客大学习 -- 共学习 共进步！
+https://www.zhihu.com/question/20368066 | (43 条消息)微信扫描二维码登录网页是什么原理，前后两个事件是如何联系的？ - 知乎
+https://www.dongqiudi.com/archive/350521.html | 足球技巧：12种人人必会足球基础小技巧 — 足球视频|足球视频集锦|懂球帝
+https://edu.aliyun.com/course/42 | 【安全问道】系列：3分钟掌握一个互联网安全知识 - 阿里云大学 - 云计算、大数据、人工智能一站式学习、实验与认证平台
+http://microservices.io/patterns/cn/index.html | A pattern language for microservices
+http://blog.apcelent.com/create-a-facebook-messenger-bot-with-python-flask.html | How to Create a Facebook Messenger Bot with Python Flask
+https://segmentfault.com/a/1190000009417654 | (1)生产环境中使用Docker Swarm的一些建议 - Fundebug - SegmentFault
+http://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html | CPU Utilization is Wrong
+http://weibo.com/zhaifengguo/home?wvr=5&c=spr_sinamkt_buy_265_weibo_t001#1494293221499 | 我的首页 微博-随时随地发现新鲜事
+https://segmentfault.com/a/1190000009325525 | Python: 链式赋值的坑 - 技术栈大杂烩 - SegmentFault
+
+http://www.csyssec.org/20161230/csysseccircus/ | 计算机系统安全学术圈 | Index of Computer System and Security
+https://pymotw.com/3/index.html | Python 3 Module of the Week — PyMOTW 3
+https://yq.aliyun.com/articles/75338 | 分布式调用跟踪与监控实战-博客-云栖社区-阿里云
+http://python.jobbole.com/87683/ | 一个Flask应用运行过程剖析 - Python - 伯乐在线
+https://segmentfault.com/p/1210000009293268/read#top | 干货！史上最全的CDN内容分发网络实战技巧 - SegmentFault
+https://www.zybuluo.com/Xuliangwei8925/note/739579# | 一篇文章全面了解老男孩Linux随到随学 - 作业部落 Cmd Markdown 编辑阅读器
+http://www.jianshu.com/p/bcbe916f97e1 | Vim入门基础 - 简书
+https://github.com/yangyangwithgnu/use_vim_as_ide | yangyangwithgnu/use_vim_as_ide: use vim as IDE
+http://www.xinxingzhao.com/blog/2016/05/15/vim-NERDTree.html | 上古神器vim插件：你真的学会用NERDTree了吗？ - 好吧，我现在胡说了
+http://weibo.com/ttarticle/p/show?id=2309404103368917289934 | 知乎9.6万高赞回答：如何长时间高效学习？
+http://blog.csdn.net/jmilk/article/details/53385381 | 用 Flask 来写个轻博客 (21) — 结合 reCAPTCHA 验证码实现用户注册与登录 - JmilkFan - 博客频道 - CSDN.NET
+http://www.cnblogs.com/yueerwanwan0204/tag/python/ | python - 标签 - 月儿弯弯0204 - 博客园
+http://python.jobbole.com/87671/ | sqlalchemy入门(上) - Python - 伯乐在线
+http://www.cnblogs.com/caseast/p/6090759.html | [原创]django+ldap实现统一认证部分二(python-ldap实践) - 三流码农 - 博客园
+https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653548665&idx=1&sn=c0d489dcacd0c7c05e579ed74c9050c9&chksm=813a61e1b64de8f7677783315c8f9a80cabe055c1473804fca7c9dce5d96401fbbe608135717&scene=0#rd | 我们如何使用HAProxy实现单机200万SSL连接
+https://zhuanlan.zhihu.com/p/26491267 | 如何设计并实现一个通用的应用运维管控平台 - 知乎专栏
+http://jeffjade.com/2015/09/25/2015-09-25-js-array/ | Javascript数组操作 | 晚晴幽草轩
+https://www.shiyanlou.com/questions/3393 | 不同场景下 MySQL 的迁移方案 - 实验楼问答 - 实验楼
+https://medium.freecodecamp.com/how-we-fine-tuned-haproxy-to-achieve-2-000-000-concurrent-ssl-connections-d017e61a4d27 | How we fine-tuned HAProxy to achieve 2,000,000 concurrent SSL connections
+http://wzlinux.blog.51cto.com/8021085/1835595 | OpenLDAP 服务端安装与配置 - 运维点滴记录 - 51CTO技术博客
+http://www.linuxeden.com/a/3550 | MySQL分布式数据库高可用实践：架构、复制机制、多机房 - Linuxeden开源社区-Linuxeden开源社区
+https://segmentfault.com/p/1210000009046981/read | Emoji 简介 - 阮一峰的网络日志 - SegmentFault
+https://linux.cn/article-8397-1.html?utm_source=weibo&utm_medium=weibo | pyinotify：在 Linux 中实时监控文件系统更改-技术 ◆ 学习|Linux.中国-开源社区
+http://weibo.com/ttarticle/p/show?id=2309404096009323025803 | 如何构建日请求数十亿次高性能高可用广告系统：微博广告架构解密
+https://mp.weixin.qq.com/s?__biz=MzI3MTI2NzkxMA==&mid=2247485077&idx=1&sn=c62241a9092cf5548c1f81890d48cbf2&chksm=eac527bcddb2aeaa5bc5f2dac45155fec7960a52276772a305849a72fb2ce2ad69275e790563&mpshare=1&scene=23&srcid=0413M5Qkf2TQktdyzkr2Ookq#rd | 使用Nginx实现灰度发布
+
+https://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659599117&idx=1&sn=eac8fb8f90f1dcadcb1d2ac7420410cb&chksm=8be9961fbc9e1f0944a5560cec64d48a82ede046b17f5166467eaec742aa8f522f79d8fc7804#rd | Redis之父：如何成为一个高效的程序员？
+https://mp.weixin.qq.com/s?__biz=MzI3MTI2NzkxMA==&mid=2247485061&idx=1&sn=6b454ae3b48e24260794ac6d1c7d97c1&chksm=eac527acddb2aeba319adc50d7df64d629a6f37fd9771e06e6ebc0c56c24fceae8c080259b40&mpshare=1&scene=23&srcid=0410cnNN0WoU8qhtcDiMtRGc#rd | etcd使用入门
+https://mp.weixin.qq.com/s/TnhE_4afl0valv41V5ZFDA | 分分钟拯救监控知识体系
+https://linux.cn/article-8377-1.html?utm_source=weibo&utm_medium=weibo | 高可用系统常用解决手段浅述-技术 ◆ 学习|Linux.中国-开源社区
+http://www.imooc.com/article/2433 | 每个程序员都会的35个jQuery小技巧！_慕课手记
+https://zhuanlan.zhihu.com/p/25960208 | 五大常见的MySQL高可用方案 - 知乎专栏
+https://mp.weixin.qq.com/s?__biz=MzIzNjUxMzk2NQ==&mid=2247484819&idx=1&sn=290e0d49f8b8f138398697cbafadb266&chksm=e8d7fa51dfa073475f7c201240a5dc539e6dbc965ba7fc21b83010edff23e29c33468b91af2d#rd | 提升运维稳定性的利器：故障复盘
+https://m.aliyun.com/yunqi/articles/72365 | Go语言并发机制初探-云栖社区
+https://m.aliyun.com/yunqi/articles/72002?spm=5176.100239.0.0.pT7hbJ | 使用Github Pages和Hexo构建个人博客-云栖社区
+http://linuxperf.com/?cat=11 | IO | Linux Performance
+
+http://www.ctolib.com/docs-flaskcn-c-153290.html | Flask-Dashed - Flask中文指南_教程_Python开发社区
+http://www.ctolib.com/ | CTOLib码库
+https://github.com/vuejs/awesome-vue#tutorials | vuejs/awesome-vue: A curated list of awesome things related to Vue.js
+https://yq.aliyun.com/opensource | 开源-云栖社区-阿里云
+http://www.worldhello.net/gotgit/ | Git权威指南 — GotGit
+https://github.com/tobegit3hub/ceph_from_scratch/blob/master/SUMMARY.md | ceph_from_scratch/SUMMARY.md at master · tobegit3hub/ceph_from_scratch
+http://mp.weixin.qq.com/s/INufxhP0UhhsODYwLviWZQ | 技术分享-Bash shell从入门到应用
+https://www.zhihu.com/question/19599216 | 如何提高逻辑思维能力？ - 知乎
+https://community.openvpn.net/openvpn/wiki/NatOverWindows2008 | NatOverWindows2008 – OpenVPN Community
+https://community.openvpn.net/openvpn/wiki/Easy_Windows_Guide | Easy_Windows_Guide – OpenVPN Community
+http://sdiehl.github.io/gevent-tutorial/#websockets | Gevent Tutorial
+http://blog.jobbole.com/110354/ | 也许，这样理解HTTPS更容易 - 文章 - 伯乐在线
+http://weibo.com/ttarticle/p/show?id=2309404079911194203540 | 一个完整的APP是如何从零开始做出来的？
+http://www.dockerinfo.net/2443.html | Docker技术快速精通指南-DockerInfo
+http://mp.weixin.qq.com/s?__biz=MzA3NDk1NjI0OQ==&mid=2247483969&idx=1&sn=c78352d52f64422c9d614fd128048c40 | 知乎Live全文搜索之构建基于asyncio+sanic的RESTfulAPI服务
+http://www.cnblogs.com/wteam-xq/p/5002976.html | VUE（现代库） VS jquery（传统库） - 萧强 - 博客园
+http://www.importnew.com/23597.html | 你真的很熟分布式和事务吗？ - ImportNew
+http://mp.weixin.qq.com/s?__biz=MzIzODYyNjkzNw==&mid=2247483727&idx=1&sn=848b7067878158a85bbb290c9bf8d1b8&chksm=e9373059de40b94fe6d0d3c42399af7a555f974a314e35ac32e39ddacfc9d566b4ac6c8275d2#rd | 服务化体系之－配置中心，在ZK或etcd之外（修订版）
+http://www.ituring.com.cn/tupubarticle/12871 | 第 1 章　Docker 入门
+http://blog.itpub.net/8554499/viewspace-580300/ | Linux命令----分析CPU的瓶颈-zhanglincon-ITPUB博客
+http://github.tiankonguse.com/blog/2016/03/26/height-cpu.html | linux下定位CPU较高的原因
+http://www.vpsee.com/2009/11/linux-system-performance-monitoring-cpu/ | Linux 性能监测：CPU | vpsee.com
+http://blog.sina.com.cn/s/blog_4adc4b090102vufu.html | (1)［必看］从Java视角理解CPU上下文切换(Context Switch)_杭州丁俊_新浪博客
+http://www.linfo.org/context_switch.html | Context Switch definition
+
+http://developer.51cto.com/art/201210/362415_4.htm | 张洋：网站统计中的数据收集原理及实现(5) - 51CTO.COM
+http://mp.weixin.qq.com/s?__biz=MzAwMDU2ODU3MA==&mid=2247484266&idx=1&sn=5347efee41b24430babc403a616d9e93&chksm=9ae7beffad9037e9a78a4101e44634f8c4f7661f48f85946ef4059fee2469ca8fb22b88d7d4e&mpshare=1&scene=23&srcid=02167eKg37Fg0pFof5plX78X#rd | 谈谈死锁之四 秒杀场景下开源MySQL压测细节
+http://python.jobbole.com/87234/ | Python网络爬虫二三事 - Python - 伯乐在线
+http://feisky.xyz/docker/ | Docker笔记 | Feisky's Blog
+https://opensource.guide/ | Open Source Guide - A community guide for open source creators.
+http://www.linuxeden.com/html/news/20170215/168022.html | 关于Python的几点思考_Linux伊甸园开源社区-24小时滚动更新开源资讯，全年无休！
+https://www.kindjeff.com/a/IO_multiplexing?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | I/O 多路复用入门——select/poll/epoll - 善良的杰夫
+http://tools.zhaishidan.cn/ | 前言
+http://python.jobbole.com/87327/ | flask 源码解析：路由 - Python - 伯乐在线
+https://www.opsdev.cn/ | opsdev-运维开发
+http://brianway.github.io/page17/ | Brian's Homepage
+https://blog.packagecloud.io/eng/2017/02/06/monitoring-tuning-linux-networking-stack-sending-data/ | Monitoring and Tuning the Linux Networking Stack: Sending Data - Packagecloud Blog
+http://www.brendangregg.com/linuxperf.html | Linux Performance
+https://community.emc.com/community/support/chinese/teamblog/blog/2016/04/26/%E5%A4%A7%E5%92%96%E8%AE%B2%E7%BD%91%E7%BB%9C-wireshark%E7%9A%84%E6%8F%90%E7%A4%BA | EMC Community Network - DECN: 工程师手记: 【大咖讲网络】Wireshark的提示
+https://github.com/shengxinjing/my_blog/issues/2 | python 10 min系列二之日志可视化的进阶 · Issue #2 · shengxinjing/my_blog
+http://mp.weixin.qq.com/s/vJKwXuPJv54-3keYomkJVw | 阿里的大型系统CI/CD经验谈：快速交付单个应用，分层自动化是关键
+http://www.yunweipai.com/archives/4588.html?f=http://blogread.cn/ | 云计算时代：运维人员会踩到哪些坑？ – 运维派
+http://python.jobbole.com/87288/ | Python爬虫基础 - Python - 伯乐在线
+http://mp.weixin.qq.com/s?__biz=MjM5NDcyNzkwMw==&mid=2650743755&idx=1&sn=b26f3b89ca5019ec7bb62ff7ea6218c4&chksm=be88d17b89ff586d185a58bb19a4b4207f10ca9e97b64f4c6124cb71e7c7a719c3bc1ba23538#rd | 『青云志』ElasticSearch 集群服务升级 5 大功能插件
+
+http://www.yunweipai.com/archives/10449.html | 一种新的进入容器的方式： WebSocket + Docker Remote API – 运维派
+http://www.yunweipai.com/archives/10490.html | 监控系统故障定位之事件关联分析的设计介绍 – 运维派
+http://www.yunweipai.com/archives/10501.html | 高性能高并发系统的稳定性保障 – 运维派
+http://www.yunweipai.com/archives/10507.html | 如何利用Docker、AWS和深度学习伪装成一个艺术家 – 运维派
+http://www.yunweipai.com/archives/10585.html | 如何提高Linux下块设备IO的整体性能？ – 运维派
+http://selfboot.cn/2015/11/05/dns_theory/ | 从理论到实践，全方位认识DNS（理论篇） | Just For Fun
+http://weibo.com/ttarticle/p/show?id=2309404065603504703859 | 我的技术十年
+http://mp.weixin.qq.com/s?__biz=MzI4NjYwMjcxOQ==&mid=2247483727&idx=1&sn=7e85e87fc292f9cb5ff3fc454635eb68&chksm=ebdb25ffdcacace9f252ccef7de0e3a8af38c513fda7f6c2718a951e1825420c478ec096fe7d#rd | Yahoo 开源其动态基础设施的持续交付构建系统 Screwdriver
+https://developers.google.cn/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=zh-cn | HTTP 缓存  |  Web  |  Google Developers
+http://blog.csdn.net/yeasy/article/details/52098902 | Docker 1.12 Swarm 模式剖析 - yeasy的专栏 - 博客频道 - CSDN.NET
+https://huangxiaohen2738.gitbooks.io/tornado-tcp-program/content/chapter2-2.html | ioloop的回调函数 · Tornado TCP Program
+https://realpython.com/blog/ | Real Python Blog - Real Python
+http://mp.weixin.qq.com/s/_UP9eGgSoJDhPcAEBplFyA | 京东MySQL数据库主从切换自动化
+https://testerhome.com/topics/6904?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 测试开发之路 (工具篇)--docker 1.12 的 swarm mode · TesterHome
+http://mp.weixin.qq.com/s?__biz=MzI1NDQ3MjQxNA==&mid=2247483931&idx=1&sn=6eda41aa81c1243422a603205d2fad22&chksm=e9c5fbaadeb272bc92537803c14a6f55e1170b1a3b8f60160f66417800c0ace960dfe192717a#rd | 数据库分库分表策略的具体实现方案
+http://www.infoq.com/cn/news/2017/01/Grumpy-Google-Go-Python | Grumpy：Google 用 Go 开发的 Python 运行时
+http://blog.jobbole.com/106093/ | 如果有人让你推荐编程技术书，请叫他看这个列表 - 文章 - 伯乐在线
+https://github.com/lijin-THU/notes-python?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | lijin-THU/notes-python: 中文 Python 笔记
+https://github.com/taizilongxu/interview_python?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | taizilongxu/interview_python: 关于Python的面试题
+http://manjusaka.itscoder.com/archives/ | Archive | Manjusaka
+http://www.10tiao.com/html/262/201611/2651372464/2.html | 我所不能理解的Python中的Asyncio模块 - Python程序员 | 十条
+https://github.com/danfengcao/binlog2sql/blob/master/example/mysql-flashback-priciple-and-practice.md?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | binlog2sql/mysql-flashback-priciple-and-practice.md at master · danfengcao/binlog2sql
+https://taozj.org/201701/linux-performance-basic.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Linux服务器的那些性能参数指标 | 桃子的博客铭
+http://python.jobbole.com/87202/ | Python并发编程之协程/异步IO - Python - 伯乐在线
+http://python.jobbole.com/87234/ | Python网络爬虫二三事 - Python - 伯乐在线
+http://oldboy.blog.51cto.com/2561410/1889346 | Nginx HTTPS功能部署实践 - 老男孩linux培训 - 51CTO技术博客
+https://blog.ansheng.me/article/python-full-stack-way/ | Python全栈之路系列文章
+https://segmentfault.com/a/1190000006158186 | MySQL大表优化方案 - 码农 - SegmentFault
+http://www.importnew.com/23001.html | 基于dropwizard/metrics ，kafka，zabbix构建应用统计数据收集展示系统 - ImportNew
+https://blog.tonyseek.com/post/the-context-mechanism-of-flask/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Flask 的 Context 机制
+http://weibo.com/ttarticle/p/show?id=2309404061635827381996 | 别了Amazon——一个工程师在Amazon两年的感悟
+http://redhatstackblog.redhat.com/2016/10/13/full-stack-automation-with-ansible-and-openstack/ | Full Stack Automation with Ansible and OpenStack – Red Hat Stack
+https://github.com/Meituan-Dianping/DBProxy/blob/master/doc/THEORY_PRACTICES.md | DBProxy/THEORY_PRACTICES.md at master · Meituan-Dianping/DBProxy
+https://segmentfault.com/a/1190000008044600 | NAT穿透介绍 - 残剑 - SegmentFault
+http://blog.jobbole.com/109594/ | 面试被问设计模式？不要怕看这里：工厂模式 - 文章 - 伯乐在线
+http://www.yunweipai.com/archives/10335.html | 五个9的可用度、秒级故障解决，探寻互联网金融应用之道 – 运维派
+http://www.yunweipai.com/archives/10490.html | 监控系统故障定位之事件关联分析的设计介绍 – 运维派
+http://www.yunweipai.com/archives/10501.html | 高性能高并发系统的稳定性保障 – 运维派
+http://www.yunweipai.com/archives/10065.html | 运维改革探索(一)：用多层级监控实现可视化运维 – 运维派
+http://www.yunweipai.com/archives/10176.html | 运维改革探索(二)：构建可视化分布式运维手段 – 运维派
+https://www.unixhot.com/article/60 | 如何不耍流氓的做运维之-SHELL脚本小技巧 - 运维社区
+https://www.zhihu.com/question/29163932 | 持续集成平台Jenkins的书籍或是学习资料？ - 知乎
+http://www.infoq.com/cn/articles/docker-network-and-pipework-open-source-explanation-practice | Docker网络详解及pipework源码解读与实践
+http://www.vaikan.com/bash-scripting/?f=http://blogread.cn/ | Bash脚本15分钟进阶教程 | 外刊IT评论
+http://mp.weixin.qq.com/s?__biz=MzAwMDU2ODU3MA==&mid=2247484156&idx=1&sn=16d900e542c11c85b96e6c92d7f0dfe0&chksm=9ae7bf69ad90367ff209a4d143ecb1d4b0962ef71655fabc863cda8a2e51e5f4dd2845faae7e&mpshare=1&scene=23&srcid=0106iynFnpCNQe9gm7HyIu41#rd | MySQL复制： Slave的异常恢复行为分析
+http://dockone.io/article/1988 | SRE系列教程 | 基于时间序列数据的监控实践 - DockOne.io
+http://gohom.win/2016/02/23/py-super/ | Python:super函数 | Hom
+http://gohom.win/pages/categories/ | 类别 | Hom
+https://comet-project.gitbooks.io/cto-tech-manual/content/chapter2/wuxinchun.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 教育场景高性能架构技术选型与实践 · 彗星计划：互联网CTO技术知识库
+https://taozj.org/201612/cmd-tools-sed-awk.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 文本处理利器sed与awk使用总结 | Nicol的博客铭
+
+https://www.douban.com/note/505009189/ | 零基础学习openstack【完整中级篇】及openstack资源汇总
+https://www.zhihu.com/question/29605242 | 如何从零开始学习OpenStack? - 知乎
+http://1.chaoxu.sinaapp.com/archives/1943 | 聊聊如何学习OpenStack | 徐超笔记
+https://www.zybuluo.com/qiezhian/note/45704 | 如何学习OpenStack - 作业部落 Cmd Markdown 编辑阅读器
+http://blog.csdn.net/crazystone86/article/details/14127227 | 如何学习OpenStack，如何成为OpenStack工程师？（转） - 虾悠悠的专栏 - 博客频道 - CSDN.NET
+http://tedhacker.top/2016/12/23/Mybatis%E4%BD%BF%E7%94%A8%E7%AE%80%E8%AE%B0/ | Mybatis使用简记 | Ted's Blog
+http://www.jianshu.com/p/e7bb97218946 | 知道这20个正则表达式，能让你少写1,000行代码 - 简书
+https://www.lagou.com/jobs/1907630.html?source=viewrec&i=position_rec-4 | 高级运维工程师招聘-七牛云招聘-拉勾网
+https://www.shiyanlou.com/questions/3674 | 常用的 Python 爬虫技巧总结 - 实验楼问答 - 实验楼
+https://www.shiyanlou.com/courses/481 | Python - 基于python的网络小爬虫 - 实验楼
+https://www.shiyanlou.com/courses/574 | Python - Python实现基于协程的异步爬虫 - 实验楼
+https://www.shiyanlou.com/courses/574/labs/1905/document | 线程池实现爬虫 - 实验楼
+http://www.bo56.com/%e8%b0%83%e8%af%95%e5%88%a9%e5%99%a8%e4%b9%8btcpdump/?f=http://blogread.cn/ | 调试利器之tcpdump详解 - 博学无忧
+http://www.infoq.com/cn/presentations/case-of-it-operation-analysis-and-log-search-analysis-engine | IT运维分析与日志搜索分析引擎案例分析
+http://kenby.iteye.com/blog/1159621 | Tornado源码分析之http服务器篇 - The time is passing - ITeye技术网站
+https://www.zhihu.com/question/22060497 | (22 条消息) 室内装修除甲醛的最好方法是什么？ - 知乎
+http://home.fang.com/zhishi/xian/15590821.htm | 地板革怎么铺 小编吐血整理铺地板革的方法大全-家居知识-搜房网家居装修
+http://www.jianshu.com/p/dbef01fc9e1c | 滚蛋吧！甲醛君——室内甲醛污染解决之道 - 简书
+http://blog.csdn.net/ieearth/article/details/52684770 | 【Bash百宝箱】shell内建命令之set、shopt - evo - 博客频道 - CSDN.NET
+https://www.kernel.org/doc/Documentation/memory-barriers.txt | https://www.kernel.org/doc/Documentation/memory-barriers.txt
+https://likebeta.gitbooks.io/twisted-intro-cn/content/zh/p01.html | Twisted 理论基础 · Twisted与异步编程入门
+http://littleosbook.github.io/ | The little book about OS development
+https://linux.cn/article-8065-1.html?utm_source=weibo&utm_medium=weibo | 在 Ubuntu 系统上使用 Samba4 来创建活动目录架构（一）-系统运维|Linux.中国-开源社区
+https://linux.cn/article-8067-1.html?utm_source=weibo&utm_medium=weibo | RHEL (Red Hat Enterprise Linux，红帽企业级 Linux) 7.3 安装指南-技术 ◆ 学习|Linux.中国-开源社区
+http://www.goalchina.net/football/shownews.php?id=51504 | 鲁能：召回郝伟有战略考量
+http://www.jdon.com/eda.html | 事件驱动架构 - 解道Jdon
+http://www.jianshu.com/p/ce95f6cb4591 | 服务器，并发，“事件驱动”的本质 - 简书
+https://zhuanlan.zhihu.com/p/24476917?refer=wxyyxc1992 | 2016-我的技术之路:编程知识体系结构 - 某熊的全栈之路 - 知乎专栏
+http://www.cnblogs.com/ziyunfei/p/4913758.html | Bash 为何要发明 shopt 命令 - 紫云飞 - 博客园
+https://github.com/wxyyxc1992/SpringMVC-Introduction-And-Best-Practices | wxyyxc1992/SpringMVC-Introduction-And-Best-Practices: SpringMVC 入门与最佳实践
+http://blog.jobbole.com/109088/ | 三十分钟学会SED - 文章 - 伯乐在线
+http://blog.jobbole.com/109089/ | 三十分钟学会AWK - 文章 - 伯乐在线
+http://jiadongkai-sina-com.iteye.com/blog/1277276 | python通信+多线程动手项目——多用户IM - - ITeye技术网站
+http://blog.csdn.net/dog250/article/details/53856198 | blog.csdn.net/dog250/article/details/53856198
+http://python.jobbole.com/87086/ | 异步任务神器 Celery 简明笔记 - Python - 伯乐在线
+http://liwei.life/2016/06/06/shell%e7%bc%96%e7%a8%8b%e4%b9%8b%e7%89%b9%e6%ae%8a%e7%ac%a6%e5%8f%b7/#comment-279 | SHELL编程之特殊符号 – 穷佐罗的Linux书
+https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653548153&idx=1&sn=d8276e0623e752eb1264cdc2a001ff48 | 腾讯TMQ团队移动App的网络优化：24小时流量优化到原来15%历程
+http://www.imooc.com/article/1261?from=itblog | 值得关注的10个Python语言博客_慕课手记
+http://demo.pythoner.com/itt2zh/index.html | 索引页 - Introduction to Tornado 中文翻译
+http://www.importnew.com/22779.html | Maven实战：pom.xml与settings.xml - ImportNew
+http://www.laruence.com/2016/12/18/3137.html | PHP的性能演进(从PHP5.0到PHP7.1的性能全评测) | 风雪之隅
+http://www.imooc.com/article/1131 | 70个经典的 Shell 脚本面试问题_慕课手记
+http://v.youku.com/v_show/id_XMzY0NjE0MjIw.html | How TCP IP Works—在线播放—优酷网，视频高清在线观看
+http://veithen.github.io/2013/11/18/iowait-linux.html | The precise meaning of I/O wait time in Linux
+http://www.cnblogs.com/vamei/ | Vamei - 博客园
+http://xiariboke.com/design/2534.html | JQuery实现滚动到页面底端时自动加载更多信息代码 | 夏日博客
+http://justcoding.iteye.com/blog/2108040 | jQuery插件实现网页底部自动加载-类似新浪微博 - Just Code - ITeye技术网站
+http://www.52jb.net/biancheng/5511.html | jquery实现页面滚动底部自动加载数据的方法_JavaScript_五二脚本
+http://dba10g.blog.51cto.com/764602/1879040?b2 | SpringMVC源码分析（5）剖析重要组件HandlerMapping - 简单 - 51CTO技术博客
+http://cuiqingcai.com/1052.html | Python爬虫学习系列教程 | 静觅
+http://mp.weixin.qq.com/s/O3fBaGd2QvSGNreLpUz1AQ | 理解Python并发编程一篇就够了|线程篇
+http://www.jianshu.com/p/874ff12a4c01 | 我是如何自学Android，资料分享（2015 版） - 简书
+http://blog.jobbole.com/108412/ | 用 C 编写的记事本 - 文章 - 伯乐在线
+http://mp.weixin.qq.com/s?__biz=MjM5NzAzMTY4NQ==&mid=2653929648&idx=1&sn=d7d8b2f24473ca941528a76f2128d1e2&chksm=bd3b5ada8a4cd3ccad223572c993f78f4712dbbea5fcee952b80b5bde073d111e62795c387c5&mpshare=1&scene=23&srcid=1205OUqFyicmqnS02heVmQ2i#rd | MySQL数据库InnoDB存储引擎Log漫游(2)
+https://stevenkobes.com/ctest | C Programming Puzzlers
+http://www.dongwm.com/archives/pythonjin-jie-bi-du-hui-zong/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | python进阶必读汇总 | 小明明s à domicile | Python之美
+http://python.jobbole.com/86861/ | 实时 Django 终于来了 —— Django Channels 入门指南 - Python - 伯乐在线
+https://my.oschina.net/leejun2005/blog/793916 | Linux Shell 从入门到删除根目录跑路指南 - leejun2005的个人页面 - 开源中国社区
+http://blog.jobbole.com/108191/ | 图解 Cookie - 文章 - 伯乐在线
+http://blog.tingyun.com/web/article/detail/1345 | 基于Python+Django的Kubernetes集群管理平台
+http://www.imooc.com/article/1809 | Python 程序员经常犯的 10 个错误_慕课手记
+http://www.jianshu.com/p/1730df498855 | IntelliJ IDEA spring mvc +mybatis 环境搭建服务器(中) - 简书
+http://www.importnew.com/22470.html | 聊聊并发-Java中的Copy-On-Write容器 - ImportNew
+http://www.jianshu.com/p/1c7c7d1bba33 | MyBatis完全使用指南 - 简书
+http://www.cnblogs.com/vamei/tag/Python/default.html?page=3 | Python - 标签 - Vamei - 博客园
+http://python.jobbole.com/82633/ | Python 爬虫的工具列表 - Python - 伯乐在线
+https://n8henrie.com/2013/11/use-chromes-cookies-for-easier-downloading-with-python-requests/ | Use Chrome’s Cookies for Easier Downloading with Python Requests
+http://huoding.com/2014/05/09/347?f=http://blogread.cn/ | 跟我学Rsyslog | 火丁笔记
+http://weibo.com/ttarticle/p/show?id=2309404045404739132047 | 给 Java 学习者的超全教程整理
+https://www.shiyanlou.com/questions/2816 | python 面向对象（进阶篇） - 实验楼问答 - 实验楼
+http://www.cnblogs.com/wupeiqi/default.html?page=5 | 随笔列表第5页 - 武沛齐 - 博客园
+http://www.bo56.com/%e5%bd%93cpu%e9%a3%99%e5%8d%87%e6%97%b6%ef%bc%8c%e6%89%be%e5%87%baphp%e4%b8%ad%e5%8f%af%e8%83%bd%e6%9c%89%e9%97%ae%e9%a2%98%e7%9a%84%e4%bb%a3%e7%a0%81%e8%a1%8c/?f=http://blogread.cn/ | 当cpu飙升时，找出php中可能有问题的代码行 - 博学无忧
+http://blog.jobbole.com/107984/ | 字符集和字符编码（Charset & Encoding） - 文章 - 伯乐在线
+
+http://blog.chinaunix.net/uid-20196318-id-4058561.html | 分布式文件系统FastDFS设计原理-zyd_cu-ChinaUnix博客
+http://haproxy.tech-notes.net/9-2-unix-socket-commands/ | Haproxy: Unix Socket commands
+https://course.tianmaying.com/spring-mvc | 打造功能完整的博客系统：Spring MVC实战入门 | 天码营 - 新一代技术学习服务平台
+http://ke.jikexueyuan.com/xilie/448?hmsr=weixin_0504 | SpringMVC 入门实战教程系列课程_IT职业在线教育平台_极客学院
+http://www.mybatis.org/spring/zh/ | mybatis-spring – MyBatis-Spring | 简介
+http://www.importnew.com/19933.html | Spring知识点提炼 - ImportNew
+http://www.importnew.com/20774.html | Spring MVC 实践 – Base - ImportNew
+http://docs.ocselected.org/openstack-manuals/juno/fuel-docs/monitoring-guide.html | 监控指南 — Mirantis OpenStack v6.1 | Documentation
+http://stackoverflow.com/questions/1184624/convert-form-data-to-javascript-object-with-jquery | json - Convert form data to JavaScript object with jQuery - Stack Overflow
+http://mp.weixin.qq.com/s?__biz=MzIyMDA1MzgyNw==&mid=2651968915&idx=1&sn=f16e9fca4a5683140ad138ec1b9bdf15&chksm=8c349dbfbb4314a9d6c45c984ee3478f004a06414d3162ace37ad0c78d3d8d226c739942fcbc&mpshare=1&scene=23&srcid=1123TVNIXCMTbp9vef7yBIQv#rd | Varnish从菜鸟到专家（一）
+https://www.v2ex.com/t/146080 | 腾讯的 GSLB 新思路——HttpDNS - V2EX
+http://mp.weixin.qq.com/s?__biz=MzA3ODgyNzcwMw==&mid=201837080&idx=1&sn=b2a152b84df1c7dbd294ea66037cf262&scene=2&from=timeline&isappinstalled=0#rd | 【鹅厂网事】全局精确流量调度新思路-HttpDNS服务详解
+http://www.ttlsa.com/web/httpdns-detailed-service/ | HttpDNS 服务详解 - 运维生存时间
+http://www.ruanyifeng.com/blog/2016/11/byte-order.html | 理解字节序 - 阮一峰的网络日志
+https://github.com/cundi/Mastering.Python.Design.Patterns | cundi/Mastering.Python.Design.Patterns: 《精通Python设计模式》2015年1月
+http://blog.jobbole.com/107888/ | 位运算符及其应用 - 文章 - 伯乐在线
+https://github.com/ychow/ionic-guide | ychow/ionic-guide: Ionic 中文指南
+http://mp.weixin.qq.com/s?__biz=MjM5MjMxMTMyOA==&mid=2649183874&idx=2&sn=e3a36df442e13bf1f19c1896c36fa38f&chksm=bebbc7cd89cc4edb420f96ddb5c5449b23ec2857bf0ca14f79ad9e96fb83cad9bd58db17bc5d&scene=0#wechat_redirect | 数据库系统概念笔记
+https://funhacks.net/2016/11/12/metaclass/ | Python: 陌生的 metaclass · FunHacks
+http://blog.csdn.net/quqi99/article/details/12030851 | 如何学习OpenStack与精通OpenStack好书推荐 ( by quqi99 ) - 技术并艺术着 - 博客频道 - CSDN.NET
+https://zhuanlan.zhihu.com/p/22275595?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 教你阅读Python开源项目代码 - Python之美 - 知乎专栏
+http://mp.weixin.qq.com/s?__biz=MzIzNjUxMzk2NQ==&mid=2247483968&idx=1&sn=fc9dfd261da9206271a557e113870196&chksm=e8d7fd82dfa074945c2e9fdcbc846802356c4597affe147fbb842a96a1171edff840dc08cd8f#rd | 网易即时通讯云平台99.99%可靠性的运维经验谈
+http://www.imooc.com/article/1893 | 详解Java集合框架_慕课手记
+http://www.infoq.com/cn/presentations/platform-architecture-and-combatof-zhihu-container-platform | 知乎万级规模容器平台架构和实战
+http://docs.openstack.org/mitaka/zh_CN/install-guide-rdo/neutron-next-steps.html | OpenStack Docs: 下一步
+http://2014.54chen.com/blog/2014/03/12/io-demystified/ | Io不再神秘 - 五四陈科学院
+https://www.syncfusion.com/resources/techportal/ebooks | Ebooks | Resources | Syncfusion
+http://linuxperf.com/?p=40 | disk 100% busy，谁造成的？ | Linux Performance
+http://python.jobbole.com/86808/ | 编写高效且优雅的 Python 代码（1） - Python - 伯乐在线
+http://blog.jobbole.com/107666/ | sudo 命令情景分析 - 文章 - 伯乐在线
+http://colobu.com/2016/11/11/microservices-anti-patterns-and-pitfalls/ | 微服务的反模式和陷阱 | 鸟窝
+http://blog.jobbole.com/86066/ | 简述负载均衡和CDN技术 - 文章 - 伯乐在线
+https://www.shiyanlou.com/questions/6393 | Web 开发必备指南 - 实验楼问答 - 实验楼
+http://docs.openstack.org/mitaka/install-guide-rdo/keystone-services.html | OpenStack Docs: Create the service entity and API endpoints
+http://www.ruanyifeng.com/blog/2016/11/javascript.html | JavaScript 全栈工程师培训教程 - 阮一峰的网络日志
+https://www.shiyanlou.com/questions/4530 | Python 中 import 的机制与实现 - 实验楼问答 - 实验楼
+http://int32bit.me/2016/10/03/%E9%85%8D%E7%BD%AE%E9%AB%98%E6%95%88%E7%A7%91%E5%AD%A6%E7%9A%84Linux%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/ | 配置高效科学Linux开发环境 - int32bit的博客 | int32bit Blog
+https://www.shiyanlou.com/questions/3161 | 初学者的编程自学指南 - 实验楼问答 - 实验楼
+http://element.eleme.io/#/guide/nav | Element
+http://egon09.blog.51cto.com/9161406/1845226 | OpenStack从入门到放弃 - 一个好人 - 51CTO技术博客
+https://fzninja.github.io/demo/hAdmin/ | hAdmin- 主页
+http://www.importnew.com/22294.html | 数据库相关中间件全家桶 - ImportNew
+http://mp.weixin.qq.com/s?src=3&timestamp=1478679449&ver=1&signature=UEXiiNm0vTJOTC5kioPFdGTL8zoa777Y5wfUZ3fVi*QTnoGxav96Em*KoqUNxjA1AJ444a9CSESEERswnZ8XjyJBvcQgoc4p7m2ZeXf-LaeoNQ2CaP9TkSwTVYRY*53y-Sa6LohxuSXmoZNh1JAXS2NWs7Qh*KwXY8CYLtw1kUQ= | SWARM大法好——Docker1.12 引擎使用体验【一】
+http://blog.jobbole.com/107592/ | 幽默讲解 linux 的 Socket IO 模型 - 文章 - 伯乐在线
+http://python.jobbole.com/86733/ | Socket 编程实战 - Python - 伯乐在线
+http://dockone.io/article/1518 | DockOne微信分享（六十七）：互联网场景下闪存优化测试和应用 - DockOne.io
+http://geek.csdn.net/news/detail/107064 | 坚持完成这套学习手册，你就可以去 Google 面试了 - 极客头条 - CSDN.NET
+http://linuxperf.com/?p=142 | /proc/meminfo之谜 | Linux Performance
+http://threezj.com/2016/06/25/Tomcat%20%E6%9E%B6%E6%9E%84%E6%8E%A2%E7%B4%A2/ | Tomcat 架构探索 | 一派胡言
+https://docs.docker.com/engine/userguide/networking/get-started-overlay/ | Get started with multi-host networking - Docker
+https://www.openstack.org/videos/video/kvm-and-qemu-internals-understanding-the-io-subsystem | KVM and QEMU Internals: Understanding the IO Subsystem | OpenStack Summit Videos
+https://www.shiyanlou.com/questions/4183 | java提高篇之抽象类与接口 - 实验楼问答 - 实验楼
+https://www.shiyanlou.com/questions/5660 | Java 编程要点之 I/O 流详解 - 实验楼问答 - 实验楼
+https://segmentfault.com/a/1190000007338373 | 三十分钟学会AWK - AICODE.CC - SegmentFault
+http://blog.jobbole.com/106818/ | 如何做到招聘要求中的「要有扎实的 Java 基础」 - 文章 - 伯乐在线
+http://blog.jobbole.com/99911/ | 如何准备阿里社招面试，顺谈 Java 程序员学习中各阶段的建议 - 文章 - 伯乐在线
+https://github.com/android-cn/blog/tree/master/java/dependency-injection | blog/java/dependency-injection at master · android-cn/blog
+http://www.jianshu.com/p/24820bf3df5c | 反射、注解与依赖注入总结 - 简书
+http://blog.jobbole.com/107231/ | 容器集群管理平台的比较 - 文章 - 伯乐在线
+http://dockone.io/article/133 | Docker终极指南 - DockOne.io
+https://yq.aliyun.com/articles/40494 | Docker学习路线图 (持续更新中)-博客-云栖社区-阿里云
+https://waylau.gitbooks.io/servlet-3-1-specification/content/ | 介紹 | Java Servlet 3.1 Specification《Java Servlet 3.1 规范》中文翻译及示例
+http://blog.jobbole.com/88301/ | 学习笔记：The Log（我所读过的最好的一篇分布式技术文章） - 文章 - 伯乐在线
+http://www.ideawu.net/blog/ | idea's blog - 高性能分布式 Web 和网络应用开发, 架构设计, 移动应用开发
+http://www.imooc.com/article/10307 | 书写高质量jQuery代码的12条经验_慕课手记
+https://www.ibm.com/developerworks/cn/java/j-lo-servlet/ | Servlet 工作原理解析
+http://www.ibm.com/developerworks/cn/education/java/j-intserv/j-intserv.html | Java Servlet 技术简介
+http://www.importnew.com/14621.html | Java Servlet完全教程 - ImportNew
+http://dockone.io/article/133 | Docker终极指南 - DockOne.io
+http://way4ever.com/?p=349 | 如何成为OpenStack工程师 | Way Forever
+http://www.imooc.com/article/1392 | 史上最全的SpringMVC学习笔记_慕课手记
+https://linesh.gitbooks.io/spring-mvc-documentation-linesh-translation/content/publish/21-2/the-dispatcher-servlet.html | DispatcherServlet · Spring MVC 4.2.4.RELEASE 中文文档
+https://my.oschina.net/gaussik/blog/385697 | 使用IntelliJ IDEA开发SpringMVC网站（一）开发环境 - God is a programmer! - 开源中国社区
+https://www.zhihu.com/question/33993035 | JAVA 学到什么水平就可以转战 Android 了？ - 知乎
+https://www.zhihu.com/question/21142149 | Java新手如何学习Spring、Struts、Hibernate三大框架？ - 知乎
+https://www.zhihu.com/question/19851109 | java学习路线 - 知乎
+https://www.zhihu.com/question/35436600 | java到底如何才能学的透彻？ - 知乎
+https://github.com/jobbole/awesome-java-cn | jobbole/awesome-java-cn: Java资源大全中文版，包括开发库、开发工具、网站、博客、微信、微博等，由伯乐在线持续更新。
+http://www.cnblogs.com/yuyijq/archive/2011/06/28/2091803.html | 做Java开发这一年 - 横刀天笑 - 博客园
+https://www.oschina.net/question/12_52027 | 初学 Java Web 开发，请远离各种框架，从 Servlet 开发 - 开源中国社区
+http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html | 22. Web MVC framework
+https://github.com/Tikitoo/blog/issues/16 | 在知乎中有人询问我Android 和Java EE 如何选择的回答。 · Issue #16 · Tikitoo/blog
+
+http://www.choudan.net/archives.html | 臭蛋
+http://www.importnew.com/15141.html | Spring MVC 入门示例讲解 - ImportNew
+http://www.cnblogs.com/sunniest/p/4555801.html | 史上最全最强SpringMVC详细示例实战教程 - Sunnier - 博客园
+http://www.cnblogs.com/xdp-gacl/category/574705.html | JavaWeb学习总结 - 随笔分类 - 孤傲苍狼 - 博客园
+http://www.cnblogs.com/yangyquin/p/5285272.html | Intellij Idea 创建Web项目入门（一） - 我是一名老菜鸟 - 博客园
+http://www.imooc.com/article/13407 | Struts2框架 的核心原理（图示浅析）_慕课手记
+https://geekflare.com/install-upgrade-php-fpm-5-6-on-centos-6/ | How to install/upgrade PHP-FPM 5.6 on CentOS 6.x
+http://kibana.logstash.es/content/logstash/plugins/codec/netflow.html | netflow · ELKstack 中文指南
+http://sports.163.com/16/1016/16/C3GT9F1K00058780.html | 郝海东转自己踢球视频:傻X脑残看看我怎么踢球_网易体育
+http://www.cnblogs.com/rollenholt/archive/2011/09/11/2173787.html | java中的IO整理 - Rollen Holt - 博客园
+http://www.cnblogs.com/oubo/archive/2012/01/06/2394638.html | Java IO流学习总结 - 残夜 - 博客园
+http://weibo.com/ttarticle/p/show?id=2309404030084196509579 | 在 2016 年学JavaScript是一种什么样的体验？
+http://geek.csdn.net/news/detail/107064 | 坚持完成这套学习手册，你就可以去 Google 面试了 - 极客头条 - CSDN.NET
+http://www.ithome.com/html/vr/263973.htm | 喜大奔普：VR游戏《夏日课堂》明年春季推出繁体中文版 - 夏日课堂,PS VR - IT之家
+http://renjian.163.com/16/1011/17/C346PEA7000181RK.html | 被资助长大的失足女孩_网易人间_网易新闻
+https://cn.udacity.com/courses/all | 优达学城 - 所有课程和纳米学位项目
+http://way4ever.com/?p=465 | 如何测试云硬盘 | Way Forever
+http://www.imooc.com/article/8431 | Java 类的方法总结（目前网上最完整10种方法总结梳理）_慕课手记
+https://www.shiyanlou.com/questions/2145 | 程序员必备：100本免费编程图书 - 实验楼问答 - 实验楼
+https://www.amazon.cn/gp/product/B016ZQP174/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B016ZQP174&linkCode=as2&tag=glowin-23 | O'Reilly精品图书系列共21册（《Javascript权威指南》、《机器学习：实用案例解析》、《编写可读代码的艺术》、《算法精解》等）-Kindle商店-亚马逊中国
+
+http://www.imooc.com/article/8431 | Java 类的方法总结（目前网上最完整10种方法总结梳理）_慕课手记
+https://segmentfault.com/a/1190000005744700 | Django 学习小组：博客开发实战第四周——标签云与文章归档 - Django学习小组 - SegmentFault
+http://www.it.com.cn/f/server/076/21/433995.htm | 深度剖析：CDN内容分发网络技术原理 [增值服务] IT.com.cn IT世界网-买家最多的IT网站
+http://www.ibm.com/developerworks/cn/linux/l-cn-sysadmin-tools1/ | 企业级 Linux 系统运维及工具应用精要 , 第 1 部分
+https://pythonguidecn.readthedocs.io/zh/latest/ | Python最佳实践指南！ — Python最佳实践指南
+http://www.cnblogs.com/LMySQL/default.html?page=1 | 文采飞扬 - 博客园
+http://docs.python-guide.org/en/latest/ | The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python
+http://blog.flow.ci/devops-guide/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 给 DevOps 初学者的入门指南
+http://mp.weixin.qq.com/s?__biz=MzIyNzQyNzgxNQ==&mid=2247483719&idx=1&sn=3985e62c03efadfd920cb68cab2bce2e&chksm=e86015cfdf179cd9fad5637d7bf15009325fc321ce3cc158fc1c29c56a68f0ecfdcad9ad7106&scene=2&srcid=0926aevpaPDoC0j1FfbGZUkq&from=timeline&isappinstalled=0#wechat_redirect | 运维=平台+数据
+http://www.tecmint.com/install-elasticsearch-logstash-and-kibana-elk-stack-on-centos-rhel-7/ | How To Install Elasticsearch, Logstash, and Kibana (ELK Stack) on CentOS/RHEL 7
+http://mp.weixin.qq.com/s?__biz=MzA3ODgyNzcwMw==&mid=2649021292&idx=1&sn=841d6b469374c201ddcaee578e5593c7&scene=2&srcid=0811DkSoO1e7KTj05EIMxlx2&from=timeline&isappinstalled=0#wechat_redirect | 【鹅厂网事】服务器硬盘故障预测实践
+http://python.jobbole.com/86481/ | Python 3.5 协程究竟是个啥 - Python - 伯乐在线
+http://storysky.blog.51cto.com/628458/1158707 | 用Kibana和logstash快速搭建实时日志查询、收集与分析系统 - story的天空 - 51CTO技术博客
+http://zcfy.cc/article/what-makes-a-good-developer-great-1316.html | 是什么使一名好程序员变得伟大（by 十年踪迹） - 众成翻译
+http://weibo.com/ttarticle/p/show?id=2309614022891225170082 | 码农的楷模！AV女优樱由罗拍片中途竟写代码
+http://python.jobbole.com/86482/ | sqlalchemy学习笔记 - Python - 伯乐在线
+http://koumm.blog.51cto.com/703525/1289627 | kvm虚拟化学习笔记(二)之linux kvm虚拟机安装 - koumm的linux技术博客 - 51CTO技术博客
+http://blog.chinaunix.net/uid-18824385-id-107165.html | （zz）Linux-网桥原理分析（一）-yinguochun1234-ChinaUnix博客
+https://www.ibm.com/developerworks/cn/linux/1310_xiawc_networkdevice/ | Linux 上的基础网络设备详解
+http://blog.jobbole.com/105933/ | Linux下的静态库、动态库和动态加载库 - 文章 - 伯乐在线
+https://access.redhat.com/documentation/en/red-hat-enterprise-linux/7/?version=7 | Product Documentation for Red Hat Enterprise Linux - Red Hat Customer Portal
+http://media.weibo.cn/article?id=2309404021915575570519&jumpfrom=weibocom&sudaref=weibo.com | 侠女（剧情非常精彩）
+http://docs.openstack.org/admin-guide/common/get-started-with-openstack.html | OpenStack Docs: Get started with OpenStack
+http://www.isjian.com/linux/automatic-operations-cobbler-system/ | 自动化运维之cobbler批量部署服务器系统 | opengers
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/chap-Managing_Services_with_systemd.html | Chapter 8. Managing Services with systemd
+http://linuxnote.blog.51cto.com/9876511/1825533 | GlusterFS架构与维护 - 生命不息，奋斗不止！ - 51CTO技术博客
+http://gluster.readthedocs.io/en/latest/Administrator%20Guide/ | Index - Gluster Docs
+http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650994146&idx=1&sn=f6b0987a06831805b4c343c417121827 | 如何用十条命令在一分钟内检查Linux服务器性能
+http://python.jobbole.com/86420/ | 支付宝即时到帐接口的python实现，示例采用django框架 - Python - 伯乐在线
+https://blog.bigdinosaur.org/running-bind9-and-isc-dhcp/ | BigDinosaur Blog
+https://access.redhat.com/documentation/en/red-hat-enterprise-linux/?version=7 | Product Documentation for Red Hat Enterprise Linux - Red Hat Customer Portal
+https://segmentfault.com/a/1190000006885193 | fir.im Weekly - 从零开始，搭建理想的直播平台 - firim - SegmentFault
+https://github.com/sergevs/ansible-openstack | sergevs/ansible-openstack: Openstack made easy
+http://blog.jobbole.com/105735/ | 跟我一起写shell补全脚本（Zsh篇） - 文章 - 伯乐在线
+https://linux.cn/article-7765-1.html?utm_source=weibo&utm_medium=weibo | 从零构建一个简单的 Python 框架-软件开发|Linux.中国-开源社区
+
+http://www.cnblogs.com/feixuelove1009/p/5683159.html | Python之线程、进程和协程 - 银河系1234 - 博客园
+http://blog.jobbole.com/49762/ | 有了这个列表，程序员不愁没练手的小项目了 - 文章 - 伯乐在线
+http://blog.jobbole.com/105537/ | VFS文件系统结构分析 - 文章 - 伯乐在线
+https://yuez.me/python-zhong-de-guan-jian-zi-with-xiang-jie/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Python 中的关键字with详解 - 乐正
+http://blog.csdn.net/liuaigui | 刘爱贵的专栏 - 博客频道 - CSDN.NET
+https://wiki.linuxfoundation.org/start | start [Linux Foundation Wiki]
+http://www.tutorialspoint.com/sed/sed_workflow.htm | Stream Editor - Workflow
+http://itnihao.blog.51cto.com/1741976/1311506 | 开源web终端ssh解决方案-gateone简介 - itnihao的运维技术博客 - 51CTO技术博客
+https://github.com/MorningSong/opsSAM | MorningSong/opsSAM: opsSAM运维平台 (基于saltstack、cobbler和zabbix接口的集成管理)
+http://www.ttlsa.com/docs/awk/ | Awk学习笔记
+http://blog.csdn.net/wulantian/article/details/42418231 | kerberos认证原理---讲的非常细致，易懂 - wulantian的专栏 - 博客频道 - CSDN.NET
+https://wiki.gentoo.org/wiki/Centralized_authentication_using_OpenLDAP/zh-cn | 使用OpenLDAP集中式认证 - Gentoo Wiki
+http://liuqunying.blog.51cto.com/3984207/1416995 | 基于openldap+Kerberos+google authenticator动态口令实现的运维跳板机 - 运维者说：从菜鸟到老鸟 - 51CTO技术博客
+http://liuqunying.blog.51cto.com/3984207/1383693 | Direct-IO Native(原生) PCIe SSD 存储方案 - 运维者说：从菜鸟到老鸟 - 51CTO技术博客
+http://liuqunying.blog.51cto.com/3984207/1406952 | nginx规则：自动降级，手机用户访问跳转手机版与PC版页面 - 运维者说：从菜鸟到老鸟 - 51CTO技术博客
+http://liuqunying.blog.51cto.com/3984207/1734382 | 业务数据库开发上线流程v1.0 - 运维者说：从菜鸟到老鸟 - 51CTO技术博客
+http://liuqunying.blog.51cto.com/3984207/1734383 | XXMySQL数据库运维变更流程 - 运维者说：从菜鸟到老鸟 - 51CTO技术博客
+http://www.tutorialspoint.com/index.htm | Tutorials for SAP PM, SAPUI5, Cognos, Internet of Things, Rural Marketing, Trampolining, Golf, CakePHP, SAP EWM, Web Dynpro, Angular2, Framework7, Arduino, CherryPy, Firebase,SAP C4C, SAP Dashboard, SAP PI, ExpressJS, Design Thinking, Internet Security, PyGTK, Apache Drill, Excel Charts, Elastic Search, Computer Security, Extreme Programming, Behavior Driven Development, Conversion Rate Optimization, SAP Basis, Business Law, Kanban, Erlang, SAP Payroll, ASP.Net WP, PouchDB, MFC, SAP HR, Yii, Clojure, Aurelia, CoffeeScript, CPanel, Laravel, SAP Webi, MS SQL Server, pinterest, Indian Polity, Teradata, Windows10
+http://www.tutorialspoint.com/wxpython/wxpython_quick_guide.htm | wxPython Quick Guide
+http://www.qschou.com/page/pcHelp/detail/170 | 帮助中心 - 轻松筹
+https://www.unixhot.com/article/35 | Zabbix 2.2 LTS升级到Zabbix 3.0 LTS - 运维社区
+https://cobbler.github.io/manuals/2.6.0/ | Cobbler - 2.6.0 Manual
+https://www.unixhot.com/ | 运维社区
+https://www.unixhot.com/article/29 | 运维工程师如何-快速-有效的学习好Python-并开发出运维平台-口水篇 - 运维社区
+http://jwh5566.blog.51cto.com/7394620/1760789 | Python 调用cobbler API 学习笔记 - Linux is belong to you - 51CTO技术博客
+http://www.linuxeden.com/html/linuxprobe/2016/09/167860.html | 太神奇，Linux中的虚拟网络_Linux伊甸园开源社区-24小时滚动更新开源资讯，全年无休！
+https://github.com/xufei/blog/issues | Issues · xufei/blog
+http://coolshell.cn/articles/4102.html | 如何学好C语言 | 酷 壳 - CoolShell.cn
+http://blogread.cn/it/article/6074?f=wb | 10个超棒jQuery表单操作代码片段 -- JavaScript -- IT技术博客大学习 -- 共学习 共进步！
+http://blogread.cn/it/article/1106?f=sa | Web表单设计之注册表单 -- 用户研究 -- IT技术博客大学习 -- 共学习 共进步！
+http://keenthemes.com/preview/metronic/ | Metronic | #1 Selling Ultimate Bootstrap Admin Dashboard Theme
+http://www.tutorialspoint.com/cprogramming/c_pointers.htm | Pointers in C
+http://www.zhihu.com/question/22464568 | 还不想先花 99$ 注册 Apple 开发者账号，怎么才能在真机上测试呢？ - iOS 开发 - 知乎
+https://www.zhihu.com/question/20125963 | 为什么说指针是 C 语言的精髓？ - 编程语言 - 知乎
+http://blog.jobbole.com/102052/ | 解读 C 语言中的指针 - 文章 - 伯乐在线
+http://blog.csdn.net/wenqian1991/article/details/50528421 | 详解C指针 - wenqian 'blog - 博客频道 - CSDN.NET
+http://mp.weixin.qq.com/s?__biz=MjM5ODc5ODgyMw==&mid=2653574477&idx=1&sn=46da525717fdafdd6221155444081c02&scene=0#wechat_redirect | 又拍云叶靖：基于ngx_lua的动态服务路由方案 | 又拍云Open Talk No.24
+http://blog.jobbole.com/104898/ | URL 重写新手指南 - 文章 - 伯乐在线
+https://wizardforcel.gitbooks.io/lcthw/content/ex9.html | 练习9：数组和字符串 · 笨办法学C
+http://www.jianshu.com/p/ffb4f35845ba | 如何零基础学习ios开发 - 简书
+http://112.124.19.205:8080/zabbix.php?sid=9b8c3b77ef84e394 | zabbix zatree
+https://github.com/qinjx/30min_guides | qinjx/30min_guides: 覃健祥的学习笔记，各种几十分钟入门的文档
+https://www.zhihu.com/question/20264108 | iOS 开发怎么入门？ - 知乎
+https://github.com/eseedo/kidscoding | eseedo/kidscoding: iOS7初学者入门
+https://developer.mozilla.org/zh-CN/docs/WebSockets/Writing_WebSocket_client_applications | 编写 WebSocket 客户端程序 - WebSockets | MDN
+http://javascript.ruanyifeng.com/htmlapi/websocket.html | WebSocket -- JavaScript 标准参考教程（alpha）
+http://www.xyhtml5.com/websocket-javascript-example.html | WebSocket的JavaScript例子 - Javascript - 炫意HTML5
+http://www.runoob.com/ios/ios-action-outlet.html | iOS操作（action）和输出口（Outlet） | 菜鸟教程
+http://wiki.jikexueyuan.com/project/programming-with-objective-c/defining-classes.html | 定义类 - Defining Classes - Programming with Objective-C - 极客学院Wiki
+
+https://www.zhihu.com/question/20264108 | iOS 开发怎么入门？ - 知乎
+http://mp.weixin.qq.com/s?__biz=MzAxOTAzMDEwMA==&mid=2652500568&idx=1&sn=4b5ec928edb1e063f5aaa2dfcaddb86a&scene=1&srcid=0830SMhls0wQQktEajXtWVdV#rd | 使用 firewalld 构建 Linux 动态防火墙
+https://segmentfault.com/a/1190000006731433 | 前端是有多难？ - AnnatarHe - SegmentFault
+http://ju.outofmemory.cn/entry/105407 | 从几个问题开始理解CFS调度器 - 为程序员服务
+http://mp.weixin.qq.com/s?__biz=MzIwMjE5MDU4OA==&mid=2653120306&idx=1&sn=f32c3a82dc70307f947936eedafcd36e#wechat_redirect | 章亦春（agentzh）谈ngx_lua之来龙去脉
+http://mogu.io/159-159 | Linux内核分析： OOM杀掉nginx后导致的系统hang问题 - 蘑菇街技术博客
+http://mogu.io/156-156 | Linux内核分析：页回收导致的cpu load瞬间飙高的问题分析与思考 - 蘑菇街技术博客
+
+http://dbaplus.cn/news-21-632-1.html | 抵御百万级在线用户强压，服务器性能测试就该这么做！ - 其他 - DBAplus社群——围绕数据库、大数据、PaaS云，运维圈最专注围绕“数据”的学习交流和专业社群
+http://python.jobbole.com/85231/ | 很全的 Python 面试题 - Python - 伯乐在线
+https://linux.cn/article-7715-1.html?utm_source=weibo&utm_medium=weibo | 给学习 OpenStack 架构的新手入门指南-观点 ◆ 热议|Linux.中国-开源社区
+http://mp.weixin.qq.com/s?__biz=MzAxOTAzMDEwMA==&mid=2652500547&idx=1&sn=ab3d38a83ccc26bfe8fb46ff60834002&scene=1&srcid=0825N0WrbfDHlPLvcAejviyL#rd | 阅读量2000+的云技术干货@云技术实践
+
+https://github.com/kaiye/kaiye.github.com/issues/14 | Visual Studio Code 配置指南 · Issue #14 · kaiye/kaiye.github.com
+http://geek.csdn.net/news/detail/96883 | 来吧 主流编程语言图谱+知识库都在这了 - 极客头条 - CSDN.NET
+https://flask-debugtoolbar.readthedocs.io/en/latest/ | Flask-DebugToolbar — Flask-DebugToolbar 0.10.0 documentation
+https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#lr=lang_zh-CN%7Clang_zh-TW&safe=strict&tbs=lr:lang_1zh-CN%7Clang_1zh-TW&q=bootstrap+modal+ajax+form+ | bootstrap modal ajax form - Google 搜索
+http://kechengpuzi.com/q/s21521374 | jquery - bootstrap's modal ajaxform submit variables and image_KECHENGPUZI_课程铺子
+http://blog.csdn.net/huileiforever/article/details/12163385 | jQuery中$.get、$.post、$.getJSON、$.ajax 方法详解 - dxh_0829的专栏 - 博客频道 - CSDN.NET
+
+http://www.cnblogs.com/qleelulu/archive/2008/04/21/1163021.html | jQuery Ajax 全解析 - Q.Lee.lulu - 博客园
+http://www.jstips.co/zh_CN/ | JS Tips – A JS tip per day!
+https://segmentfault.com/a/1190000006053917?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 《JavaScript 闯关记》 - stone's blog - SegmentFault
+http://date.jobbole.com/ | 面向对象 - 伯乐在线
+https://rj03hou.github.io/ | 曾经的阿飞的技术点滴
+http://blog.jobbole.com/88022/ | 最牛B的编码套路 - 文章 - 伯乐在线
+file:///D:/Books/jquery-validation-master/jquery-validation-master/demo/index.html | jQuery validation plug-in - main demo
+https://github.com/xinghalo/JQuery-Steps/blob/master/index.html | JQuery-Steps/index.html at master · xinghalo/JQuery-Steps
+
+http://www.jquery-steps.com/Examples#basic-form | Examples - jQuery Steps
+https://ipfans.github.io/2015/10/coroutines-with-async-and-await-syntax-chinese/ | PEP 0492 Coroutines with async and await syntax 中文翻译 – ipfans's Blog
+https://vvl.me/2016/03/python-coroutines/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Python之asyncio | 光阴的故事 | Valar Morghulis
+http://blog.jobbole.com/21351/ | 深刻理解Python中的元类(metaclass) - 文章 - 伯乐在线
+http://python.jobbole.com/86068/ | 浅析Python装饰器 - Python - 伯乐在线
+http://blog.rainy.im/2016/04/07/python-thread-and-coroutine/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Python 线程与协程 - Yushneng
+http://www.letiantian.me/2015-09-10-understand-python-wsgi/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 理解Python WSGI | 樂天笔记
+http://www.jianshu.com/p/75b4d95954de?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Python元类再谈 - 简书
+https://github.com/rainyear/pytips?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | rainyear/pytips: Useful Python tips!
+http://midday.me/article/931a0e32daf544f4affd4021fc74ec24?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 细说 Python logging
+http://python3porting.com/bookindex.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Supporting Python 3 — Supporting Python 3 - The Book Site
+http://www.bjhee.com/tag/flask/page/3 | Flask – 第3页 – 思诚之道
+http://dongweiming.github.io/ | 小明明s Github
+https://segmentfault.com/a/1190000003962806 | Vim与Python真乃天作之合：打造强大的Python开发环境 - 编程派 | Coding Python - SegmentFault
+http://www.importnew.com/21037.html | 深入理解乐观锁与悲观锁 - ImportNew
+http://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=403582309&idx=1&sn=80c006f4e84a8af35dc8e9654f018ace&3rd=MzA3MDU4NTYzMw==&scene=6#rd | 架构师需要了解的Paxos原理、历程及实战
+https://haoel.github.io/ | Haoel.GitHub.io
+https://segmentfault.com/a/1190000003962806 | Vim与Python真乃天作之合：打造强大的Python开发环境 - 编程派 | Coding Python - SegmentFault
+http://www.jianshu.com/p/e9bb36a5d63f | 整理的一些Python学习资料 - 简书
+https://segmentfault.com/a/1190000006095987 | 从零开始搭建论坛（一）：Web服务器与Web框架 - Just For Fun - SegmentFault
+http://kernel.meizu.com/linux-signal.html | Linux Signal - 魅族内核团队
+http://xlambda.com/gevent-tutorial/ | Gevent指南
+https://speakerdeck.com/mitsuhiko/advanced-flask-patterns | Advanced Flask Patterns // Speaker Deck
+http://mousehouse.applinzi.com/article/7?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Mouse
+https://blog.tonyseek.com/post/the-context-mechanism-of-flask/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Flask 的 Context 机制
+http://mp.weixin.qq.com/s?__biz=MzA3MzYwNjQ3NA==&mid=2651296935&idx=1&sn=14ba5d60764be3dd5f3123c625f89c38&scene=0#wechat_redirect | 京东 MySQL 监控之 Zabbix 优化、自动化
+http://liyumeng.me/detail/3 | WebSocket Server 的Python实现
+http://yoyzhou.github.io/blog/2013/02/28/python-threads-synchronization-locks/ | Python线程同步机制: Locks, RLocks, Semaphores, Conditions, Events和Queues - Zhou's Blog
+http://dbaplus.cn/news-11-558-1.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 优酷土豆资深工程师：MySQL高可用之MaxScale与MHA - MySQL - DBAplus社群——围绕数据库、大数据、PaaS云，运维圈最专注围绕“数据”的学习交流和专业社群
+http://weibo.com/ttarticle/p/show?id=2309404003601247768860 | 实战案例！腾讯电脑管家小火箭V2.0项目总结
+http://liwei.life/ | 穷佐罗的Linux书 – Poor Zorro's Linux Book
+http://blog.jobbole.com/103995/ | 四种框架分别实现百万websocket常连接的服务器 - 文章 - 伯乐在线
+http://2014.54chen.com/blog/2016/07/29/mi/ | 小米大树part1:基础架构之痛 - 五四陈科学院
+http://ourmysql.com/archives/1206?f=wb | MySQL slave error 1677 | OurMySQL
+http://calvin1978.blogcn.com/articles/dstat.html | 从dstat理解Linux性能监控体系 | 花钱的年华
+http://python.jobbole.com/15005/ | 趣文：Python程序员的进化史 - Python - 伯乐在线
+http://www.xiaozhou.net/getting-started-with-gitlab-ci-2016-05-11.html | GitLab之持续集成实践 | iTimothy
+https://github.com/the5fire/backbonejs-learning-note | the5fire/backbonejs-learning-note: backbonejs学习笔记更新版，使用backbone1.1.0
+http://blog.jobbole.com/103897/ | Linux sed命令详解 - 文章 - 伯乐在线
+http://zh.snipaste.com/ | Snipaste
+http://www.dear-shen.com/2015/12/29/flask-socketio%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3/ | flask-socketio中文文档 - Dear-Shen
+http://mp.weixin.qq.com/s?__biz=MjM5NzAzMTY4NQ==&mid=2653928823&idx=2&sn=fbcd61074ce609401bbe4abdbc427ce9&scene=23&srcid=0727BOsc9WNiSGoDjb0Tz8dS#rd | 《Practice of Spider in Tencent Games》by腾讯游戏DBA
+http://python.jobbole.com/85852/ | Python 黑魔法之 Encoding & Decoding - Python - 伯乐在线
+https://ss-link.com/ | SS-Link专业提供Shadowsocks账号(SS账号),仅需7元/月
+http://blog.fens.me/nodejs-socketio-chat/ | Socket.io在线聊天室 | 粉丝日志
+http://www.linuxeden.com/html/news/20160725/167234.html | 浅谈程序员的英语学习_Linux伊甸园开源社区-24小时滚动更新开源资讯，全年无休！
+http://reader.s-reader.com/article/72/3225849.html?l=7fe2a5c2d36d636ef8686cf4ca157efa&ft_size=&site_id=1780 | 战斗青年养成记: 帝吧远征风云
+http://www.pythondoc.com/flask-mega-tutorial/database.html | 数据库 — flask mega-tutorial 1.0 documentation
+http://www.cnblogs.com/Wxtrkbc/category/821929.html | Python全栈开发 - 随笔分类 - 赤木晴子梦 - 博客园
+http://www.thecompletelistoffeatures.com/ | Complete list of new features in MySQL 5.7
+https://leeon.gitbooks.io/devtools/content/index.html | 介紹 | Chrome DevTools中文手册
+http://mp.weixin.qq.com/s?__biz=MzAxOTAzMDEwMA==&mid=2652500303&idx=3&sn=9e9676a7345858a3a8006560c2dd5b95&scene=23&srcid=07218Y4qqxsnXw9S1ZWE0Fsl#rd | 整理分享：65个面试回答技巧
+http://top.jobbole.com/35314/ | PHP 、Python 等网站应用惊爆远程代理漏洞：httpoxy - 资讯 - 伯乐在线
+http://mp.weixin.qq.com/s?__biz=MzA5ODM5MDU3MA==&mid=2650861828&idx=1&sn=8b98c10c3e6268a5f8ffa92a5ef85c0f&scene=0#wechat_redirect | 数据库设计：存储过程
+http://dbaplus.cn/news-21-518-1.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 搜狐畅游高级DBA：Data Guard运维中的实战经验和技巧 - 其他 - DBAplus社群——围绕数据库、大数据、PaaS云，运维圈最专注围绕“数据”的学习交流和专业社群
+https://github.com/matthew-sun/blog/issues/21?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | WebIM技术---编写前端WebSocket组件 · Issue #21 · matthew-sun/blog
+http://zh-google-styleguide.readthedocs.io/en/latest/contents/ | 内容目录 — Google 开源项目风格指南
+http://python.jobbole.com/85702/ | Python 工匠：善用变量来改善代码质量 - Python - 伯乐在线
+http://coding.imooc.com/ | 实战课程_慕课网
+http://python.jobbole.com/85685/ | 你真的理解Python中MRO算法吗？ - Python - 伯乐在线
+
+http://blog.jobbole.com/103511/ | Linux 系统结构详解 - 文章 - 伯乐在线
+http://pyzh.readthedocs.io/en/latest/index.html | PyZh — 一起写Python文章，一起看Python文章
+http://bbs.hupu.com/16766164.html | 【JRs字幕】闷骚之王！邓肯10大搞笑广告，暴打霍华德模型表情亮了！ - 湿乎乎的话题 - 虎扑篮球论坛
+http://www.imooc.com/article/10391 | 改善你的jQuery的25个步骤 千倍级效率提升_慕课手记
+
+http://weibo.com/ttarticle/p/show?id=2309403996495790637841 | ping 丢包或不通时链路测试说明
+http://blog.jobbole.com/103442/ | Linux 多线程编程（不限Linux） - 文章 - 伯乐在线
+http://www.imooc.com/article/1128 | 程序员学习编程需要攻克的8个障碍_慕课手记
+
+http://blog.guoyb.com/2016/07/03/python-coroutine/ | Python协程：从yield/send到async/await | 一根笨茄子
+https://thedevopsfactory.com/gameboard | The DevOps Factory
+https://lihz1990.gitbooks.io/transoflptg/content/ | 序 · Linux性能调优指南
+http://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651660753&idx=1&sn=c922f88aacd9d409f229ca03a6530dbc#rd | 实战：基于Python构建运维自动化平台
+http://blog.xiayf.cn/ | 黑·白
+http://weibo.com/ttarticle/p/show?id=2309403994370666793407 | 产品经理是条狗（零~四）
+https://www.zhihu.com/question/24526559/answer/109769563 | 用python进行数据分析，不懂python，求合适的python书籍或资料推荐？ - 杜客的回答 - 知乎
+https://www.zhihu.com/question/20769050/answer/85814007 | 如何评价电影《西游·降魔篇》？ - 罗罔极的回答 - 知乎
+http://www.ichunqiu.com/newRelease/darrPath/53 | 小白入门兴趣团_信息安全小白入门基础课程_i春秋学院_培育信息时代的安全感
+http://www.cnblogs.com/TankXiao/archive/2012/02/13/2342672.html | HTTP协议详解 - 小坦克 - 博客园
+https://git-scm.com/book/zh/v2 | Git - Book
+https://github.com/digitalocean/netbox/blob/develop/docs/getting-started-docker.md | netbox/getting-started-docker.md at develop · digitalocean/netbox
+http://weibo.com/ttarticle/p/show?id=2309403992048079404112 | #金波猝死#伊文又名肥刀，真名金波，一个媒体人，十年天涯路
+http://www.imooc.com/article/1962 | 28岁，零基础，我是如何学习 iOS 开发的_慕课手记
+http://flask-sqlalchemy.pocoo.org/2.1/api/ | API — Flask-SQLAlchemy Documentation (2.1)
+http://www.pythondoc.com/exploreflask/forms.html | 处理表单 — Explore Flask 1.0 documentation
+
+https://marklodato.github.io/visual-git-guide/index-zh-cn.html | 图解Git
+http://mp.weixin.qq.com/s?__biz=MjM5NzAzMTY4NQ==&mid=2653928641&idx=1&sn=8de984ae7892bb84ce0f7312ba0f7ca5&scene=23&srcid=06229IEEIBPswt5ObQ9FYp4e#rd | ACMUG第三次技术沙龙北京站·6月18活动总结（附ppt下载链接）
+http://blog.arganzheng.me/posts/mysql-ha-solution.html | MySQL高可用性方案
+https://github.com/ovaistariq/mha-helper | ovaistariq/mha-helper: MHA helper (mha-helper) is a set of helper scripts that supplement in doing proper failover using MHA (https://code.google.com/p/mysql-master-ha/).
+http://datum.readthedocs.io/en/latest/201308/mha.html | mysql-master-ha — essay 0.0.1 documentation
+
+https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/content/6.html | 1.6 基本设置 | 大学霸 Kali Linux 安全渗透教程
+http://mp.weixin.qq.com/s?__biz=MzA3OTgyMDcwNg==&mid=2650625458&idx=1&sn=002aab931a40e0e24be5295960eebef2&scene=0 | History（历史）命令用法 15 例
+http://www.cnblogs.com/willian/p/3558180.html | Bootstrap3.0 栅格系统背后的精妙魔法(Bootstrap3.0的栅格布局系统实现原理) - 池中物willian - 博客园
+https://www.thomas-krenn.com/en/wiki/Category:Linux | Category:Linux - Thomas-Krenn-Wiki
+http://www.yunweipai.com/archives/7331.html | 机房技术处理（节能、防火、防尘、防静电、防水、防鼠虫） – 运维派
+http://www.yunweipai.com/archives/7684.html | 复杂运维场景下，如何实现分钟级的故障根因定位 – 运维派
+http://www.yunweipai.com/archives/6989.html | 如何提高Linux下块设备IO的整体性能？ – 运维派
+https://geekpeek.net/linux-cluster-corosync-pacemaker/ | Linux Cluster Part 1 - Install Corosync and Pacemaker on CentOS 6 - GeekPeek.Net
+http://clusterlabs.org/quickstart-redhat-6.html | Cluster Labs - The Home of Pacemaker
+http://cppking.blog.51cto.com/2086230/1301839 | pcs与crmsh命令比较 - 拥抱明天 - 51CTO技术博客
+http://blog.jobbole.com/101476/ | 聊聊 tcpdump 与 Wireshark 抓包分析 - 文章 - 伯乐在线
+https://yq.aliyun.com/articles/54411?spm=5176.100239.bloglist.15.qs2ajh | 蚂蚁金服技术专家总结：性能优化的常见招式-博客-云栖社区-阿里云
+https://www.google.com/search?q=drbd&lr=lang_zh-CN%7Clang_zh-TW&safe=strict&biw=1600&bih=809&tbs=lr:lang_1zh-CN%7Clang_1zh-TW&ei=hNRcV7qlMYiojwPLg7LwCw&start=40&sa=N | drbd - Google 搜索
+http://502245466.blog.51cto.com/7559397/1298945 | DRBD安装配置、工作原理及故障恢复 - ALLEN - 51CTO技术博客
+http://liaoph.com/corosync-drbd/ | 使用 corosync + drbd 构建高可用 MySQL 集群
+http://blog.sae.sina.com.cn/archives/3609 | DRBD使用gfs2,cman实现双主分布式文件存储方案 | Sina App Engine Blog
+http://www.z-dig.com/drbd-heartbeat-for-nfs-high-availability.html | DRBD + Heartbeat 实现 NFS 高可用 - Dig All Possible
+https://yq.aliyun.com/articles/38596 | MySQL高可用性之MySQL+DRBD+Heartbeat-博客-云栖社区-阿里云
+
+https://www.drbd.org/en/doc/users-guide-84/s-split-brain-notification-and-recovery | 2.9. Split brain notification and automatic recovery - DRBD Users Guide (8.4)
+http://python.jobbole.com/85310/ | python中的魔术方法__ - Python - 伯乐在线
+
+http://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651659767&idx=1&sn=3c515cb32bcbcafe16c749024d1545ef&scene=0#wechat_redirect | 运维利器：万能的 strace
+http://blog.jobbole.com/101619/ | Linux 信号应用之黑匣子程序设计 - 文章 - 伯乐在线
+
+http://python.jobbole.com/85297/ | 一些实用的 python 小建议 - Python - 伯乐在线
+http://weibo.com/ttarticle/p/show?id=2309403948901471268848 | 微博数据库那些事儿：3个变迁阶段背后的设计思想
+https://www.evernote.com/shard/s4/sh/380dc785-183f-45ad-aafb-55ee41edab09/1a36f7cfa824a9ba | SLA, SLO, SLI
+http://mp.weixin.qq.com/s?__biz=MzAwNzU3NzQ0MA==&mid=2652088200&idx=1&sn=db9aa742a0bae76ed70e601e29d41a3e&scene=0#wechat_redirect | 当Raid2.0遇上全固态存储
+http://mp.weixin.qq.com/s?__biz=MzAwNzU3NzQ0MA==&mid=208602040&idx=1&sn=bfaafa77b264c53be9ed476ac08f47cd&scene=21#wechat_redirect | 可视化存储智能解决方案之一“大话Raid2.0”
+http://mp.weixin.qq.com/s?__biz=MzAwNzU3NzQ0MA==&mid=2652088130&idx=1&sn=854189525a6cdc769e112a99d131dede&scene=21#wechat_redirect | 【冬瓜哥画PPT】最完整的存储系统接口/协议/连接方式总结
+http://mp.weixin.qq.com/s?__biz=MzAwNzU3NzQ0MA==&mid=2652088180&idx=1&sn=93ff4f8d8942bf3464f2a622f4f7d71c&scene=21#wechat_redirect | 固态盘到底该怎么做Raid？
+http://mp.weixin.qq.com/s?__biz=MzAwNzU3NzQ0MA==&mid=210548858&idx=1&sn=8bb2727776b132db6f72ab651ca1fd10&scene=21#wechat_redirect | 【冬瓜哥论文】浅析固态介质在存储系统中的应用方式
+http://www.jianshu.com/p/3cb5c6f2421c | 如何优雅地使用Sublime Text3 - 简书
+
+http://blog.jobbole.com/100349/ | 如果有人问你数据库的原理，叫他看这篇文章 - 文章 - 伯乐在线
+http://mp.weixin.qq.com/s?__biz=MzAxOTAzMDEwMA==&mid=2652499918&idx=1&sn=4ed570c023576910ea6c84bb181d8959&scene=23&srcid=0606IPPdzawFHnWKrw9Pznx0#rd | 耗时2个月翻译：《迁移到原生云应用架构》第一部分
+
+http://www.saltycrane.com/blog/2010/02/python-paramiko-notes/ | Python paramiko notes - SaltyCrane Blog
+https://www.ivankrizsan.se/2016/04/28/implementing-a-sftp-client-using-python-and-paramiko/ | Implementing a SFTP Client Using Python and Paramiko | The Blog of Ivan Krizsan
+
+https://github.com/renkun-ken/MacType.Decency | renkun-ken/MacType.Decency: A MacType profile that provides decent solution to font rendering and font substitutions for Windows operating systems.
+
+http://blog.jobbole.com/101710/ | 高效 Windows 工作环境 && Java 开发环境搭建 - 文章 - 伯乐在线
+http://blog.chunshengster.me/2013/08/san_shi_zhi_huo_2.html | 三十之惑–面霸的八月（第二部分） – 香草的技术博客
+
+http://mp.weixin.qq.com/s?__biz=MzAwODExNjI3NA==&mid=2649774102&idx=1&sn=f8724b04fb9c60dedc600c4afafebcae#rd | 影响RAID数据可靠性因素分析
+http://www.cnblogs.com/wupeiqi/articles/4938499.html | Python之路【目录】 - 武沛齐 - 博客园
+http://www.cnblogs.com/wupeiqi/p/4493506.html | Python 面向对象（初级篇） - 武沛齐 - 博客园
+https://pymotw.com/2/threading/ | threading – Manage concurrent threads - Python Module of the Week
+http://gitbook.cn/books/57107c8976dc085d7a00cb04/bookSource/1461911087389.html | 斗鱼实时计算平台的演进
+http://design-patterns.readthedocs.io/zh_CN/latest/index.html | 图说设计模式 — Graphic Design Patterns
+
+http://www.laruence.com/licence | 博客声明 | 风雪之隅
+http://freeloda.blog.51cto.com/2033581/1307492 | RRDTool 详解 - Share your knowledge … - 51CTO技术博客
+http://oss.oetiker.ch/rrdtool/doc/index.en.html | RRDtool - RRDtool Documentation
+http://qushouxichuan.com/blog/article/60 | rrdtool的使用介绍 | 张雪源的博客
+http://blog.csdn.net/orangleliu/article/details/46739853 | [rrdtool]监控和自动画图，简单的监控.md - orangleliu 笔记本 - 博客频道 - CSDN.NET
+
+http://python.jobbole.com/85177/ | Python 多线程 - Python - 伯乐在线
+http://elekslabs.com/2013/12/rrd-and-rrdtool-sar-graphs-using-pyrrd.html | RRD and RRDtool, sar Graphs Using PyRRD - ELEKS Labs
+
+http://python.jobbole.com/85177/ | Python 多线程 - Python - 伯乐在线
+http://mp.weixin.qq.com/s?__biz=MzI3MTEwODc5Ng==&mid=2650859168&idx=1&sn=b9ea8c99898787f9f758f2c2d901ef04#rd | 大白话描述并发编程重要概念
+http://blog.jobbole.com/101666/ | 深入理解DIP、IoC、DI以及IoC容器 - 文章 - 伯乐在线
+
+http://elekslabs.com/2013/12/rrd-and-rrdtool-sar-graphs-using-pyrrd.html | RRD and RRDtool, sar Graphs Using PyRRD - ELEKS Labs
+http://www.tudou.com/programs/view/vc61ukI3FWo/?bid=03&pid=2&resourceId=0_03_05_02 | [虎扑字幕组]纪录片：狐狸城奇迹—莱斯特的故事_土豆_高清视频在线观看
+http://www.265.com/ | 265上网导航 - 最多中国人使用的电脑主页
+http://www.open-open.com/solution/view/1320934157953 | Eclipse快捷键 10个最有用的快捷键 - OPEN开源论坛
+http://www.cnblogs.com/yanyansha/archive/2011/08/30/2159265.html | 研读代码必须掌握的Eclipse快捷键 - 墨海 - 博客园
+http://mp.weixin.qq.com/s?__biz=MzIxNDMyODgyMA==&mid=2247483666&idx=1&sn=b3df5f3f8d8803fb88719463388db4ed | SHELL编程之执行过程
+http://mp.weixin.qq.com/s?__biz=MzI3MTEwODc5Ng==&mid=2650859165&idx=1&sn=06d5a4f05d1108a8c78ad68963eebc42 | 详解集群内Session高可用的实现原理
+http://www.zcfy.cc/article/255 | 缓存最佳实践及 max-age 注意事项 - 众成翻译
+http://blog.jobbole.com/101476/ | 聊聊 tcpdump 与 Wireshark 抓包分析 - 文章 - 伯乐在线
+http://blog.jobbole.com/94849/ | 运维工程师必会工具：Nmap 和 TCPdump - 文章 - 伯乐在线
+http://blog.jobbole.com/91631/ | 一份快速实用的 tcpdump 命令参考手册 - 文章 - 伯乐在线
+
+http://www.runoob.com/eclipse/eclipse-tutorial.html | Eclipse 教程 | 菜鸟教程
+https://github.com/wklken/k-vim | wklken/k-vim: vim配置
+http://www.cnblogs.com/alex3714/p/4372426.html | Python Select 解析 - 金角大王 - 博客园
+http://www.cnblogs.com/coser/archive/2012/01/06/2315216.html | Python网络编程中的select 和 poll I/O复用的简单使用 - 糖拌咸鱼 - 博客园
+http://www.cnblogs.com/laosiji888/articles/5524067.html | Linux下I/O多路复用select, poll, epoll 三种模型的Python使用 - laosiji - 博客园
+http://7056824.blog.51cto.com/69854/276610 | Linux中tty、pty、pts的概念区别 - 小苗 - 51CTO技术博客
+http://blog.jobbole.com/100958/ | Tengine 常用模块使用介绍 - 文章 - 伯乐在线
+http://www.freebuf.com/articles/wireless/105092.html | 如何通过WIFI渗透企业内网？ - FreeBuf.COM | 关注黑客与极客
+http://mp.weixin.qq.com/s?__biz=MzI5NTE5NzgyMg==&mid=502505777&idx=1&sn=891f78f91142ef2dcb2774c216886a99&scene=18#wechat_redirect | 【安全篇】我家游戏被DDoS的血泪史
+http://weibo.com/ttarticle/p/show?id=2309403978248399772843 | SHELL编程之执行过程
+http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/0013994173393204e80af1f8fa94c8e9d094d229395ea43000 | struct - 廖雪峰的官方网站
+http://blog.csdn.net/u013088062/article/details/50113593 | 最全Pycharm教程（2）——代码风格 - 陈俊岭的程序员之路 - 博客频道 - CSDN.NET
+http://www.cnblogs.com/zhangpengshou/p/3555767.html | pycharm 快捷键 - 一路前行 - 博客园
+http://python.freelycode.com/contribution/detail/31 | 使用Pycharm打造高效Python IDE (下)
+http://blog.csdn.net/pipisorry/article/details/39909057 | pycharm快捷键、常用设置、配置管理 - 皮皮blog - 博客频道 - CSDN.NET
+http://toutiao.io/explore | 订阅技术极客们创建的学习主题 - 开发者头条
+http://www.rowkey.me/blog/2016/01/18/io-model/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 也谈IO模型 - 后端技术杂谈 | 飒然Hang
+http://www.oschina.net/translate/the-future-of-asynchronous-io-in-python?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Python 异步 IO 的未来（从 Web 后端开发的角度） - 技术翻译 - 开源中国社区
+http://www.cnblogs.com/fanzhidongyzby/p/4098546.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 高性能IO模型浅析 - Florian - 博客园
+http://zavakid.com/about.html | About
+http://taozj.org/archives/page/4/ | Archives | Nicol的博客铭
+http://taozj.org/2016/04/Linux%E7%8E%AF%E5%A2%83%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%8C%EF%BC%89%EF%BC%9ALinux-IO%E5%A4%8D%E7%94%A8%E4%B9%8Bselect-poll-epoll%E7%9A%84%E5%B7%AE%E5%BC%82%E5%88%86%E6%9E%90/ | Linux环境开发（二）：Linux IO复用之select/poll/epoll的差异分析 | Nicol的博客铭
+http://taozj.org/2016/04/Linux%E7%8E%AF%E5%A2%83%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%90%8C%E5%BC%82%E6%AD%A5%E3%80%81%E9%98%BB%E5%A1%9E%E7%9A%84IO%E6%A8%A1%E5%9E%8B%E7%9B%B8%E5%85%B3%E7%9A%84%E9%97%AE%E9%A2%98/ | Linux环境开发（一）：同异步、阻塞的IO模型相关的问题 | Nicol的博客铭
+http://dockone.io/article/1106?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | DockOne微信分享（四十八）：微博的MySQL数据库优化实践经验 - DockOne.io
+https://www.textarea.com/zhicheng/yong-python-lijie-fuwuqi-moxing-xia-596/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 用 Python 理解服务器模型(下)
+https://www.textarea.com/zhicheng/yong-python-lijie-fuwuqi-moxing-shang-566/ | 用 Python 理解服务器模型(上)
+http://www.jianshu.com/p/edb9ddd51c3d?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Select 模型简介 - 简书
+
+http://www.chenshake.com/openstack-project-series-1-shaker/ | OpenStack项目系列介绍（1） Shaker – 陈沙克日志
+http://www.epubit.com.cn/book/onlinechapter/40064 | 如何设计现代高速缓存 - 异步社区
+http://toutiao.com/i6285166551385506305/?iid=4312393846&app=news_article | 你真的懂KPI和OKR么？（附：为何谷歌、英特尔、领英均放弃KPI，转向OKR？） - 今日头条(TouTiao.com)
+http://mp.weixin.qq.com/s?__biz=MzA3MzYwNjQ3NA==&mid=2651296584&idx=1&sn=fb16a50cdb47199744c4900f1ae868f0&scene=0#wechat_redirect | 从Redis分区的优缺点来看适合的应用场景
+https://linux.cn/article-7374-1.html?utm_source=weibo&utm_medium=weibo | 我的 Linux 一万小时-观点 ◆ 热议|Linux.中国-开源社区
+https://www.zhihu.com/ | 首页 - 知乎
+http://www.cnblogs.com/wupeiqi/articles/5040823.html | Python之路【第六篇】：socket - 武沛齐 - 博客园
+http://www.cnblogs.com/wupeiqi/p/4766801.html | python 面向对象（进阶篇） - 武沛齐 - 博客园
+
+http://mysql.taobao.org/monthly/2016/05/01/ | MySQL · 引擎特性 · 基于InnoDB的物理复制实现
+
+https://github.com/puikinsh/gentelella | puikinsh/gentelella: Free Bootstrap 3 Admin Template
+http://python.jobbole.com/85113/ | python-文本处理和正则表达式 - Python - 伯乐在线
+http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000 | Python教程 - 廖雪峰的官方网站
+http://mp.weixin.qq.com/s?__biz=MzAxOTc0NzExNg==&mid=2665513091&idx=1&sn=1a1d245416b274ceea9243ff3e3ebb16#rd | 小王的架构师之路
+
+http://ourmysql.com/archives/895?f=wb | DRBD+Heartbeat让MySQL提供的服务更加稳定 | OurMySQL
+http://ourmysql.com/archives/954 | Heartbeat+DRBD+MySQL Replication故障处理 | OurMySQL
+http://ourmysql.com/archives/448 | Mysql + DRBD + Heartbeat(v1)基本配置笔记及切换测试 | OurMySQL
+https://github.com/jobbole/awesome-python-cn | jobbole/awesome-python-cn: Python资源大全中文版，内容包括：Web框架、网络爬虫、网络内容提取、模板引擎、数据库、数据可视化、图片处理、文本处理、自然语言处理、机器学习、日志、代码分析等
+http://python.jobbole.com/85100/ | 关于Python类属性与实例属性的讨论 - Python - 伯乐在线
+http://www.osstep.com/course/62 | 聊聊生产环境的那些运维规范 - 马哥Linux 网络班培训-云学堂 - 国内排名第一的Linux视频教程和Linux入门学习网站 - Powered By EduSoho
+https://yq.aliyun.com/articles/43651?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 运维人员的军刀——ROS-博客-云栖社区-阿里云
+http://www.jianshu.com/p/bcefda55bce4?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 微信,QQ这类IM app怎么做——谈谈Websocket - 简书
+
+http://liwei.life/2016/05/16/69/ | SHELL编程之语法基础 – 邹立巍的博客
+http://liwei.life/2016/05/ | 2016年5月 – 邹立巍的博客
+http://hedengcheng.com/?p=970 | 何登成的技术博客 » 生活中的Paxos，原来你我都在使用——对Paxos生活化的解读
+http://wklken.me/archives.html | wklken's blog
+http://wklken.me/posts/2013/08/20/python-extra-itertools.html | Python-进阶-itertools模块小结
+http://wklken.me/posts/2013/08/18/python-extra-functools.html | Python-进阶-functools模块小结
+http://wklken.me/posts/2013/07/19/python-translate-decorator.html | [翻译]理解python中的装饰器
+http://wklken.me/posts/2013/07/18/python-translate-yield.html | [翻译]Python中yield的解释
+http://fabric-chs.readthedocs.io/zh_CN/chs/usage/execution.html | Execution model — Fabric 文档
+
+http://www.jianshu.com/p/9f8f5f4dbdd6 | Python数据分析学习路径图(120天Get新技能) - 简书
+http://mysql-python.sourceforge.net/MySQLdb.html | MySQLdb User's Guide
+http://mp.weixin.qq.com/s?__biz=MzA4MDYwMDQ5Mg==&mid=2651171611&idx=1&sn=adaebbd0cacc697b4ff94fcd0b24f684&scene=0#wechat_redirect | 自动化运维软件的模式之变
+http://www.cnblogs.com/cchust/p/5450510.html?f=tt&hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | MySQL高可用方案 - 天士梦 - 博客园
+http://mp.weixin.qq.com/s?__biz=MzA4MjA0MTc4NQ==&mid=504089663&idx=1&sn=df8c917aa50171133f3dddc34c335cdb#rd | 七年磨一剑，独家揭秘淘宝技术发展历程和架构经验
+http://www.ctocio.com/ccnews/20880.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 告诉你一个真实的OpenStack：都谁在用，用来干什么？ - IT经理网
+http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=2659597071&idx=1&sn=cd8df9f8c52dfbfb54e65adbe19fae27&scene=0#wechat_redirect | 日请求量过亿，谈陌陌的Feed服务优化之路
+http://www.jianshu.com/p/b4aab68c12c0?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Android从按下开机键到启动发生了什么 - 简书
+https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653159306&idx=1&sn=fcd981b132d5557b08e88564317d2c44 | 来看看你的监控系统，离世界一流还差多远？
+http://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&mid=2651659639&idx=1&sn=8717d17b6ad3c19db43117fc3cdc4a73&scene=0#wechat_redirect | 灵犀：企业监控为什么光有Zabbix是不够的？
+https://yq.aliyun.com/articles/40494?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Docker学习路线图 (持续更新中)-博客-云栖社区-阿里云
+http://mp.weixin.qq.com/s?__biz=MzI3MTEwODc5Ng==&mid=2650859136&idx=1&sn=9a7d24de055fc6beeb76e1a353758248#rd | 怎样阅读源代码？
+https://segmentfault.com/a/1190000004839710?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | [翻译]使用Python一步一步地来进行数据分析 - michael翔的IT私房菜 - SegmentFault
+http://kissg.me/2016/05/10/python3-webapp-summary/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Asesome Pyhthon3 WebApp 总结与导读 - kissg Blog | 菜鸟成长日记
+http://godcoder.me/2016/04/25/%E8%B5%9A%E9%92%B1%E5%BF%85%E7%9C%8B%EF%BC%9A%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85%E5%BF%85%E7%9F%A5%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%BB%E7%BB%93/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 赚钱必看：独立开发者必知的一些总结 | GodCoder's Notes
+http://www.bugclose.com/blog/20160510.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 老码农，谈我这十几年遇到的坑 | bugclose
+http://litaotao.github.io/python-materials?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Python 技巧总结 | Taotao's Zone
+
+http://www.265.com/ | 265上网导航 - 最多中国人使用的电脑主页
+http://python.jobbole.com/85060/ | 当我学完Python我学了些什么 - Python - 伯乐在线
+http://python.jobbole.com/85005/ | 使用flask开发RESTful架构的api服务器端(2)–flask的安装和使用 - Python - 伯乐在线
+http://python.jobbole.com/85006/ | 使用flask开发RESTful架构的api服务器端(3)–简单的RESTful services - Python - 伯乐在线
+http://python.jobbole.com/85025/ | 由 sort 中 key 的用法浅谈 python - Python - 伯乐在线
+http://www.1mi.cn:8080/lepus/index.php/index/index | 天兔 数据库监控系统
+https://docs.python.org/2/library/traceback.html | 28.10. traceback — Print or retrieve a stack traceback — Python 2.7.11 documentation
+https://dev.mysql.com/doc/connector-python/en/connector-python-api-mysqlcursor-executemany.html | MySQL :: MySQL Connector/Python Developer Guide :: 10.5.5 MySQLCursor.executemany() Method
+http://lengyue318.iteye.com/blog/1664367 | python中MySQLdb的execute和executemany的使用 - 冷月 - ITeye技术网站
+http://stackoverflow.com/questions/10180335/mysqldb-executemany-using-a-list-as-input | python - MySQLdb executemany using a list as input? - Stack Overflow
+https://github.com/farcepest/MySQLdb1 | farcepest/MySQLdb1: MySQL database connector for Python (legacy version)
+
+https://www.zhihu.com/search?type=content&q=windows+10+%E4%BB%BB%E5%8A%A1%E6%A0%8F | windows 10 任务栏 - 搜索结果 - 知乎
+https://www.zhihu.com/question/36847530 | Windows 10 上什么软件值得推荐？ - 知乎
+https://github.com/XUJINKAI/OneQuick | XUJINKAI/OneQuick: 快捷工具, 屏幕边缘操作, 快速搜索, 剪贴板历史纪录, 窗口操作, 快速打开b站(bilibili)av号, ahk库. Autohotkey tool, screen border operation, clipboard manager, quick search & run, window operation, quick menu.
+
+http://s1.51cto.com/wyfs02/M02/7A/8E/wKioL1asaOigpmqZAAHi7RiwLKg768.png | wKioL1asaOigpmqZAAHi7RiwLKg768.png (1386×767)
+http://www.cnblogs.com/xuanzhi201111/category/632661.html | MySQL - 随笔分类 - GoogSQL - 博客园
+http://www.cnblogs.com/xuanzhi201111/p/5284084.html | MySQL基于ROW格式的数据恢复 - GoogSQL - 博客园
+http://blog.itpub.net/26418713/viewspace-1178633/ | 通过mysqlbinlog 实现对mysql操作的闪回-kaixinguo8115-ITPUB博客
+http://www.penglixun.com/tech/database/mysql_flashback_feature.html | MySQL下实现闪回的设计思路 (MySQL Flashback Feature) | P.Linux Laboratory
+
+http://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&mid=402400324&idx=1&sn=f9137b091fe6bfa62fc3e0c5bb0d92af&scene=2&srcid=0505MLRZ0wSiTcYcqJn5698j&from=timeline&isappinstalled=0#wechat_redirect | Netdata —— Linux 性能实时监测工具
+
+http://crazy123.blog.51cto.com/1029610/1765644 | Oliver运维管理系统之一庐山真面目 - 清枫拂面 - 51CTO技术博客
+http://www.178linux.com/1735 | linux下绘图工具rrdtool – linux运维部落
+http://www.178linux.com/10982 | 高可用集群基本概念与heartbeat文本配置接口 – linux运维部落
+http://www.178linux.com/5627 | HA高可用集群学习笔记 – linux运维部落
+http://www.178linux.com/1109 | 知乎上推荐的几款快速上手的UI框架 – linux运维部落
+https://www.zhihu.com/question/19990259 | 有哪些值得推荐的类似 jQuery UI 或者 Bootstrap 这样的 UI 框架？ - 知乎
+http://www.178linux.com/15797 | 关于绑定与不绑定CPU的对比 – linux运维部落
+http://mp.weixin.qq.com/s?src=3&timestamp=1462278206&ver=1&signature=L1C7usG9nhuvVUS9dkoQ4L0C3uwt3mRI*sGWWChs3iw3q8DJugbAw2**36rJl5MeI1cml4EawPaFWwxSD4K4NFEJJ4TeqifmR3B*7Ww81N9DrE44pa417GhOVPcGsDiUZ7Sn3f0H9J4m2asW1xXIFg== | 思维导图终极之战LVS负载均衡
+http://mp.weixin.qq.com/s?src=3&timestamp=1462278821&ver=1&signature=L1C7usG9nhuvVUS9dkoQ4L0C3uwt3mRI*sGWWChs3iwEWExnHF7lMt1MBcUL6VIuqkK4t4J-Nt1-cS4q5SgjnwKnDeOBJq6jxXdJQUSx-s96DpXGQHgiKerg9-kw7Ibdm96EgUFk71zkpGBwd5GGSOdjedsI87SNXOw0E8Vc-zI= | shell十三问，为linux学习打基础（一）
+http://mp.weixin.qq.com/s?src=3&timestamp=1462278843&ver=1&signature=L1C7usG9nhuvVUS9dkoQ4L0C3uwt3mRI*sGWWChs3iwEWExnHF7lMt1MBcUL6VIurxlfpbwh-aupFckcXbh-61*jOnScTQe3jNQTObmbmOZtKx-tEj9NYvPAjIMZPeMuYgQWzoCcPT6oa*yMfIQQrTpp58yyVedmY1hizTf3VVc= | shell十三问，为linux学习打基础（二）
+http://mp.weixin.qq.com/s?src=3&timestamp=1462278843&ver=1&signature=L1C7usG9nhuvVUS9dkoQ4L0C3uwt3mRI*sGWWChs3iy3Ottv7*Wd-EUF19NQTEXkCr4gMGgGzIKcgzHu4uS4h8zziXDYZIMpfR4oRiO236hUn6zwl2B0QxtqVC8kBg9HD5bnBcIEF*0ohyZwUaX8N-H6fHw3YZJTTvl6BI2tHZM= | shell十三问，为linux学习打基础（三）
+http://mp.weixin.qq.com/s?src=3&timestamp=1462278843&ver=1&signature=L1C7usG9nhuvVUS9dkoQ4L0C3uwt3mRI*sGWWChs3iwsBVf4d9YQfYO0Ux47xhStmwyrjsyOG6u6rlqfMNFYfFHnPoPJFbRJYnioZ1tgrm6r9yOPyHYXbzny4pNX0nFuz1HNboHBI69YrYuneKambg== | linux性能调优（整理）
+
+http://python.jobbole.com/84945/ | Python 类与元类的深度挖掘 - Python - 伯乐在线
+
+http://weibo.com/ttarticle/p/show?id=2309403969318634263193 | 移动直播技术秒开优化经验（含PPT）
+
+http://blog.miguelgrinberg.com/category/Flask | Category: Flask - miguelgrinberg.com
+http://www.pythondoc.com/flask-sqlalchemy/models.html | 声明模型 — Flask-SQLAlchemy 2.0 documentation
+http://www.zlovezl.cn/articles/sqlalchemy-intro-for-django-guys/ | 给Django用户的SQLAlchemy介绍 | piglei's blog
+https://yesteapea.wordpress.com/2013/03/03/counting-the-number-of-set-bits-in-an-integer/ | Counting the number of set bits in an integer | stp's blog
+
+http://www.barretlee.com/blog/2016/04/24/detail-about-ca-and-certs/ | 细说 CA 和证书 | 小胡子哥的个人网站
+http://blog.nicerdata.com/notes/openstack_abc/000.html | My_Notes_for_OpenStack_Elementary_Course
+http://blog.jobbole.com/99883/ | 趣文：我是一个线程 - 文章 - 伯乐在线
+http://blog.jobbole.com/99774/ | 探索数据库的事务隔离级别 - 文章 - 伯乐在线
+http://blog.jobbole.com/99912/ | 聊聊IO多路复用之select、poll、epoll详解 - 文章 - 伯乐在线
+http://blog.jobbole.com/99911/ | 如何准备阿里社招面试，顺谈Java程序员学习中各阶段的建议 - 文章 - 伯乐在线
+
+http://www.goalchina.net/football/shownews.php?id=48144 | 这周末，又见"鲁能内战"
+https://morepypy.blogspot.com/2016/04/pypy-51-released.html | PyPy Status Blog: PyPy 5.1 released
+http://weibo.com/p/1001603966647298878718 | 【大咖讲网络】 之 最经典的网络问题 - 文章
+https://segmentfault.com/a/1190000004969015 | 如何使用野狗搭建视频聊天室-WebRTC的技术实践 - 野狗科技官方专栏 - SegmentFault
+http://blogread.cn/it/article/7253?f=wb | ip地址中的网络号，主机号 -- 网络系统 -- IT技术博客大学习 -- 共学习 共进步！
+http://mp.weixin.qq.com/s?__biz=MzI4NjE2NTA1OQ==&mid=2649357749&idx=1&sn=38333672593537e82992b589403efe74#rd | 原创分享 | MySQL 5.6 OOM 问题解决分享
+
+http://ppt.geekbang.org/qconbj2016?amp;amp;isappinstalled=0&amp;amp;amp;amp;isappinstalled=0&amp;amp;amp;from=timeline&amp;amp;amp;isappinstalled=0&amp;amp;from=timeline&amp;amp;isappinstalled=0&amp;from=timeline&amp;isappinstalled=0&from=timeline&isappinstalled=0&from=timeline&isappinstalled=0 | QCon北京2016PPT下载合集
+http://victorlin.me/posts/2012/08/26/good-logging-practice-in-python | Good logging practice in Python « Victor Lin's coding notes
+http://stackoverflow.com/questions/15780151/how-to-use-python-logging-in-multiple-modules | How to use python logging in multiple modules - Stack Overflow
+http://blog.csdn.net/chosen0ne/article/details/7319306 | Python日志输出——logging模块 - 娄振林专栏 - 博客频道 - CSDN.NET
+http://my.oschina.net/leejun2005/blog/126713 | python 日志模块 logging 详解 - leejun2005的个人页面 - 开源中国社区
+https://docs.python.org/2/library/logging.html | 15.7. logging — Logging facility for Python — Python 2.7.11 documentation
+https://docs.python.org/2/howto/logging-cookbook.html | Logging Cookbook — Python 2.7.11 documentation
+https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#safe=strict&q=+MySQL5.6+InnoDB+%E9%94%81%E7%AD%89%E5%BE%85 | MySQL5.6 InnoDB 锁等待 - Google 搜索
+http://imysql.com/2015/03/25/mysql-faq-how-to-fetch-latest-trxid.shtml | [MySQL FAQ]系列 — 如何查看当前最新事务ID | iMySQL
+http://www.cnblogs.com/zhoujinyi/p/3435982.html | Innodb锁机制：Next-Key Lock 浅谈 - jyzhou - 博客园
+http://ouyanggod.iteye.com/blog/2166215 | MySQL InnoDB锁机制（二） - oblog - ITeye技术网站
+http://blog.itpub.net/12679300/viewspace-1418320/ | innodb_lock_wait_timeout参数的了解-wzq609-ITPUB博客
+http://blog.itpub.net/12679300/viewspace-1420031/ | mysql InnoDB锁等待的查看及分析-wzq609-ITPUB博客
+http://www.itpub.net/thread-1942816-1-1.html | Mysql Record Locking 和 Next Locking 问题 - MySQL及其它开源数据库-ITPUB论坛-it168旗下专业技术社区
+https://dbarobin.com/2015/01/27/innodb-lock-wait-under-mysql-5.5/ | MySQL 5.5 InnoDB 锁等待 | 温国兵的随想录
+http://www.cnblogs.com/tianhuilove/archive/2011/09/05/2167795.html | MySQL索引的创建、删除和查看 - tianhuilove - 博客园
+http://www.hollischuang.com/archives/914 | MySQL中的行级锁,表级锁,页级锁-HollisChuang's Blog
+
+http://weibo.com/ttarticle/p/show?id=2309403965965003062676 | 保证分布式系统数据一致性的6种方案
+http://blog.jobbole.com/99765/ | 聊聊同步、异步、阻塞与非阻塞 - 文章 - 伯乐在线
+http://blog.jobbole.com/99694/ | 聊聊Socket、TCP/IP、HTTP、FTP及网络编程 - 文章 - 伯乐在线
+http://chendihao.cn/post/first-expierence-pacemaker/ | Pacemaker高可用方案初体验 · tobe blog
+http://mp.weixin.qq.com/s?__biz=MzI4NjE2NTA1OQ==&mid=2649357749&idx=1&sn=38333672593537e82992b589403efe74#rd | 原创分享 | MySQL 5.6 OOM 问题解决分享
+http://blog.jobbole.com/99567/ | 【高并发简单解决方案】redis缓存队列+mysql 批量入库+php离线整合 - 文章 - 伯乐在线
+http://blog.jobbole.com/99205/ | 一次谷歌面试趣事 - 文章 - 伯乐在线
+https://github.com/easychen/LazyRest4 | easychen/LazyRest4: 基于Web界面的Rest风格API生成器For LazyPHP4
+http://openresty.org/cn/installation.html | OpenResty - Installation
+https://moonbingbing.gitbooks.io/openresty-best-practices/content/openresty/helloworld.html | Hello World | OpenResty最佳实践
+
+http://python.jobbole.com/84772/ | 一个人人网python爬虫 - Python - 伯乐在线
+http://mp.weixin.qq.com/s?__biz=MjM5ODIzNTc2MA==&mid=412331950&idx=1&sn=bab734f17b3baa97c66cb19a1f635baf&scene=2&srcid=04123eOOLEqlj1yg1VdpeqjH&from=timeline&isappinstalled=0#wechat_redirect | 为什么谷歌的服务从来不会崩溃？
+http://vdisk.weibo.com/s/uizxwi96IdJr | 马金凯《分布式跟踪系统及实践案例》正式版.pdf_微盘下载
+http://kissg.me/2016/04/09/python-generator-yield/ | Python之生成器详解 - kissg Blog | 菜鸟成长日记
+http://blog.rainy.im/2016/04/07/python-thread-and-coroutine/ | Python 线程与协程 - Yushneng
+http://pan.baidu.com/s/1jIztTcy#path=%252F%25E6%2590%259C%25E7%258B%2590%25E8%25A7%2586%25E9%25A2%2591-redis%25E5%2585%25A5%25E9%2597%25A8%25E6%2595%2599%25E7%25A8%258B-slides | 搜狐视频-redis入门教程-slides_免费高速下载|百度云 网盘-分享无限制
+http://www.ido321.com/1673.html | Fetch围观指南 | 淡忘~浅思
+https://bash.cyberciti.biz/guide/Main_Page | Linux Shell Scripting Tutorial - A Beginner's handbook
+https://www.unixhot.com/page/ops | 运维社区-运维知识体系v0.6
+http://112.124.19.205:8080/triggers.php?hostid=10117&sid=9b8c3b77ef84e394 | Configuration of triggers
+https://github.com/FezVrasta/bootstrap-material-design | FezVrasta/bootstrap-material-design: Material design theme for Bootstrap 3
+http://www.cnblogs.com/huxi/archive/2011/07/01/2095931.html | Python函数式编程指南（三）：迭代器 - AstralWind - 博客园
+https://segmentfault.com/a/1190000002900850 | Python的迭代器和生成器 - Wenblog - SegmentFault
+
+https://api.mongodb.org/python/current/tutorial.html | Tutorial — PyMongo 3.2.2 documentation
+http://www.runoob.com/mongodb/mongodb-insert.html | MongoDB 插入文档 | 菜鸟教程
+http://www.codeceo.com/article/ali-7-years-for-beginner.html | 七年阿里老人谈新人程序员的成长 – 码农网
+http://blog.jobbole.com/99448/ | PHP 安全性漫谈 - 博客 - 伯乐在线
+http://blogread.cn/it/article/7070?f=wb | 再叙TIME_WAIT -- 网络系统 -- IT技术博客大学习 -- 共学习 共进步！
+http://blog.jobbole.com/21351/ | 深刻理解Python中的元类(metaclass) - 博客 - 伯乐在线
+https://linux.cn/article-7191-1.html?utm_source=weibo&utm_medium=weibo | Python 开发的 10 个小技巧-软件开发|Linux.中国-开源社区
+https://flask.zeef.com/stefane.fermigier | Flask by Stefane Fermigier | ZEEF
+http://pythonhosted.org/Flask-Bootstrap/forms.html | WTFForms support — Flask-Bootstrap 3.3.5.7 documentation
+https://segmentfault.com/a/1190000004859568 | 深入 Flask 源码理解 Context - python 学习 - SegmentFault
+https://linux.cn/article-4145-1.html | 在 LVM中 录制逻辑卷快照并恢复（第三部分）-系统运维|Linux.中国-开源社区
+
+http://weibo.com/p/100808a13a2f77cce4ac65d750b6d07e75664a?k=%E5%B0%8F%E7%B1%B3%E6%9B%9D%E4%B9%90%E8%A7%86%E9%BB%91%E5%85%AC%E5%85%B3&refer=index_hot_new&_from_=huati_thread | 小米曝乐视黑公关 - 在微话题一起聊聊吧！
+http://python.jobbole.com/84565/ | python.jobbole.com/84565/
+
+http://blog.jobbole.com/98908/ | 高可用性系统在大众点评的实践与经验 - 博客 - 伯乐在线
+http://ourmysql.com/archives/587?f=wb | Mysql服务器如何得到最佳性能优化 | OurMySQL
+http://toutiao.io/ | 开发者头条 - 程序员的首选学习分享平台
+http://wsgzao.github.io/post/lvm/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | LVM逻辑卷管理配置小结 | HelloDog
+http://python.jobbole.com/84464/ | Python 资源大全 - Python - 伯乐在线
+http://www.slideshare.net/mryufeng/tsung | Tsung 压力测试工具
+http://database.51cto.com/art/201510/495287.htm | MySQL innodb引擎备份工具XtraBackup之二（数据库全备） - 51CTO.COM
+https://www.ttlsa.com/mysql/page/12/ | MySQL 常用集群方案教程 - 运维生存时间 - 第 12 页
+https://www.ttlsa.com/mysql/xtrabackup-restore-awaken/ | Xtrabackup 每日增量恢复 – Awaken - 运维生存时间
+https://www.ttlsa.com/mysql/xtrabackup-daily-backup/ | Xtrabackup每周增量备份脚本程序(含附件) - 运维生存时间
+https://www.ttlsa.com/mysql/xtrabackup-backup-restore-mysql/ | XtraBackup备份恢复mysql - 运维生存时间
+https://www.ttlsa.com/mysql/mysql-100w-conn-op/ | MySQL百万级高并发网站优化 - 运维生存时间
+https://www.ttlsa.com/mysql/summary-of-the-new-features-of-mysql5_6/ | mysql5.6新特性总结 - 运维生存时间
+
+http://python.jobbole.com/84464/ | Python 资源大全 - Python - 伯乐在线
+http://web.jobbole.com/85265/ | JavaScript 开发最佳实践 - WEB前端 - 伯乐在线
+http://mp.weixin.qq.com/s?__biz=MzI4NTA1MDEwNg==&mid=402833297&idx=1&sn=67734a59612f2377d20e651a9317bfb4&scene=0&from=groupmessage&isappinstalled=0#wechat_redirect | 与时俱进：iostat核心变化解读
+http://python.jobbole.com/84249/ | GitHub上有趣的python资料 - Python - 伯乐在线
+http://toutiao.io/subjects/34806 | Linux系统技术 - 开发者头条
+
+http://mp.weixin.qq.com/s?__biz=MzA5Nzc4OTA1Mw==&mid=410043724&idx=1&sn=044994ef144d1dbefcf81ed5db676e8e#rd | 未来的银行架构趋势：不仅是去IOE，将会全面拥抱开源
+http://blog.jobbole.com/98719/ | MySQL高可用浅析 - 博客 - 伯乐在线
+https://www.shiyanlou.com/questions/3396 | Python的迭代器和生成器 - 实验楼问答 - 实验楼
+https://segmentfault.com/a/1190000004554857 | 肖鹏：微博数据库那些事儿（图灵访谈） - 图灵访谈 - SegmentFault
+http://mp.weixin.qq.com/s?__biz=MzA3MzYwNjQ3NA==&mid=403284693&idx=1&sn=963f91d9dddf89f499c8e5c38e1c9f8d&scene=0#wechat_redirect | 使用802.1X+FreeRadius+LDAP实现网络准入方案
+http://blog.packagecloud.io/eng/2016/02/29/how-does-strace-work/ | How does strace work?
+http://www.infoq.com/cn/articles/2016-hongbao-weibo#0-tsina-1-48609-397232819ff9a47a7b7e80a40613cfe1 | 解密微博红包：架构、防刷、监控和资源调度
+
+http://www.songyawei.cn/content/2592 | 一个flask开发的开源单机简单运维平台_Linux运维工程师的技术博客
+http://www.matija.si/system-administration/2014/04/01/a-munin-plugin-to-monitor-each-cpu-core-separately/ | A munin plugin to monitor each CPU core separately – matija's musings
+http://stackoverflow.com/questions/30388851/how-do-we-customize-tsung-scripts-for-sending-message-in-openfire-server | erlang - How do we customize tsung scripts for sending message in Openfire server? - Stack Overflow
+http://www.afourtech.com/xmpp-server-performance-testing/ | Get the Best Server Performance testing done at Afour
+https://www.quora.com/Which-is-the-most-high-performance-XMPP-server | Which is the most high-performance XMPP server? - Quora
+http://blog.csdn.net/huwenfeng_2011/article/details/43485625 | OpenFire源码学习之三十二：使用Tsung测试openfire(下) - 峰哥的专栏 - 博客频道 - CSDN.NET
+https://www.igniterealtime.org/about/OpenfireScalability.pdf | Openfire Scalability Enhancements
+http://www.igniterealtime.org/support/articles/openfire_optimization.jsp | Ignite Realtime: Openfire Optimization
+http://stackoverflow.com/questions/9292239/openfire-performance-on-ec2 | amazon ec2 - Openfire performance on EC2 - Stack Overflow
+http://www.igniterealtime.org/builds/openfire/docs/latest/documentation/db-integration-guide.html | Openfire: Custom Database Integration Guide
+
+http://hyjiang1989.iteye.com/blog/1860882 | 【Tsung压力测试】XMPP/Jabber服务器之注册大量用户 - 追求者 - ITeye技术网站
+http://wwwwfw.blog.163.com/blog/static/31727815201372353638715/ | tsung压力测试多服务器（跨域）之间发送消息和状态变更 - wwwwfw的日志 - 网易博客
+http://wwwzhouhui.iteye.com/blog/451298 | tsung压力测试多服务器（跨域）之间发送消息和状态变更 - 个人技术 - ITeye技术网站
+http://www.centoscn.com/image-text/install/2014/0818/3503.html | CentOS压力测试工具Tsung安装和图形报表生成
+http://www.bbtang.info/category/linux/page/5/ | Linux - 棒棒糖-博客 - 第5页
+http://www.bbtang.info/tag/tsung/ | Tsung - 棒棒糖-博客
+http://note.youdao.com/share/web/file.html?id=efde1171b948baa86d4c2e70c97ef3b4&type=note | Openfire系列之性能优化与压力测试.note
+http://tsung.erlang-projects.org/user_manual/conf-monitoring.html | 6.3. Monitoring — Tsung 1.6.0 documentation
+http://itzoo.info/?p=53 | tsung小试牛刀 | IT动物园
+http://developerworks.github.io/2014/09/15/tsung-user-manual/ | Tsung 用户手册 | 元气糯米团子的Coding Blog
+http://developerworks.github.io/2015/03/12/ejabberd-benchmark-with-tsung/ | 使用Tsung对Ejabberd进行性能测试 | 元气糯米团子的Coding Blog
+http://my.oschina.net/jielucky/blog/168320 | TSung测试XMPP协议--测试过程中出现问题 - lucky - 开源中国社区
+http://my.oschina.net/jielucky/blog/167945 | TSung测试XMPP协议 集群配置 - lucky - 开源中国社区
+http://developerworks.github.io/2015/02/13/ejabberd-escalus/ | Escalus 一个Ejabberd服务器测试工具 | 元气糯米团子的Coding Blog
+http://jimingsong.iteye.com/blog/1971190 | Tsung配置文件详解 - 天堂鸟（积累备忘） - ITeye技术网站
+http://m.oschina.net/blog/97677 | Tsung参数说明【转载】
+https://github.com/search?utf8=%E2%9C%93&q=im+ | Search · im
+
+http://www.ltesting.net/ceshi/ceshijishu/xncs/2007/0422/40.html | IM服务器压力测试案例_性能测试_领测软件测试网
+http://www.open-open.com/lib/view/open1411635181703.html | Openfire性能优化与压力测试小结 - OPEN 开发经验库
+http://tsung.erlang-projects.org/ | Tsung
+https://community.igniterealtime.org/docs/DOC-1232 | How to load test Openfire with Clustering? | Ignite Realtime
+http://whatizee.blogspot.com/2015/01/installing-and-initial-setup-of-tsung_21.html | What I See: Installing and Initial setup of Tsung Load Testing CentOS
+http://www.bbtang.info/linux/675.html | Tsung压力测试文件配置说明 - Linux - 棒棒糖-博客
+http://hyjiang1989.iteye.com/blog/1860882 | 【Tsung压力测试】XMPP/Jabber服务器之注册大量用户 - 追求者 - ITeye技术网站
+http://itindex.net/detail/37094-xmpp-http-%E6%A8%A1%E6%8B%9F | XMPP、HTTP 模拟压力测试工具 Tsung 教程 | IT瘾
+http://ecos.phpwindow.com/doc.html | ECOS百科全书
+http://4397407.blog.51cto.com/4387407/1401034 | 服务器压力测试系列一：压力测试工具tsung安装 - seavar - 51CTO技术博客
+http://wwwwfw.blog.163.com/blog/static/31727815201372353638715/ | tsung压力测试多服务器（跨域）之间发送消息和状态变更 - wwwwfw的日志 - 网易博客
+http://www.centoscn.com/image-text/install/2014/0818/3503.html | CentOS压力测试工具Tsung安装和图形报表生成
+
+http://ourmysql.com/archives/506?f=wb | 用Mysql来搭建可扩展的SNS网站 | OurMySQL
+http://blog.jobbole.com/98496/ | NGINX 1.9.1 中的 Socket 切分 - 博客 - 伯乐在线
+http://mogu.io/159-159 | Linux内核分析： OOM杀掉nginx后导致的系统hang问题 - 蘑菇街技术博客
+http://weibo.com/ttarticle/p/show?id=2309403949643745620312 | Nginx源码分析：3张图看懂启动及进程工作原理
+http://xmpppy.sourceforge.net/apidocs/ | API Documentation
+http://web.jobbole.com/85156/ | 2016十家公司前端面试小记 - WEB前端 - 伯乐在线
+http://weibo.com/ttarticle/p/show?id=2309403948698710187414 | 并发之痛 Thread，Goroutine，Actor
+http://blog.sina.com.cn/s/blog_693f08470102vibt.html | (9)沈询所有资源的索引（会不断更新）_淘宝沈询_WhisperXD_新浪博客
+http://blogread.cn/it/article/7774?f=wb | MySQL DBA修炼秘籍 -- MySQL -- IT技术博客大学习 -- 共学习 共进步！
+http://blogread.cn/it/article/7768?f=wb | 不要在linux上启用net.ipv4.tcp_tw_recycle参数 -- 系统运维 -- IT技术博客大学习 -- 共学习 共进步！
+http://www.importnew.com/18176.html | Java命令学习系列（2）——Jstack - ImportNew
+http://hazelcast.org/use-cases/clustering/ | Clustering - Hazelcast.org
+https://www.percona.com/blog/2016/02/25/high-availability-with-asynchronous-replication-and-transparent-rw-split/ | High availability with asynchronous replication... and transparent R/W split - MySQL Performance Blog
+
+https://www.percona.com/blog/2016/02/25/high-availability-with-asynchronous-replication-and-transparent-rw-split/ | High availability with asynchronous replication... and transparent R/W split - MySQL Performance Blog
+http://hazelcast.org/use-cases/clustering/ | Clustering - Hazelcast.org
+http://timber.blog.51cto.com/7677013/1745550 | 记录一奇葩scp问题的分析与解决过程 - 小蚊子的家园 - 51CTO技术博客
+http://www.ttlsa.com/mysql/mysql-distributed-database-and-table-base-table-introduction/ | MySQL分库分表基础表介绍(1st) - 运维生存时间
+
+http://awk.readthedocs.org/en/latest/index.html | AWK程序设计语言 — AWK程序设计语言
+http://www.aslibra.com/doc/awk.htm | awk 手册
+
+http://www.imooc.com/wenda/detail/310419 | 有哪些值得一看的JAVA问答，求推荐？_慕课猿问
+
+http://shaolianbo.github.io/web/http/2016/01/22/http-cache?comefrom=http://blogread.cn/news/ | HTTP缓存 1.0 vs 1.1
+http://mp.weixin.qq.com/s?__biz=MzIyNjE4NjI2Nw==&amp;mid=404121401&amp;idx=1&amp;sn=df6f8f061d47838b9091994504921d19#rd&comefrom=http://blogread.cn/news/ | 携程异步消息系统实践
+http://www.redbook.io/ | Readings in Database Systems, 5th Edition
+https://www.zhihu.com/question/34915410/answer/60426480?group_id=618746024500727808 | 如何教会非计算机专业的女友写代码并且找到工作？ - yanyiwu 的回答 - 知乎
+https://yq.aliyun.com/articles/6042?spm=5176.100240.searchblog.13.QcbHbH | 使用开源项目的正确姿势，都是血和泪的总结！-博客-云栖社区-阿里云
+
+http://blog.jobbole.com/97957/ | 大型网站架构系列：负载均衡详解（上） - 博客 - 伯乐在线
+http://blog.jobbole.com/97985/ | 如何成为一名优秀的全栈工程师？ - 博客 - 伯乐在线
+http://blog.jobbole.com/97947/ | 大型分布式网站架构技术总结 - 博客 - 伯乐在线
+http://blog.jobbole.com/97857/ | 从日常开发说起，浅谈HTTP协议是做什么的 - 博客 - 伯乐在线
+
+http://www.importnew.com/16837.html | Java编程入门：第1章 测验 - ImportNew
+http://www.importnew.com/17160.html | Java编程入门第2章测验 - ImportNew
+http://www.jianshu.com/p/29d0b15eb1cf | 绝对干货：供个人开发者赚钱免费使用的一些好的API接口 - 简书
+https://www.zhihu.com/question/40662462 | 有哪些IT初学者（新人）成长为技术大牛的真实经历？ - 知乎
+https://www.zhihu.com/question/39890405 | 在北京做Java开发如何月薪达到两万，需要技术水平达到什么程度？ - 知乎
+https://www.zhihu.com/question/22407671 | java初学者，如何学习java？ - 知乎
+http://www.konghao.org/index | 孔浩个人学习空间
+https://www.zhihu.com/question/25255189 | 自学 Java 怎么入门？ - 知乎
+https://www.zhihu.com/question/39139518 | Java攻城狮是如何养成的？ - 知乎
+https://www.zhihu.com/question/39684414 | Python和java二选一该学啥？ - 知乎
+https://www.zhihu.com/question/27471510 | 计算机科学领域有哪些优秀的博客？ - 知乎
+https://www.zhihu.com/question/29581524 | 学习 JAVA，有什么书籍推荐？学习的方法和过程是怎样的？ - 知乎
+https://www.zhihu.com/question/19848946 | 哪本书适合推荐给 Java 初学者？ - 知乎
+https://www.zhihu.com/question/29031276 | 成为一个Java的架构师要学习哪些知识？ - 知乎
+https://www.zhihu.com/question/27692161 | 想学习JAVA，有那种最基础的，简单易懂的文本资料么，求分享？ - 知乎
+
+http://www.gnu.org/software/gawk/manual/gawk.html | The GNU Awk User’s Guide
+http://san-yun.iteye.com/category/223474 | san_yun的博客 - django分类文章列表 - ITeye技术网站
+http://blog.jobbole.com/97951/ | 大型网站架构系列：电商网站架构案例 - 博客 - 伯乐在线
+http://www.ituring.com.cn/book/1802 | 图灵社区 : 图书 : 高可用架构·Docker实战（第1期）
+https://segmentfault.com/a/1190000004459360 | 如何理解LXC与Docker之间的主要区别 - Caicloud - SegmentFault
+http://www.sunhaojie.com/2015/12/17/%E4%BA%92%E8%81%94%E7%BD%91%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 资深互联网架构师项目架构经验分享
+https://mp.weixin.qq.com/s?__biz=MzI4MjA4ODU0Ng==&mid=402408245&idx=1&sn=32f7d2027b210bfa924567ceabc55e50&scene=0&key=710a5d99946419d92feec09059ee8ffd45698243b15adf9c647858b22ac3f4c793d601df65fdc363dbe8baa4444b8010&ascene=0&uin=OTI1ODE0NzIw&devicetype=iMac+MacBookPro11%2C5+OSX+OSX+10.11.3+build(15D21)&version=11020201&pass_ticket=8BvQ02Cm985SaEAsMkggPzweeir%2Fx00VGTyz9Qz%2BFvD3yLrTv3H%2BYC8o6VkNjgEf | 答疑(下) | 高性能网络里，你不知道的TIME_WAIT
+http://www.ibm.com/developerworks/cn/linux/l-async/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 使用异步 I/O 大大提高应用程序的性能
+
+http://docspy3zh.readthedocs.org/en/latest/tutorial/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | Python 入门教程 — Python 3 文档(简体中文) 3.2.2 documentation
+https://yq.aliyun.com/edu/lesson/44?spm=5176.100238.yqhn2.31.cyZh9o | 分布式数据库-云栖学院-云栖社区
+https://yq.aliyun.com/edu/lesson/40?spm=5176.100238.yqhn2.33.cyZh9o | 阿里云云服务器ECS系列培训-云栖学院-云栖社区
+https://yq.aliyun.com/edu/lesson/play/91 | 淘宝丁奇：如何解决影响MySQL使用的9大问题-云栖学院-云栖社区
+
+http://mp.weixin.qq.com/s?__biz=MzI5MDE1NjkyNw==&mid=406583286&idx=1&sn=b9e3b83ce3ecbfe22ef73a1de0d2c2ab&scene=1&srcid=0220iIkINUKz8tLqM0bZmKwI&from=groupmessage&isappinstalled=0#wechat_redirect | 当你删了线上的数据库
+http://forrestchang.github.io/self-learning-guide-1.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 初学者的编程自学指南 - Hack Notes
+http://www.jianshu.com/p/55eb83d60ab1?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io | 简明网络I/O模型---同步异步阻塞非阻塞之惑 - 简书
+
+https://yq.aliyun.com/articles/5586?spm=0.0.0.0.6HB530 | MySQL · 引擎特性 · InnoDB文件系统管理-博客-云栖社区-阿里云
+http://python.jobbole.com/84301/ | gevent：轻松异步 I/O - Python - 伯乐在线
+http://news.wooyun.org/6c6e454262397856304f5a7447794631514a4d7864773d3d | Linux 底层函数库“glibc”再现重大安全漏洞，多个 Linux 发行版受影响 - 乌云安全中心
+http://blogread.cn/it/article/7624?f=wb | 实例解析MySQL性能瓶颈排查定位 -- MySQL -- IT技术博客大学习 -- 共学习 共进步！
+
+http://www.iredmail.com/docs/sql.create.mail.alias.html | SQL: Add a mail alias account
+https://segmentfault.com/a/1190000004415437?utm_source=Weibo&utm_medium=shareLink&utm_campaign=socialShare | Github装逼指南——Travis CI 和 Codecov - MyCodingLife - SegmentFault
+http://python.jobbole.com/84276/ | python性能调优的一次记录 - Python - 伯乐在线
+
+http://weibo.com/ttarticle/p/show?id=2309403938388897082509 | 数据库Sharding方案中的逻辑库与物理库
+http://huoding.com/2013/01/26/215 | DevOps的三板斧 | 火丁笔记
+http://weibo.com/ttarticle/p/show?id=2309403938174723327862 | 小知识：入门shell（一）
+http://blogread.cn/it/article/7547?f=wb | SSH 信任限制只能执行 rsync 命令 -- Linux -- IT技术博客大学习 -- 共学习 共进步！
+http://blog.jobbole.com/97515/ | 2015年在微信热传的100+经典技术文章 - 博客 - 伯乐在线
+http://www.importnew.com/17633.html | 线程池调整真的很重要 - ImportNew
+http://blog.2baxb.me/archives/1563 | 记一次集群内无可用http服务问题排查 - Axb的自我修养
+http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402476540&idx=1&sn=20e69ac63398f6d30cd29302b20f1190#rd | 如何用十条命令在一分钟内检查Linux服务器性能
+http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=400451488&idx=1&sn=b6a24b8b3316a4d621553b7b5d303d26#wechat_redirect | 前端开发者都应知道的 jQuery 小技巧
+http://yangxikun.github.io/2016/01/30/mysql-gtid/ | MySQL Gtid复制方案学习
+http://www.yunweipai.com/archives/5422.html | 浅谈运维工具体系 – 运维派
+http://codefine.co/2613.html | 一些LVS实验配置、工具和方案
+
+http://chenlinux.com/2015/12/27/report-of-this-year/ | 2015 年度个人总结
+http://ourmysql.com/archives/408?f=wb | Mysql测试：DRBD+Mysql 高可用方案设置测试 | OurMySQL
+https://github.com/denysdovhan/bash-handbook | denysdovhan/bash-handbook: For those who wanna learn Bash
+http://blogread.cn/it/article/7434?f=wb | awk之exit -- Linux -- IT技术博客大学习 -- 共学习 共进步！
+http://web.jobbole.com/84924/ | 深入浅出Fetch API - WEB前端 - 伯乐在线
+http://awk.readthedocs.org/en/latest/index.html | AWK程序设计语言 — AWK程序设计语言
+
+https://yq.aliyun.com/articles/55 | JVM飙高排查脚本-结构分析-博客-云栖社区
+http://blogread.cn/it/article/7380?f=wb | Linux系统监控工具之vmstat详解 -- 系统运维 -- IT技术博客大学习 -- 共学习 共进步！
+https://yq.aliyun.com/articles/2920?comefrom=http://blogread.cn/news/ | 写日志的那些事儿-博客-云栖社区
+https://github.com/chaonet/IRC | chaonet/IRC
+http://www.xuliangwei.com/xubusi/280.html | Docker系列一之基础快速入门企业实战 丨 徐亮偉架构师之路~
+http://dir.scmor.com/google/ | 谷歌学术镜像_Google学术搜索导航
+http://v3.bootcss.com/components/#nav | 组件 · Bootstrap v3 中文文档
+http://www.cnblogs.com/wuhuacong/p/4759564.html | 基于Metronic的Bootstrap开发框架经验总结（2）--列表分页处理和插件JSTree的使用 - 伍华聪 - 博客园
+https://www.jstree.com/demo/ | jsTree
+http://kinegratii.com/articles/2015-02-10-django-models | Django模型 - kinegratii的博客
+http://python.usyiyi.cn/django_182/intro/tutorial01.html | 编写你的第一个Django应用，第1部分 — Django 1.8.2 中文文档
