@@ -129,13 +129,138 @@ class ChildB(Base):
 
 ## form
 
+**字段数据**: 不管表单提交的是什么数据, 一旦通过了 is_valid() 返回True, 验证后的表单数据将位于 form.cleaned_data 字典中. 这些数据已经为你转换为Python 对象 了.
+
+
+form 对象:  list: field, 属性: visible_fields , hidden_fields
+   form.non_field_errors : list
+   form.fieldname.errors: list
+   form.fieldname: 
+
+field 属性:
+field.label
+field.label_tag
+field.id_for_label
+field.value
+field.help_text
+field.value
+field.html_name
+field.errors  list
+field.is_hidden
+field.field
+
+
+### 表单集
+FormSet
+
+使用 formset  的初始化数据
+
+
+### ModelForm
+==
 
 ## views
+## 函数视图
 
+* 允许的HTTP 方法
+`@require__http_methods(["GET", "POST"])`
 
 `get_object_or_404()`
+* GZip 压缩
+* 缓存
+
+### 文件上传
+```py
+# form.py
+from django import forms
+class UploadFileForm(forms.Form):
+    title = forms.CharField(max_length=50)
+    file = forms.FileField()
+
+# views.py
+from django.http import HttpResponseRedirect
+from django.shortcuts import render
+from .forms import UploadFileForm
+
+# Imaginary function to handle an uploaded file.
+from somewhere import handle_uploaded_file
+
+def upload_file(request):
+    if request.method == 'POST':
+        form = UploadFileForm(request.POST, request.FILES)
+        if form.is_valid():
+            handle_uploaded_file(request.FILES['file'])
+            return HttpResponseRedirect('/success/url/')
+    else:
+        form = UploadFileForm()
+    return render(request, 'upload.html', {'form': form})
+
+# handle_uploaded_file
+def handle_uploaded_file(f):
+    with open('some/file/name.txt', 'wb+') as destination:
+        for chunk in f.chunks():
+            destination.write(chunk)
+```
+处理这个表单的视图在request.FILES 中收到文件数据, 他是一个字典, 表单中每一个 FileField(或者ImageField, FileField子类)字段对应一个键. 所以可以在request.FILES['file'] 来访问表单中的这些数据.
+
+请注意，如果请求方法是POST，并且发布请求的<form>具有enctype =“multipart/form-data”属性，那么request.FILES将只包含数据。否则，request.FILES将为空。
+
+* 使用模型 处理上传文件
+* 上传多个文件
+* 上传处理程序
+* 上传数据位置
+* 更改上传处理程序行为
+
+### 类视图
+
+#### 基本视图  View
+`django.views.generic.base`: 基类视图视图的核型. 其他所有的基类视图都继承这个基础类.
+视图流程图
+1. dispatch()
+2. http_method_not_allowed()
+3. options()
+
+
+
+## Django 快捷包 shortcuts
+render()
+render_to_response()
+redirect()
+get_object_or_404()
+get_list_or_404()
+
 
 ## urls
+
+
+### 反向解析
+* 在模板中使用 url
+* 在Python 代码中: 使用reverse() 函数,
+* 在更高层的与处理Django模型实例相关的代码中, 使用 get_absolute_url()
+
+```python
+
+# {% url 'new-year' 2012 %}
+
+# HttpResponseRedirect(reverse('new-year', args=(2012,)))
+
+
+```
+
+
+### 命名空间
+
+```
+    url(r'^author-polls/', include('polls.urls', namespace='polls')),
+
+url(r'^$', views.IndexView.as_view(), name='index'),
+
+# 
+{% url 'polls:index'  %}
+
+reverse('polls:index', current_app=self.request.resolver_match.namespace)
+
+```
 
 ## admin
 admin.py
@@ -174,6 +299,12 @@ admin.site.register(Question, QuestionAdmin)
 
 
 ## templates
+
+
+
+##  中间件
+
+中间件是一个钩子框架, 他们可以计入Django的请求和响应过程.
 
 
 ## 测试

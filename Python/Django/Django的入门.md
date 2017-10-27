@@ -117,10 +117,11 @@ readonly_field = ['字段']  # 设置为只读(后台)
 execlude = ['field']  设置为编辑时,隐藏
 execlude 和readonly_field的字段是冲突的
 
+外键时 使用 relfield_style  将下拉改为 fk-ajax
 relfield_style = 'fk_ajax' # 设置外键的加载方式
 
 
-自定义列表返回数据, 同一个model注册两个管理器
+### 自定义列表返回数据, 同一个model注册两个管理器
 
 在models中,
 新建一个继承Model, 只需写Meta信息就可以
@@ -137,15 +138,24 @@ def  queryset():
     return qs
 ```
 
+
+
 #### xadmin 的其他功能
-list_editor = ['degree', 'desc'] # field 在列表页的 那些字段可以修改, 可以是 Model里第一的函数
+list_editor = ['degree', 'desc'] # field 在列表页的 那些字段可以修改, 可以是 
+
+
+* 自定义属性, 使用函数时, 在 xadmin 显示
+在model 里 设置 get_zj_num.short_description = '章节数'
+
+Model里第一的函数
 get_zj_num.description = '章节数'
 
 增加, 自定义html
 
 refresh_times = [3, 5] 定时刷新的时间
-在ModelAdmin 重新定义save_models的方法
 
+在ModelAdmin 重新定义save_models的方法
+动态的统计功能
 
 #### xadmin的插件开发
 pip install DjangoUeditor
