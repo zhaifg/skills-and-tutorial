@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # django-rest-framework
 ---
 
@@ -56,12 +55,7 @@ urlpatterns = [
 ```
 
 ### 运行， 并测试
-=======
-# django-rest-framework
----
 
-
-## 快速入门
 
 
 ### 使用views的 class views 方式

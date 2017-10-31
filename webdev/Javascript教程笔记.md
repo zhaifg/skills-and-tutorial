@@ -154,6 +154,41 @@ for(var i = 0; i < x; i++)
 > 每次循环结束后，i增大1
 
 
+### label
+
+```
+{ let i=0, j=10;
+checkiandj:
+    while(i<4){
+        console.log(i, "1");
+        i += 1
+        checkj:
+           while(j>4){
+           console.log(j, 'j')
+           j -= 1;
+           if(j%2 == 0){
+                continue checkj;
+           }
+           console.log('j', j)
+           }
+    }
+}
+10:14:29.225 VM242:5 0 "1"
+10:14:29.225 VM242:9 10 "j"
+10:14:29.225 VM242:14 j 9
+10:14:29.226 VM242:9 9 "j"
+10:14:29.226 VM242:9 8 "j"
+10:14:29.226 VM242:14 j 7
+10:14:29.226 VM242:9 7 "j"
+10:14:29.226 VM242:9 6 "j"
+10:14:29.226 VM242:14 j 5
+10:14:29.227 VM242:9 5 "j"
+10:14:29.227 VM242:5 1 "1"
+10:14:29.227 VM242:5 2 "1"
+10:14:29.227 VM242:5 3 "1"
+10:14:29.227 undefined
+```
+
 ### 对象操作语句
 
 `for in`
@@ -315,6 +350,44 @@ if (typeof v === "undefined") {
 }
 ```
 
+
+### Promise
+
+从 ECMAScript 6 开始，JavaScript 增加了对 Promise 对象的支持，它允许你对延时和异步操作流进行控制。
+
+Promise 对象有以下几种状态:
+
+* pending (进行中): 初始的状态，即正在执行，不处于 fulfilled 或 rejected 状态。
+* fulfilled (已完成): 成功的完成了操作。
+* rejected (已失败): 失败，没有完成操作。
+* settled (已解决): Promise 处于 fulfilled 或 rejected 二者中的任意一个状态, 不会是 pending。
+
+流程
+![promises.png](流程)
+
+
+```js
+
+function imgLoad(url) {
+  return new Promise(function(resolve, reject) {
+    var request = new XMLHttpRequest();
+    request.open('GET', url);
+    request.responseType = 'blob';
+    request.onload = function() {
+      if (request.status === 200) {
+        resolve(request.response);
+      } else {
+        reject(Error('Image didn\'t load successfully; error code:' 
+                     + request.statusText));
+      }
+    };
+    request.onerror = function() {
+      reject(Error('There was a network error.'));
+    };
+    request.send();
+  });
+}
+```
 ### 其他
 
 除此以外,其他情况都返回object

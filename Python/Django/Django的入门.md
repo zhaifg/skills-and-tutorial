@@ -110,6 +110,28 @@ Adding extra Manager methods
 ## xadmin 配置
 ### xadmin
 
+安装:
+extra_apps 方式, pip install xadmin
+
+settings.py
+INSTALLED_APPS 
+```
+    'crispy_forms',
+    'xadmin',
+```
+
+urls
+```
+import xadmin
+urlpatterns = [
+    url(r'^xadmin/', xadmin.site.urls),
+
+```
+
+
+新建 adminx.py
+
+
 类的图标
 model_icon 
 ordering 排序
@@ -273,3 +295,6 @@ register = template.Library()
 ### 在模板中获取Cookie 的方式
 
 `{%  request.COOKIES.cookie_name  %}`
+
+
+
