@@ -351,6 +351,86 @@ if (typeof v === "undefined") {
 ```
 
 
+### RegExp
+语法:
+```
+/pattern/flags
+new RegExp(pattern[,flags])
+RegExp(pattern[,flags])
+
+```
+
+pattern: 正则表达式文本
+
+falgs:
+* g: 全局匹配: 找到所有匹配, 而不是在第一个匹配上停止
+* i: 忽略大小写
+* m: 多行; 将开始和结束符(^和$)视为在多行上工作(也就是，分别匹配每一行的开始和结束（由 \n 或 \r 分割), 而只是匹配整个输入字符串的最开始和最末尾.
+* u: unicode: 将视为Unicode 序列点的序列
+* y: 粘性匹配,仅匹配目标字符串中此正则表达式的lastIndex属性指示的索引(并且不尝试从任何后续的索引匹配)
+
+
+
+```js
+
+new RegExp('ab+c', 'i');
+new RegExp(/ab+c/, 'i');
+
+var re = /(\w+)\s(\w+)/;
+var str = "John Smith";
+var newstr = str.replace(re, "$2, $1");
+print(newstr);
+
+// 在多行中使用正则表达式
+
+var s = "Please yes\nmake my day!";
+s.match(/yes.*day/);
+// Returns null
+s.match(/yes[^]*day/);
+// Returns 'yes\nmake my day'
+
+
+//使用带有 ”sticky“ 标志的正则表达式
+var text = "First line\nsecond line";
+var regex = /(\S+) line\n?/y;
+
+var match = regex.exec(text);
+print(match[1]);  // prints "First"
+print(regex.lastIndex); // prints 11
+
+var match2 = regex.exec(text);
+print(match2[1]); // prints "Second"
+print(regex.lastIndex); // prints "22"
+
+var match3 = regex.exec(text);
+print(match3 === null); // prints "true"
+
+
+使用正则表达式和 Unicode 字符
+var text = "Образец text на русском языке";
+var regex = /[\u0400-\u04FF]+/g;
+
+var match = regex.exec(text);
+print(match[1]);  // prints "Образец"
+print(regex.lastIndex);  // prints "7"
+
+var match2 = regex.exec(text);
+print(match2[1]);  // prints "на" [did not print "text"]
+print(regex.lastIndex);  // prints "15"
+
+// and so on
+
+//从 URL 中提取子域名
+var url = "http://xxx.domain.com";
+print(/[^.]+/.exec(url)[0].substr(7)); // prints "xxx"
+
+```
+
+
+
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp
+
 ### Promise
 
 从 ECMAScript 6 开始，JavaScript 增加了对 Promise 对象的支持，它允许你对延时和异步操作流进行控制。
@@ -1027,6 +1107,9 @@ var  someResult = numbers.some(function(item, index, array){
 ### 缩小方法
 `reduce()`
 `reduceRight()`
+
+
+
 
 ## Object 类型
 Object作为构造函数使用时，可以接受一个参数。如果该参数是一个对象，则直接返回这个对象；如果是一个原始类型的值，则返回该值对应的包装对象。
