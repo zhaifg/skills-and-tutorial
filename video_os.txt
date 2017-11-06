@@ -1,0 +1,37 @@
+
+
+
+# iqiyi 电视剧页面
+//*[@id="widget-tab-3"]/div[4]/div/ul/li/div/a/@href
+
+# 播放列表提取 iqyi
+//*[@id="widget-dramaseries"]/div[1]/div/div[3]/div[1]/div[1]/ul/li/a
+
+
+
+# qq
+
+播放
+
+//*[@id="video_scroll_wrap"]/div[4]/div[2]/span/a/@href
+需要添加 url 前缀 https://v.qq.com
+
+
+优酷 
+播放页面
+//*[@id="vpofficiallistv5_wrap"]/div[1]/div/div/div[1]/a/@href /span
+
+
+1. 取得电视剧名称, 或者, Model 的ID
+2. 根据要爬取的 url , 找出对应的网站,
+3. 选取对应的 怕取 xpath路径
+4. 选择相应的爬虫, 每个站点有单独的爬虫
+
+5. 使用类 继承的方式
+
+celery 的方式
+
+
+未解决的问题:
+1. 分页的剧集的读取
+2. 

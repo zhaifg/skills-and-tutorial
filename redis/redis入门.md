@@ -83,6 +83,10 @@ redis-cli -h -p port
 
 ## 数据结构
 
+
+keys:
+* 不能太长或太短
+* 最好坚持一种模式: object-type:field  user:1000:password
 ### String 字符串
 * 字符串键值, 二进制安全的, redis的string可以包含任何数据, 比如图片或者序列化对象
 k: hello  v: world
