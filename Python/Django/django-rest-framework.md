@@ -257,3 +257,16 @@ urlpatterns = [
 
 ```
 >>>>>>> Stashed changes
+
+## 结构详解
+
+
+
+
+
+
+
+
+Serializer:
+
+HyperlinkedModelSerializer:
