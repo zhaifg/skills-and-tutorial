@@ -256,7 +256,41 @@ urlpatterns = [
 ]
 
 ```
->>>>>>> Stashed changes
+Stashed changes
+
+## HyperlinkedModelSerializer
+
+
+## ListSerializer
+一次多个对象序列话和验证
+`allow_empty`
+
+### 定制 ListSerializser 行为
+
+### 定制 ListSerializer 的多个创建
+
+### 定制 ListSerializer 多个的更新
+
+### 定制 ListSerializer 的初始化
+
+
+
+## BaseSerializer
+
+## Third party packages
+* Django REST marshmallow
+* Serpy
+* MongoengineModelSerializer
+* GeoFeatureModelSerializer
+* HStoreSerializer
+* Dynamic REST
+* Dynamic Fields Mixin
+* DRF FlexFields
+* Serializer Extensions
+* HTML JSON Forms
+* DRF-Base64
+* QueryFields
+* DRF Writable Nested
 
 ## 结构详解
 
