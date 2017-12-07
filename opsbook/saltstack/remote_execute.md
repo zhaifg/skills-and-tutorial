@@ -1,7 +1,29 @@
 # 远程执行
 ---
 
-## 
+## Grains
+* 信息查询
+  * salt  '*' grains.ls items
+* 匹配执行, 匹配minion
+  - salt -G os:CentOS cmd.run 'w'
+* 通过配置文件, 自定义grains
+* 在 client 端设置
+
+## pillar
+给 minion 指定 想要的数据, 在master配置
+`salt `
+
+master
+pillar_roots:
+  base:
+    - /srv/pillar
+
+## Grains 与 Pillar 区别
+* grains minion 端 静态数据, minion 启动时手机, 存储基本数据
+* Pillar Master 动态数据, saltutil.refresh_pillar 刷新, 用于敏感数据
+
+
+
 
 
 
@@ -10,6 +32,7 @@ salt 目标 模块 命令
 ```
 salt '<target>' <function> [arguments]
 ```
+
 ##  目标
 salt '*' [ options ] sys.doc
 

@@ -13,6 +13,10 @@
 
 ## bind的安装
 yum
+
+```
+yum install bind-utils bind bind-devel bind-chroot -y
+```
 ```
 yum install -y bind bind-utils  
 
@@ -818,6 +822,8 @@ tail -10 rndc.conf | head - | sed s/#\ //g > named.conf
 `PTR记录`：IP.in-addr.arpa. IN PTR Value; 示例：1.1.168.192.in-addr.arpa. IN PTR www.anyisalin.com. #PTR记录的写法比较诡异，我们在后面进行叙述
 
 `AAAA记录`：和A记录相似，只是将IPv4地址换为IPv6
+`SRV记录`： 
+记录了哪台计算机提供了哪个服务。格式为：服务的名字.协议的类型（例如：_example-server._tcp
 
 ## 实例
 named.conf的zone
