@@ -1009,3 +1009,24 @@ output{
 写入的 ES 索引的名称，这里可以使用变量。为了更贴合日志场景，Logstash 提供了 `%{+YYYY.MM.dd}` 这种写法。在语法解析的时候，看到以` + `号开头的，就会自动认为后面是时间格式，尝试用时间格式来解析后续字符串。所以，之前处理过程中不要给自定义字段取个加号开头的名字
 
 此外，注意索引名中`不能有大写字母`，否则 ES 在日志中会报 `InvalidIndexNameException`，但是 Logstash 不会报错，这个错误比较隐晦，也容易掉进这个坑中。
+
+
+input {
+  file {
+     path => "/var/log/messages"
+     type => "system"
+     start_position => "begining"
+}
+}
+
+output{
+  elasticsearch {
+     host => [""]
+     index => "system-%{}"
+}
+
+}
+
+
+
+

@@ -575,12 +575,13 @@ backend servers
 balance roundrobin
     server magedu1 192.168.10.11:80 check maxconn 2000
     server magedu2 192.168.10.12:80 check maxconn 2000
-```    
+```
 
 
 
 
 负载均衡MySQL服务的配置示例
+
 ```
 #---------------------------------------------------------------------
 # Global settings
@@ -640,3 +641,7 @@ backend mysqlservers
     server db1.magedu.com 192.168.10.11:3306 check port 3306 intval 2 rise 1 fall 2 maxconn 300
     server db2.magedu.com 192.168.10.12:3306 check port 3306 intval 2 rise 1 fall 2 maxconn 300
 ```
+
+## 使用 动态配置haproxy 使用  runtime api
+
+https://www.haproxy.com/blog/dynamic-configuration-haproxy-runtime-api/
