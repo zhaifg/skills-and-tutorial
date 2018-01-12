@@ -97,6 +97,8 @@ docker run -d -t -i ubuntu /bin/sh -c "while true;do hello world; sleep 1; done;
 
 
 ## 镜像image
+`docker pull [选项] [Docker Registry 地址[:端口号]/]仓库名[:标签]`
+
 
 `docker search centos`: 从官方仓库里搜索名称有centos 的镜像
 `docker pull centos` : 从官方仓库里拉取镜像
@@ -126,7 +128,7 @@ docker rmi
 `f`: --filter
 
 ## 镜像构建
-
+`docker commit [选项] <容器ID或容器名> [<仓库名>[:<标签>]]`
 ### 手动构建
 
 1. 使用现有的镜像进行修改
