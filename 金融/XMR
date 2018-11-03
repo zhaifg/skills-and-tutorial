@@ -1,0 +1,17 @@
+PRIVATE: ugly tubes jury orchid addicted layout upkeep agreed react cool cousin robot robot
+address: 4A2AgtHicTpAfh247HY2RhewNaiKBVcuvYwzMHRCF6S7aaZNN4NL57ZYb6jsSgY4UKiSyiGVyyLtGTjpNvBk5RnE9X4K1QU
+
+    sudo yum install centos-release-scl epel-release
+    sudo yum install cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel openssl-devel make
+    scl enable devtoolset-4 bash
+    git clone https://github.com/fireice-uk/xmr-stak.git
+    mkdir xmr-stak/build
+    cd xmr-stak/build
+    cmake3 ..
+    make install
+ xmr-stak -u 4A2AgtHicTpAfh247HY2RhewNaiKBVcuvYwzMHRCF6S7aaZNN4NL57ZYb6jsSgY4UKiSyiGVyyLtGTjpNvBk5RnE9X4K1QU
+
+ ./xmr-stak  -o stratum+tcp://pool.supportxmr.com:5555  -u 4A2AgtHicTpAfh247HY2RhewNaiKBVcuvYwzMHRCF6S7aaZNN4NL57ZYb6jsSgY4UKiSyiGVyyLtGTjpNvBk5RnE9X4K1QU -p MyWorker:357951033@qq.com
+
+
+ ./xmr-stak  -o stratum+tcp://pool.supportxmr.com:3333 -u 4A2AgtHicTpAfh247HY2RhewNaiKBVcuvYwzMHRCF6S7aaZNN4NL57ZYb6jsSgY4UKiSyiGVyyLtGTjpNvBk5RnE9X4K1QU -p MyWorker:357951033@qq.com
