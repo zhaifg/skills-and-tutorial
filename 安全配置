@@ -1,0 +1,76 @@
+检查项: 开启用户登录失败锁定
+路径: /home/huifangkeji/tomcats/tomcat7/conf/server.xml
+当前值:
+加固建议: <Realm className="org.apache.catalina.realm.LockOutRealm" failureCount="3" lockOutTime="600" cacheSize="1000" cacheRemovalWarningTime="3600">
+检查项: 限制远程管理IP
+路径: /home/huifangkeji/tomcats/tomcat7/conf/server.xml
+当前值:
+加固建议: 增加<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="允许远程管理IP"/>
+检查项: 禁止显示异常调试信息
+路径: /home/huifangkeji/tomcats/tomcat7/conf/web.xml
+当前值:
+加固建议: 在当前web.xml里面的web-app添加子节点：<error-page><exception-type>java.lang.Throwable</exception-type><location>/error.jsp</location></error-page>，在webapps目录下创建error.jsp，定义自定义错误信息
+检查项: 开启传输层安全属性
+路径: /home/huifangkeji/tomcats/tomcat7/webapps/manager/WEB-INF/web.xml
+当前值:
+加固建议: 在当前路径的web.xml里面的web-app添加子节点：<security-constraint> <user-data-constraint> <transport-guarantee>CONFIDENTIAL</transport-guarantee></user-data-constraint> </security-constraint>
+检查项: 开启安全周期生命监听器
+路径: /home/huifangkeji/tomcats/tomcat7/conf/server.xml
+当前值:
+加固建议: 取消 <Listener className="org.apache.catalina.security.SecurityListener" /> 注释
+检查项: 示例文件检测
+路径: /home/huifangkeji/tomcats/tomcat7/
+当前值: /home/huifangkeji/tomcats/tomcat7/webapps/examples
+加固建议: 请删除检测出的示例文件或目录
+检查项: 禁止自动部署
+路径: /home/huifangkeji/tomcats/tomcat7/conf/server.xml
+当前值: Host:autoDeploy=true
+加固建议: 将autoDeploy="false"
+检查项: 禁止应用运行在提权模式
+路径: /home/huifangkeji/tomcats/tomcat7/webapps/manager/META-INF/context.xml
+当前值: Context:privileged=true
+加固建议: 将privileged="false"
+检查项: 禁止应用运行在提权模式
+路径: /home/huifangkeji/tomcats/tomcat7/webapps/host-manager/META-INF/context.xml
+当前值: Context:privileged=true
+加固建议: 将privileged="false"
+检查项: 设置http大小
+路径: /home/huifangkeji/tomcats/tomcat7/conf/server.xml
+当前值: maxHttpHeaderSize
+加固建议: 对检测出的Connector增加属性：maxHttpHeaderSize="8192"
+检查项: 设置http大小
+路径: /home/huifangkeji/tomcats/tomcat7/conf/server.xml
+当前值: maxHttpHeaderSize
+加固建议: 对检测出的Connector增加属性：maxHttpHeaderSize="8192"
+检查项: 监听端口业务协议配置检测
+路径: /home/huifangkeji/tomcats/tomcat7/conf/server.xml
+当前值: 8082
+加固建议: 为该监听端口配置scheme="http"或"https"属性
+检查项: 监听端口业务协议配置检测
+路径: /home/huifangkeji/tomcats/tomcat7/conf/server.xml
+当前值: 8199
+加固建议: 为该监听端口配置scheme="http"或"https"属性
+检查项: 使用UserDatabaseRealm检测
+路径: /home/huifangkeji/tomcats/tomcat7/conf/server.xml
+当前值: org.apache.catalina.realm.UserDatabaseRealm
+加固建议: 建议关闭UserDatabaseRealm使用
+
+
+
+
+检查项: mongodb启动权限检测
+当前值: root
+加固建议: 创建mongodb低权限账号（例如：useradd mongodb），并切换至此账号启动mongod。注意：在切换低权限账户启动时，需要将mongod文件目录、mongodb数据目录使用chown -R mongodb:mongodb修改上述目录权限，同时删除/tmp目录下mongodb.lock文件
+检查项: mongodb启动权限检测
+当前值: root
+加固建议: 创建mongodb低权限账号（例如：useradd mongodb），并切换至此账号启动mongod。注意：在切换低权限账户启动时，需要将mongod文件目录、mongodb数据目录使用chown -R mongodb:mongodb修改上述目录权限，同时删除/tmp目录下mongodb.lock文件
+检查项: mongodb密码配置检测
+当前值: 无
+加固建议: 开启auth属性，并添加数据库允许访问账号、密码
+
+
+
+拓宽自己的视野: 2年, 5年
+良好的心态
+独立思考: 看清楚事物的本质
+自立

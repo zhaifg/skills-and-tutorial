@@ -92,7 +92,7 @@ class Student(CommonInfo):
 
 ####  related_name 与 related_query_name
 
-如如果你在ForeignKey或ManyToManyField上使用related_name或related_query_name，则必须为这个字段始终指定一个唯一的反向名称和查询名称。 这通常会导致抽象基类中的一个问题，因为该类中的字段包含在每个子类中，且每次属性的值完全相同（包括related_name和related_query_name）。
+如如果你在 ForeignKey 或 ManyToManyField 上使用 related_name 或 related_query_name ，则必须为这个字段始终指定一个唯一的反向名称和查询名称。 这通常会导致抽象基类中的一个问题，因为该类中的字段包含在每个子类中，且每次属性的值完全相同（包括related_name和related_query_name）。
 
 要解决此问题，当你（仅）在抽象基类中使用related_name或related_query_name时，值的一部分应包含'%(app_label)s'和'%(class)s'。
 

@@ -1328,3 +1328,39 @@ Environment=HTTP_PROXY=http://proxy.example.com:80/
 ```
 6. Restart Docker:
 `$ sudo systemctl restart docker`
+
+
+## Docker 的系统资源限制和验证
+
+### 内存
+
+`-m  --memory`: 
+
+--memory-swap *: 这个生效必须设置, 内存大小.
+
+正数S 
+
+--memory-swapiness
+
+--memory-reservation
+
+--kernel-memory
+
+--oom-kill-disable
+
+### CPU
+
+--cpus=value : 最多使用多少核心cpu, 
+
+
+--cpu-period=values
+
+--cpu-quota=value
+
+--cpuset-cpus  设置docker 运行到哪个cpu上, 从0开始
+
+--cpu-share: 按比例分配, 共享分配, 空闲可以全不吃掉cpu. 可压缩分配
+ 1024, 512   2:1
+ 1024, 512, 2048  2:1:4
+
+ docker- stress 压测 

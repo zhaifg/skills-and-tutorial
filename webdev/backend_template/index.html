@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>demo</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+</head>
+<style type="text/css">
+    body{
+        margin: 0;
+    }
+    .left{
+        float:left;
+    }
+
+    .right{
+        float:right;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .pg-header{
+        height: 48px;
+        background-color: #2f72ab;
+        min-width: 960px;
+        line-height: 48px;
+    }
+
+    .pg-header .logo {
+        color: white;
+        font-size: 24px;
+        width: 200px;
+        background-color: #1c5a9c;
+        text-align: center;
+    }
+    .pg-header .hl-menu .item, .pg-header .hr-menu .item {
+        color: white;
+        padding: 0 10px;
+        height: 48px;
+        display: inline-block;
+    }
+
+    .pg-header .hl-menu .item:hover, .pg-header .hr-menu .item:hover {
+            background-color: #1c5a9c;
+    }
+
+    .pg-header .hl-menu .item-set, .pg-header .hr-menu .item-set {
+        display: inline-block;
+        position: relative;
+    }
+
+    .pg-header .hl-menu .item-set .sets, .pg-header .hr-menu .item-set .sets{
+        position: absolute;
+        width: 250px;
+        display: none;
+        border: 1px solid #dddddd;
+    /*    background-color: #1c5a9c;*/
+    }
+    .pg-header .hl-menu .item-set .sets a, .pg-header .hr-menu .item-set .sets a {
+            display: block;
+            line-height: 30px;
+         /*   background-color: #1c5a9c;*/
+    }
+    .pg-header .hl-menu .item-set:hover .sets, .pg-header .hr-menu .item-set:hover .sets{
+            display: block;
+            width: 150px;
+    }
+
+
+    .avatar{
+        display: inline-block;
+        position: relative;
+    }
+    .avatar .sets{
+        position: absolute;
+        display: none;
+        width: 150px;
+        border:1px solid #dddddd;
+        left:-113px;
+        top:48px;
+    }
+
+    .avatar .sets  a{
+        display: block;
+    }
+
+    .avatar img{
+        width: 40px;
+        height: 40px;
+        margin-top:4px;
+        border-radius: 50%;
+    }
+
+    .avatar:hover .sets{
+        display: block;
+    }
+
+    .pg-body .menus{
+        position: absolute;
+        width: 200px;
+/*        background-c*/olor: green;
+        top:48px;
+        left: 0;
+        bottom:0;
+    }
+
+    .pg-body .menus .item {
+         background-color: #f2f2f2;
+    }
+
+
+    .pg-body .menus .item .item-title{
+        background-color: #dddddd;
+        font-size: 24px;
+        padding: 8px;
+        color: blue;
+    }
+
+    .pg-body .menus .item .item-content{
+
+    }
+    .pg-body .menus .item .item-content a{
+        display: block;
+        padding:3px;
+        border-left: 3px solid transparent;
+    }
+    .pg-body .menus .item .item-content a:hover{
+        border-left: 3px solid #1c5a9c;
+    }
+    .pg-body .contents{
+        position: absolute;
+        background-color: yellow;
+        top:48px;
+        left: 205px;
+        right:0;
+        overflow: scroll;
+    }
+
+
+
+
+</style>
+<body>
+<div class="pg-header">
+    <div class="logo left">你好的啊</div>
+    <div class="hl-menu left">
+        <a class="item" href="">菜单一</a>
+        <a class="item" href="">菜单二</a>
+        <a class="item" href="">菜单三</a>
+        <div class="item-set">
+            <a href="" class="item">菜单四</a>
+            <div class="sets">
+                <a href="">菜单四1</a>
+                <a href="">菜单四2</a>
+                <a href="">菜单四3</a>
+                <a href="">菜单四4</a>
+            </div>
+        </div>
+    </div>
+    <div class="hr-menu right">
+
+        <a class="item" href="">菜单三</a>
+        <div class="avatar right">
+            <a href="item">
+                <img src="default.png">
+            </a>
+            <div class="sets">
+                <a href="">菜单四1</a>
+                <a href="">菜单四2</a>
+                <a href="">菜单四3</a>
+                <a href="">菜单四4</a>
+            </div>
+        </div>
+        </div>
+</div>
+
+<div class="pg-body">
+    <div class="menus">
+        <div class="item">
+            <div class="item-title">文章管理</div>
+            <div class="item-content">
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+            </div>
+        </div>
+         <div class="item">
+            <div class="item-title">文章管理</div>
+            <div class="item-content hide">
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+            </div>
+        </div>
+         <div class="item">
+            <div class="item-title ">文章管理</div>
+            <div class="item-content hide">
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+                <a href="#">大的发大水发as</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="contents">
+        <div style="height:1000px;"></div>
+    </div>
+</div>
+<div class="pg-footer"></div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+</script>
+</html>

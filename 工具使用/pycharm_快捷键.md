@@ -15,3 +15,7 @@ alt + Up/ down :整块移动
 https://changchen.me/blog/20170607/pycharm-shortcut/
 
 http://blog.csdn.net/pipisorry/article/details/39909057
+
+admin_css.model._meta.get_field(filter_column)
+
+app_lable

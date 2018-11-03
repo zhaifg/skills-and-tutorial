@@ -1,0 +1,73 @@
+
+
+
+基本信息
+
+1、籍贯分布：统计到市
+2、用户年龄分段：18-25，26-35，36-45，45以上，各年龄段用户数
+需求数
+4、用户性别：男女统计用户数
+5、岗位需求性别：统计男、女、不限各需求数
+8、学历：各学历，用户数统计
+9、现居地分布：统计到市
+
+6、民族：汉族和少数民族数量统计
+7、手机号：1年内更换0次、1次、2次、3次及以上数量统计
+
+
+
+
+
+工作信息
+
+1、面试日期：1年内面试0次、1次、2次、3次及以上数量统计
+
+
+
+
+
+2、入职日期/离职日期：平均在职时间统计，1个月、2个月...
+
+3、离职原因：各原因数量统计
+
+4、发布说说及评论数量：0条，1-10，11-20，21-30...数量统计
+
+5、说说及评论被动删除数量：0条，1，2，3...数量统计
+
+select delete_way, count(1)  up from ym_talk_deletedetail  dd
+left join ym_talk_info i on dd.talk_id = i.talk_id
+where delete_way=1 and create_time between "2016-01-01 00:00:00" and  "2018-01-01 00:00:00"
+group by user_name order by up;
+
+6、说说及评论被举报数量：0条，1，2，3...数量统计
+
+
+age, 籍贯, sex, 民族, 学历, 现居地
+
+select user_id, birthday, sex, home_province, home_city , education,  company_id, live_province, live_city
+from ym_customer_resume  order by user_id desc limit 10;
+
+岗位需求: 性别, 年龄
+
+面试申请: 用户次数 ym_customer_apply
+
+select user_id, count(1) as up  from ym_customer_apply where create_time > "2018-04-27 00:00:00" group by user_id  order by up desc limit 10;
+
+说说:
+
+
+
+select count(1) from ym_talk_info i right join ym_talk_jubao j on i.talk_id = j.talk_id where release_date between "2016-01-01 00:00:00" and  "2018-01-01 00:00:00" group by j.talk_id) as  ;
+
+
+ym_company_job 工作表
+
+
+
+
+appc abt act ruff ​​​​
+
+
+ select user_id, birthday, sex, home_province, home_city , education,  company_id, live_province, live_city
+from ym_customer_resume  where create_time
+between "2016-01-01 00:00:00" and  "2018-01-01 00:00:00" and  sex=2;

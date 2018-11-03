@@ -5,9 +5,19 @@
 
 `event_loop`: 事件循环, 程序开启一个无限的循环, 程序员汇报一些函数注册到事件循环上. 当满足事件发生的时候, 调用相应的协程函数
 
-`coroutine`协程: 协程对象, 指一个使用async关键字定义的函数, 它的调用不会立即执行函数,而是返回一个协程对象. 协程对象需要注册到事件循环, 由事件循环调用.
+`coroutine`协程: 协程对象, 指一个使用async关键字定义的函数, 它的调用不会立即执行函数,而是返回一个协程对象. 协程对象需要注册到事件循环, 由事件循环调用. 或者使用 @asyncio.coroutine 装饰器装饰的函数
 
-`task`任务, 一个协程对象就是一个原生可以挂起的函数, 任务则是对协程进一步封装, 其中包含任务的各种状态
+* 什么是协程:
+  1. 使用 async def 定义的函数或者使用 @asyncio.coroutine 修饰的函数, iscoroutinefunction() 返回 True
+  2. 通过调用协同程序函数得到的对象。
+
+* 协程能做什么事:
+  * result = await future or result = yield from future: 暂停协同程序，直到future完成，然后返回future的结果，或者引发一个异常，该异常将被传播(如果future 被取消, 它会触发 CancelledError 异常)。 注意Task是Future，关于Future的一切也适用于Task。
+  * result = await coroutine or result = yield from coroutine: 等待另一个协同程序产生一个结果（或者引发一个异常，它将被传播）。协同程序表达式必须是对另一个协同程序的调用。
+  * return expression: 
+  * raise expression
+  * 
+`task`任务, 一个协程对象 就是一个原生可以挂起的函数, 任务则是对协程进一步封装, 其中包含任务的各种状态
 
 `future`: 代表将来执行或者没有执行的任务的结果, 它和task 上没有本质的区别
 
@@ -30,6 +40,8 @@
 
 ### class asyncio.AbstractEventLoop
 是抽象类, 是所有event loop的. 不是线程安全的
+
+### windows 和 mac 的
 
 ### 运行一个事件循环
 
@@ -113,7 +125,25 @@ loop.close()
 
 ### Futures
 `AbstractEventLoop.create_future()`:  Create an asyncio.Future object attached to the loop. 
-这是在asyncio中创建Future的首选方式，因为事件循环实现可以提供Future类的替代实现（具有更好的性能或工具）。
+这是在asyncio中创建 Future 的首选方式，因为事件循环实现可以提供 Future 类的替代实现（具有更好的性能或工具）。类似于 concurrent.futures.Future.
+
+* cancel()
+  * 取消 Future 并调度回调
+  * 如果 Future 已经运行完或者已经取消, 返回False
+* cancelled()
+  * 如果已经取消返回 True
+* done()
+ * 如果已经运行完成,放回True
+* result()
+  * 返回 运行结果
+  * 如果被取消, 则触发CancelledError
+* exception()
+  * 返回设置的异常
+* add_done_callback(callback, *, context=None)
+* remove_done_callback(fn)
+* set_result(result)
+* set_exception(exception)
+* get_loop()
 
 ### Tasks
 `AbstractEventLoop.create_task(coro)`:  安排cooutine对象的执行：将来包装它。返回一个Task对象。第三方事件循环可以使用他们自己的Task的子类来实现互操作性。在这种情况下，结果类型是Task的子类。此方法在Python 3.4.2中添加。使用async（）函数来支持较旧的Python版本。

@@ -21,9 +21,9 @@ collection = db['test_collection']
 # post实例
 import datetime
 post = {"author": "Mike",
-         "text": "My first blog post!",
-         "tags": ["mongodb", "python", "pymongo"],
-         "date": datetime.datetime.utcnow()}
+        "text": "My first blog post!",
+        "tags": ["mongodb", "python", "pymongo"],
+        "date": datetime.datetime.utcnow()}
 posts = db.posts
 post_id = posts.insert_one(post).inserted_id
 
@@ -33,13 +33,13 @@ posts.find_one(["author": "mike"])
 
 # 批量插入
 new_posts = [{"author": "Mike",
-               "text": "Another post!",
-               "tags": ["bulk", "insert"],
-               "date": datetime.datetime(2009, 11, 12, 11, 14)},
-              {"author": "Eliot",
-               "title": "MongoDB is fun",
-               "text": "and pretty easy too!",
-               "date": datetime.datetime(2009, 11, 10, 10, 45)}]
+              "text": "Another post!",
+              "tags": ["bulk", "insert"],
+              "date": datetime.datetime(2009, 11, 12, 11, 14)},
+             {"author": "Eliot",
+              "title": "MongoDB is fun",
+              "text": "and pretty easy too!",
+              "date": datetime.datetime(2009, 11, 10, 10, 45)}]
 
 result = posts.insert_many(new_posts)
 # 批量查询

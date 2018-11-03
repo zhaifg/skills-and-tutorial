@@ -1,0 +1,27 @@
+
+1. 制作一个 tomcat 镜像
+2.
+
+1. 设置jdk
+2. 配置环境变量,
+3. copy tomcat
+4. 设置tomcat启动的环境变量
+5. 部署代码
+6. 启动tomcat
+7. 日志收集
+8. 监控
+
+
+
+1. nginx
+2. api
+3. openfire
+4. tps
+5. memcached
+6. activemq
+
+
+近期任务:
+1. 完善监控, 条目:memcached, tomcat [自动重启]
+2. 报警收敛
+3. 备份整合,报警,提示

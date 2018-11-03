@@ -6,7 +6,7 @@ Compose是用来定义和运行一个或者多个容器应用的工具. 使用Co
 
 ## Compose的使用步骤
 Compose的使用基本上遵循以下三步:
-1. 用Dockerfile文件定义应用的运行环境, 以便应用在任何地方都可以复制; 基于这个Dockerfile, 可以构建出一个Docker 镜像.
+1. 用 Dockerfile 文件定义应用的运行环境, 以便应用在任何地方都可以复制; 基于这个Dockerfile, 可以构建出一个Docker 镜像.
 2. 用docker-compose.yml文件定义应用的各个服务, 以便这些服务可以作为应用的组件一起运行.
 3. 执行docker-compose up命令, 就可以Compose就会创建和运行整个应用了.
 

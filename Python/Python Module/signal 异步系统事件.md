@@ -11,8 +11,8 @@
 信号处理程序(signal handler),她会在出现信号时调用. 信号处理程序的参数包括信号编
 号以及程序被信号中断那一时刻的栈帧.
 
-```
-import  signal
+```py
+import signal
 import os
 import time
 
@@ -169,7 +169,7 @@ KeyboardInterrupt. 这个例子将忽略SIGINT, 并发现SIGUSR1时产生一个S
 信号和线程通常不能很好的结合,因为只有进程的主线程可以接收信号. 下面的例子建立了
 一个信号处理程序. 他在一个线程中等待信号,而从另一个线程发送信号.
 
-```
+```py
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Date    : 2015-12-31 21:40:45

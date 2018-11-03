@@ -1,172 +1,5 @@
-# scrapy
+# Spider 类
 ---
-
-
-## 入门项目
-
-1. 建立一个新的 scrapy project
-2. 写一个爬虫站点的和提取数据
-3. 命令行导出数据
-4. spider 递归跟踪连接
-5. 使用spider 参数
-6. 
-scrapy startproject tutorial  建立爬虫项目
-```
-tutorial/
-    scrapy.cfg            # 配置文件
-
-    tutorial/             # 项目的Python代码目录 f
-        __init__.py
-
-        items.py          # 项目的 items 定义文件 
-
-        pipelines.py      # project pipelines file
-
-        settings.py       # project settings file
-
-        spiders/          # 在这个目录里 添加爬虫
-            __init__.py
-```
-
-#  第一个爬虫
-建立爬虫一个方法一
-
-方法二: 直接在spider 下编写
-
-```py
-
-import scrapy
-
-class QuotesSpider(scrapy.Spider): # 爬虫继承 scrapy.Spider
-    name = "quotes" # 爬虫的标示符, 在scrapy 调度时.
-
-    def start_requests(self):
-        # 必须返回一个可迭代的Request的迭代器(或者返回一个Request列表或者一个迭代器函数)
-        # 爬虫从这个 开始执行.
-        urls = [
-            'http://quotes.toscrape.com/page/1/',
-            'http://quotes.toscrape.com/page/2/',
-        ]
-        for url in urls:
-            yield scrapy.Request(url=url, callback=self.parse)
-
-    def parse(self, response):
-        #这个方法是用来处理每一个页面响应的
-        page = response.url.split("/")[-2]
-        filename = 'quotes-%s.html' % page
-        with open(filename, 'wb') as f:
-            f.write(response.body)
-        self.log('Saved file %s' % filename)
-```
-
-`scrapy crawl quotes` :运行爬虫
-
-`scrapy shell 'http://quotes.toscrape.com/page/1/'` 提取数据 做测试
-
-body > div.container > div:nth-child(2) > div.col-md-8 > div:nth-child(1)
-
-/html/body/div[1]/div[2]/div[1]/div[1]
-
-
-```py
-import scrapy
-
-class QuotesSpider(scrapy.Spider):
-    name = "quotes"
-
-    def start_requests(self):
-        urls = [ 
-            'http://quotes.toscrape.com/page/1/',
-            'http://quotes.toscrape.com/page/2/',
-        ]   
-
-        for url in urls:
-            yield scrapy.Request(url=url, callback=self.parse)
-
-
-    def parse(self, response):
-        for quote in response.css("div.quote"):
-            yield {
-                'text': quote.css("span.text::text").extract_first(),
-                'author': quote.css("small.author::text").extract_first(),
-                'tags': quote.css('div.tags a.tag::text').extract()
-            }   
-        # 自动发现下一页的数据
-        next_page = response.css("li.next a::attr(href)").extract_first()
-        if next_page is not None:
-            # next_page = response.urljoin(next_page)
-            # yield scrapy.Request(next_page, callback=self.parse)
-            # 使用follow 代替上面的功能, follow 可以使用相对路径.
-            yield response.follow(next_page, self.parse) 
-
-```
-
-```py
-import scrapy
-
-
-class AuthorSpider(scrapy.Spider):
-    name = 'author'
-
-    start_urls = ['http://quotes.tpscrape.com']
-
-    def parse(self, response):
-        for href in response.css('.author + a::attr(href)'):
-            yield response.follow(href, callback=self.parse_autor)
-
-        for href in response.css('li.next a::attr(href)'):
-            yield response.fllow(href, self.parse)
-    
-
-    def parse_author(self, response):
-        def extract_with_css(query):
-            return response.css(query).extract_first().strip()
-
-        yield {
-            'name': extract_with_css('h3.author-title::text'),
-            'birthdate': extract_with_css('.author-born-date::text'),
-            'bio': extract_with_css('.author-description::text')
-        }  
-```
-
-### spider 参数
-
-`scrapy crawl quotes -o quotes-humor.json -a tag=humor`
-
-参数传递到 Spider 类的 `__init__` 方法中
-In this example, the value provided for the tag argument will be available via self.tag. 
-
-```py
-
-import scrapy
-
-
-class QuotesSpider(scrapy.Spider):
-    name = "quotes"
-
-    def start_requests(self):
-        url = 'http://quotes.toscrape.com/'
-        tag = getattr(self, 'tag', None)
-        if tag is not None:
-            url = url + 'tag/' + tag
-        yield scrapy.Request(url, self.parse)
-
-    def parse(self, response):
-        for quote in response.css('div.quote'):
-            yield {
-                'text': quote.css('span.text::text').extract_first(),
-                'author': quote.css('small.author::text').extract_first(),
-            }
-
-        next_page = response.css('li.next a::attr(href)').extract_first()
-        if next_page is not None:
-            yield response.follow(next_page, self.parse)
-```
-
-
-
-
-
 ## Spider
 
 Spider类定义了如何爬取某个(或某些)网站。包括了爬取的动作(例如:是否跟进链接)以及如何从网页的内容中提取结构化数据(爬取item)。 换句话说，Spider就是您定义爬取的动作及分析某个网页(或者是有些网页)的地方。
@@ -175,11 +8,12 @@ Spider类定义了如何爬取某个(或某些)网站。包括了爬取的动作
 
 1. 以初始的URL初始化`Request`，并设置回调函数。 当该`request`下载完毕并返回时，将生成 `response`，并作为参数传给该回调函数。
 
-spider中初始的request是通过调用 s`tart_requests()` 来获取的。 `start_requests()` 读取 `start_urls` 中的URL， 并以 `parse` 为回调函数生成 `Request` 。
+spider中初始的request是通过调用 `start_requests()` 来获取的。 `start_requests()` 读取 `start_urls` 中的URL， 并以 `parse` 为回调函数生成 `Request` 。
 
 2. 在回调函数内分析返回的(网页)内容，返回 Item 对象或者 Request 或者一个包括二者的可迭代容器。 返回的Request对象之后会经过Scrapy处理，下载相应的内容，并调用设置的callback函数(函数可相同)。
 
 3. 在回调函数内，您可以使用 选择器(Selectors) (您也可以使用BeautifulSoup, lxml 或者您想用的任何解析器) 来分析网页内容，并根据分析的数据生成item。
+
 4. 最后，由spider返回的item将被存到数据库(由某些 Item Pipeline 处理)或使用 Feed exports 存入到文件中。
 
 ### scrapy.Spider
@@ -296,4 +130,73 @@ class MySpider(scrapy.Spider):
             yield scrapy.Request(url, callback=self.parse)
 ```
 
-#### spider 的参数
+## Spider 参数
+`scrapy  crawl myspider -a  category=electronics`
+
+```py
+import scrapy
+class MySpider(scrapy.Spider):
+    name = 'myspider'
+
+    def __init__(self, category=None, *args, **kwargs):
+        super(MySpider, self).__init__(*args, **kwargs)
+        self.start_urls = ['http://www.example.com/categories/%s' % category]
+```
+or
+```py
+
+import scrapy
+
+class MySpider(scrapy.Spider):
+    name = 'myspider'
+
+    def start_requests(self):
+        yield scrapy.Request('http://www.example.com/categories/%s' % self.category)
+```
+
+## CrawlSpider
+
+### 属性
+* rules:
+  * `class scrapy.spiders.Rule(link_extractor, callback=None, cb_kwargs=None, follow=None, process_links=None, process_request=None)`
+  * link_extractor
+  * callback
+  * cb_kwargs
+  * follow
+  * process_links
+  * process_request
+* parse_start_url
+
+```py
+import scrapy
+from scrapy.spiders import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
+
+class MySpider(CrawlSpider):
+    name = 'example.com'
+    allowed_domains = ['example.com']
+    start_urls = ['http://www.example.com']
+
+    rules = (
+        # Extract links matching 'category.php' (but not matching 'subsection.php')
+        # and follow links from them (since no callback means follow=True by default).
+        Rule(LinkExtractor(allow=('category\.php', ), deny=('subsection\.php', ))),
+
+        # Extract links matching 'item.php' and parse them with the spider's method parse_item
+        Rule(LinkExtractor(allow=('item\.php', )), callback='parse_item'),
+    )
+
+    def parse_item(self, response):
+        self.logger.info('Hi, this is an item page! %s', response.url)
+        item = scrapy.Item()
+        item['id'] = response.xpath('//td[@id="item_id"]/text()').re(r'ID: (\d+)')
+        item['name'] = response.xpath('//td[@id="item_name"]/text()').extract()
+        item['description'] = response.xpath('//td[@id="item_description"]/text()').extract()
+        return item
+```
+
+## XMLFeedSpider
+
+## CSVFeedSpider
+
+## SitemapSpider

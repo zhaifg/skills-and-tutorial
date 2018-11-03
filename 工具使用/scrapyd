@@ -1,0 +1,15 @@
+curl http://woke.yimiwork.com:6800/schedule.json -d project=yimicrawler -d spider=jobbole
+
+ curl http:///woke.yimiwork.com:6800/cancel.json -d project=yimicrawler -d job=ab3e9bdaa52411e898a900163e002450
+
+
+ Packing version 1534843727
+Deploying to project "yimicrawler" in http://localhost:6800/addversion.json
+Server response (200):
+{"node_name": "woke.yimiwork.com", "status": "ok", "project": "yimicrawler", "version": "1534843727", "spiders": 2}
+
+
+Packing version 1534844010
+Deploying to project "yimicrawler" in http://localhost:6800/addversion.json
+Server response (200):
+{"node_name": "woke.yimiwork.com", "status": "ok", "project": "yimicrawler", "version": "1534844010", "spiders": 2}
